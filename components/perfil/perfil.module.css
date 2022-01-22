@@ -1,0 +1,21 @@
+.perfil {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 100px 1fr;
+}
+
+.perfil + .perfil {
+  margin-top: 1em;
+}
+
+.titulo {
+  font-weight: bold;
+  color: blue;
+}
+
+.imagen {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
