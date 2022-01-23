@@ -3,9 +3,9 @@ import Layout from "../components/layout/layout";
 
 export default function IndexPage() {
   return (
-    <Layout titulo="Grupo de Investigación FOSCH">
+    <Layout titulo="FOSCH Research Group">
       <Container>
-        <h2>Alimentos, estrés oxidativo y salud cardiovascular</h2>
+        <h2>Foods, Oxidative Stress and Cardiovascular Health</h2>
         <img src="/imagenes/fosch.jpg" />
       </Container>
     </Layout>

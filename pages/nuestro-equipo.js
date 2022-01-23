@@ -4,9 +4,9 @@ import Perfil from "../components/perfil/perfil";
 
 export default function NuestroEquipoPage() {
   return (
-    <Layout titulo="Nuestro Equipo">
+    <Layout titulo="Our Research Team">
       <Container>
-        <h2>Investigadoras Principales</h2>
+        <h2>Principal Investigator</h2>
         <Perfil
           id="silvia"
           imagen="/imagenes/silvia.png"
@@ -44,7 +44,7 @@ export default function NuestroEquipoPage() {
           titulo="Dra. María del Carmen González"
           link=""
         />
-        <h2>Investigador@s Nóveles</h2>
+        <h2>Junior Investigators</h2>
         <Perfil
           id="yolanda"
           imagen="/imagenes/yolanda.jpg"
@@ -87,7 +87,7 @@ export default function NuestroEquipoPage() {
           titulo="Dra. Pilar Rodríguez Rodríguez"
           link="https://uam.es/Medicina/RodriguezRodriguezPilar/1242691508065.htm?language=es&pid=1242664265346&title=Rodr?guez%20Rodr?guez%20Pilar"
         />
-        <h2>Investigador@s Postdoctorales</h2>
+        <h2>Postdoctoral Researchers</h2>
         <Perfil
           id="andrea"
           imagen="/imagenes/andrea.jpg"
@@ -102,7 +102,7 @@ export default function NuestroEquipoPage() {
           titulo="Dr. Miguel Rebollo Hernánz"
           link="https://scholar.google.com/citations?user=2twRnqMAAAAJ"
         />
-        <h2>Investigador@s Predoctorales</h2>
+        <h2>PhD Students</h2>
         <Perfil
           id="silvia-cañas"
           imagen="/imagenes/canas.jpg"
