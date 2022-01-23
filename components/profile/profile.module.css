@@ -1,19 +1,18 @@
-.perfil {
+.profile {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 100px 1fr;
 }
 
-.perfil + .perfil {
+.profile + .profile {
   margin-top: 1em;
 }
 
-.titulo {
+.title {
   font-weight: bold;
-  color: blue;
 }
 
-.imagen {
+.image {
   border-radius: 50%;
   width: 100px;
   height: 100px;

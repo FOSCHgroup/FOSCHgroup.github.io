@@ -5,11 +5,11 @@ export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <Link href="/">FOSCH Group</Link>
-      <Link href="/nuestro-equipo">Nuestro Equipo</Link>
-      <Link href="/investigacion">Investigación</Link>
+      <Link href="/team">Our Team</Link>
+      <Link href="/research">Research</Link>
       <Link href="/divulgacion">Divulgación</Link>
       <Link href="/formacion">Formación</Link>
-      <Link href="/recursos">Recursos</Link>
+      <Link href="/resources">Resources</Link>
     </nav>
   );
 }

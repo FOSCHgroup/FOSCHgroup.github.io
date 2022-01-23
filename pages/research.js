@@ -4,18 +4,23 @@ import Layout from "../components/layout/layout";
 
 export default function AboutPage() {
   return (
-    <Layout titulo="Our Research">
+    <Layout title="Our Research">
       <Container>
         <h2>Research Topics</h2>
+      </Container>
+      <Container>
         <h2>Proyectos de Investigación Competitivos</h2>
+      </Container>
+      <Container>
         <h2>Proyectos con la Industria</h2>
+      </Container>
+      <Container>
         <h2>Articles</h2>
         <h3>Related to Gestational Health</h3>
         <Article
           title="Maternal plasma antioxidant status in the first trimester of pregnancy and development of obstetric complications"
           abstract="In early gestation, low antioxidants were associated with development of complications."
           link="https://www.sciencedirect.com/science/article/abs/pii/S0143400416304969?via%3Dihub"
-          image=""
         />
         <Article
           title="Maternal Resources, Pregnancy Concerns, and Biological Factors Associated to Birth Weight and Psychological Health"
@@ -27,7 +32,6 @@ export default function AboutPage() {
           title="Maternal Psychological and Biological Factors Associated to Gestational Complications"
           abstract="High maternal melatonin and life satisfaction could be protective factors against the maternal complications during pregnancy. Low anxiety and cortisol and reduced work–life conflicts could prevent fetal complications."
           link="https://www.mdpi.com/2075-4426/11/3/183"
-          image=""
         />
         <Article
           title="Maternal Antioxidant Status in Early Pregnancy and Development of Fetal Complications in Twin Pregnancies: A Pilot Study"
@@ -48,6 +52,8 @@ export default function AboutPage() {
           link="https://www.mdpi.com/2072-6643/13/7/2372"
           image="/imagenes/ECUSA_news2.png"
         />
+      </Container>
+      <Container>
         <h2>Reviews</h2>
         <Article
           title="Implication of Oxidative Stress in Fetal Programming of Cardiovascular Disease"
@@ -73,6 +79,8 @@ export default function AboutPage() {
           link="https://www.mdpi.com/2076-3921/10/6/933"
           image="/imagenes/review_antioxidants1.webp"
         />
+      </Container>
+      <Container>
         <h2>Libros y Capítulos</h2>
       </Container>
     </Layout>

@@ -3,10 +3,13 @@ import Layout from "../components/layout/layout";
 
 export default function IndexPage() {
   return (
-    <Layout titulo="FOSCH Research Group">
+    <Layout title="FOSCH Research Group">
       <Container>
-        <h2>Foods, Oxidative Stress and Cardiovascular Health</h2>
-        <img src="/imagenes/fosch.jpg" />
+        <h2>Foods, Oxidative Stress, and Cardiovascular Health</h2>
+        <img
+          alt="Foods, Oxidative Stress, and Cardiovascular Health"
+          src="/imagenes/fosch.jpg"
+        />
       </Container>
     </Layout>
   );
