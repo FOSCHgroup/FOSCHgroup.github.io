@@ -1,0 +1,28 @@
+.iconButton {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  border: 1.5px solid #64b5f6;
+  cursor: pointer;
+  padding: 0.5em;
+  background: #bbdefb;
+}
+
+.iconButton svg {
+  fill: #64b5f6;
+}
+
+.iconButton:hover {
+  background-color: initial;
+}
+
+.topButton {
+  bottom: 3em;
+  display: none;
+  position: fixed;
+  right: 3em;
+}
+
+.show {
+  display: block;
+}

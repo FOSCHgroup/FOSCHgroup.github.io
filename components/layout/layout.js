@@ -19,7 +19,6 @@ export default function Layout({ children, title, alt, image }) {
             <h1 className={styles.title}>{title}</h1>
           </Container>
           {children}
-          <button className={styles.topButton}>Scroll to top</button>
         </main>
         <footer />
       </div>

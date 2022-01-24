@@ -1,0 +1,38 @@
+.accordion {
+  background: white;
+  border-radius: 0.125rem;
+  box-shadow: 0.125em 0.125em 0 0 lightgray;
+  margin-bottom: 1em;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 1rem;
+  padding-bottom: 0;
+}
+
+.show .title::before {
+  content: "–";
+}
+
+.title::before {
+  content: "+";
+  width: 1em;
+  display: inline-block;
+  text-align: center;
+  margin-right: 0.1em;
+}
+
+.show .title {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 0.5em;
+}
+
+.hide .details {
+  display: none;
+}
+
+.details {
+  padding-top: 0.5em;
+}
