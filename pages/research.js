@@ -244,9 +244,7 @@ export default function AboutPage() {
             image="/imagenes/finerenona.jpeg"
           />
         </Accordion>
-      </Container>
-      <Container>
-        <h2>Reviews</h2>
+        <Accordion title="Reviews">
         <Article
           title="Implication of Oxidative Stress in Fetal Programming of Cardiovascular Disease"
           abstract="This review summarize the alterations in oxidative balance in fetal stress factors covering: the evidence from human studies of low birth weight, and the specific redox alterations in cardiovascular control organs induced by exposure to stress factors."
@@ -271,6 +269,7 @@ export default function AboutPage() {
           link="https://www.mdpi.com/2076-3921/10/6/933"
           image="/imagenes/review_antioxidants1.webp"
         />
+        </Accordion>
       </Container>
       <Container>
         <h2>Books and Chapters</h2>

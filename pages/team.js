@@ -4,16 +4,18 @@ import Perfil from "../components/profile/profile";
 
 export default function NuestroEquipoPage() {
   return (
-    <Layout title="Our Research Team">
+    <Layout title="Faculty and Researchers">
       <Container>
-        <h2>Principal Investigator</h2>
+        <h2>Principal Investigators</h2>
         <Perfil
           id="silvia"
           image="/imagenes/silvia.png"
           alt="Una foto de Silvia M. Arribas"
           title="Dra. Silvia M. Arribas Rodríguez"
           link="https://www.uam.es/Medicina/ArribasRodriguezSilvia/1242677452339.htm?pid=1242677452589&%20Silvia"
-          bio="lallakskksnndkd"
+          position="Head of area: Oxidavive Stress, Fetal Programming and Cardiometabolic Health."
+          bio="PhD in Biomolecular Sciences by Universidad Autónoma de Madrid. Her research was focused on the fetal programming of the cardiovascular disease.
+          She has extensive expertis in the oxidative stress pathways and their implication to physio-pathology balance. She was head of Physiology Department where is Professor of human physiology."
         />
         <Perfil
           id="maria"
@@ -21,30 +23,9 @@ export default function NuestroEquipoPage() {
           alt="Una foto de Maria Angeles Martin"
           title="Dra. María Ángeles Martín Cabrejas"
           link="https://www.uam.es/Ciencias/Martin_Cabrejas_Maris-Angeles/1446767769606.htm?language=es&pid=1446765791606&n%20Cabrejas,%20Mar?a%20?ngeles"
-        />
-      </Container>
-      <Container>
-        <h2>Profesor@s Honoríficos</h2>
-        <Perfil
-          id="rosario"
-          image="/imagenes/charo.jpeg"
-          alt="Una foto de M. Rosario López"
-          title="Dra. María Rosario López Giménez"
-          link="https://www.uam.es/ss/Satellite/Medicina/es/1242662070984/1242662116351/persona/detallePDI/Lopez_Gimenez,_M%C2%AA_Rosario.htm"
-        />
-        <Perfil
-          id="angel"
-          image="/imagenes/avatar.png"
-          alt="Una foto de Ángel L. López de Pablo"
-          title="Dr. Ángel L. López de Pablo León"
-          link="https://www.uam.es/Medicina/(en)LopezDePabloAngelLuis/1242691880392.htm?pid=1242677447748&pez%20de%20Pablo,%20?ngel%20Luis"
-        />
-        <Perfil
-          id="carmen"
-          image="/imagenes/avatar.png"
-          alt="Una foto de Maria dek Carmen González"
-          title="Dra. María del Carmen González"
-          link=""
+          position="Head of area: Food Technology and New Ingredient Development."
+          bio="PhD in Chemical Sciences by Universidad Autónoma de Madrid. An important part of her research was dedicated to search the revalorization of agri-food by-products as strategy to obtain new ingredients.
+          She has gained broad experience in the characterization of plant-derived waste products and their conversion into food ingredients. She is Full Professor receiving additional award of 5th Plan for Scientific Research and Technological Innovation."
         />
       </Container>
       <Container>
@@ -55,6 +36,8 @@ export default function NuestroEquipoPage() {
           alt="Una foto de Yolanda Aguilera"
           title="Dra. Yolanda Aguilera Gutiérrez"
           link="https://www.uam.es/Ciencias/Yolanda-Aguilera-Guti%C3%A9rrez/1446766152599.htm?language=es&pid=1446765791606&rrez,%20Yolanda"
+          position="Coordinator of New Ingredient Development unit."
+          bio="PhD in Food Science and Technology by Universidad Autónoma de Madrid. Her research focuses on insects for human consumption and their effect on health due to their antioxidant compounds. At present, she is an Associate Professor in the agricultural chemistry unit of the Faculty of Sciences of the Universidad Autonoma de Madrid."
         />
         <Perfil
           id="ignacio"
@@ -62,6 +45,8 @@ export default function NuestroEquipoPage() {
           alt="Una foto de Ignacio Monedero"
           title="Dr. Ignacio Monedero Cobeta"
           link="https://www.uam.es/Medicina/MonederoCobetaIgnacio/1446774319870.htm?pid=1242663815769&%20Ignacio"
+          position="Leader of Genomic Technology"
+          bio="PhD in Molecular Biology by Universidad Autónoma de Madrid. He is a specialist in developmental biology and its molecular factors controlling neuronal division. He studies the control of proliferation of the nervous system and its effect on memory. Currently, he is an Associate Professor of Physiology of the Faculty of Medicine of the Universidad Autónoma de Madrid"
         />
         <Perfil
           id="Vanesa"
@@ -69,6 +54,7 @@ export default function NuestroEquipoPage() {
           alt="Una foto de Vanesa Benitez"
           title="Dra. Vanesa Benitez García"
           link="https://www.uam.es/Ciencias/Ben%C3%ADtez-Garcia_Vanesa/1446767457251.htm?pid=1446766111829&language=es"
+          position="Coordinator of Food Technology unit."
         />
         <Perfil
           id="Alicia"
@@ -83,6 +69,7 @@ export default function NuestroEquipoPage() {
           alt="Una foto de David Ramiro"
           title="Dr. David Ramiro Cortijo"
           link="https://www.uam.es/Medicina/RamiroCortijoDavid/1446825270432.htm?language=es&pid=1242663815769&title=Ramiro%20Cortijo%20David"
+          position="Coordinator of Pregnancy and Lactation unit."
         />
         <Perfil
           id="Pilar"
@@ -90,6 +77,7 @@ export default function NuestroEquipoPage() {
           alt="Una foto de Pilar Rodríguez"
           title="Dra. Pilar Rodríguez Rodríguez"
           link="https://uam.es/Medicina/RodriguezRodriguezPilar/1242691508065.htm?language=es&pid=1242664265346&title=Rodr?guez%20Rodr?guez%20Pilar"
+          position="Coordinator of Fetal Programming unit and Animal models."
         />
       </Container>
       <Container>
@@ -130,6 +118,72 @@ export default function NuestroEquipoPage() {
           image="/imagenes/avatar.png"
           alt="Una foto de Santiago Ruvira"
           title="Santiago Ruvira"
+        />
+      </Container>
+      <Container>
+        <h2>Emeritus Professors</h2>
+        <Perfil
+          id="rosario"
+          image="/imagenes/charo.jpeg"
+          alt="Una foto de M. Rosario López"
+          title="Dra. María Rosario López Giménez"
+        />
+        <Perfil
+          id="angel"
+          image="/imagenes/angel_luis.jpeg"
+          alt="Una foto de Ángel L. López de Pablo"
+          title="Dr. Ángel L. López de Pablo León"
+        />
+        <Perfil
+          id="carmen"
+          image="/imagenes/mari_carmen.jpg"
+          alt="Una foto de Maria dek Carmen González"
+          title="Dra. María del Carmen González"
+        />
+      </Container>
+      <Container>
+      <h2>External Colaborators and Advisory Board</h2>
+        <p>Dra. Begoña Quintana Villamandos</p>
+        <p>"Cardiac surgery unit of Anesthesiology and Resuscitation Service at Hospital General Universitario Gregorio Marañón (Madrid, Spain)"</p>
+      <Perfil
+          title="Dra. Begoña Quintana Villamandos"
+          bio="Cardiac surgery unit of Anesthesiology and Resuscitation Service at Hospital General Universitario Gregorio Marañón (Madrid, Spain)"
+        />
+        <Perfil
+          title="Dra. Maria de la Calle Fernández-Miranda"
+          bio="High-risk unit of OBS/GYN Service at Hospital Universitario La Paz (Madrid, Spain)"
+        />
+        <Perfil
+          title="Dr. Miguel Sáen de Pipaón Marcos"
+          bio="Neonatal Intensive Care unit of Neonatology Service at Hospital Universitario La Paz (Madrid, Spain)"
+        />
+        <Perfil
+          title="Dr. Jose Maria"
+          bio="Cardiac surgery unit of Anesthesiology and Resuscitation Service at Hospital General Universitario Gregorio Marañón (Madrid, Spain)"
+        />
+        <Perfil
+          title="Dra. Gloria Hernández Carrillo"
+          bio="Neonatology Service at Hospital Clínico San Carlos (Madrid, Spain)"
+        />
+        <Perfil
+          title="Dra. Eva Garrosa Hernández"
+          bio="Department of psychology-biology and health psychology of Faculty of Psychology of Universidad Autónoma de Madrid (Spain)"
+        />
+        <Perfil
+          title="Dra. María de la Fé Rodriguez Muñoz"
+          bio="Department of Personality Psychology, Treatment and Assesment of Faculty of Psychology of Universidad Nacional de Educación a Distancia (Spain)"
+        />
+        <Perfil
+          title="Dra. Marta Gil Ortega"
+          bio="Neonatology Service at Hospital Clínico San Carlos (Madrid, Spain)"
+        />
+        <Perfil
+          title="Dra. Beatriz Somoza"
+          bio="Neonatology Service at Hospital Clínico San Carlos (Madrid, Spain)"
+        />
+        <Perfil
+          title="Dra. Perla Y. Gutierrez Arzapalo"
+          bio="Neonatology Service at Hospital Clínico San Carlos (Madrid, Spain)"
         />
       </Container>
     </Layout>

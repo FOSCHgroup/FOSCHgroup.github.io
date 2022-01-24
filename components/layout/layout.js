@@ -20,7 +20,15 @@ export default function Layout({ children, title, alt, image }) {
           </Container>
           {children}
         </main>
-        <footer />
+        <footer>
+        <Container>
+        <h2>Contact us</h2>
+        <p>For general inquiries, please write to: fosch@uam.es</p>
+        <p>For research/investigation questions, please write to: fosch.research@uam.es</p>
+        <p>For formation issues or MSc/PhD stay, please write to: fosch.educa@uam.es</p>
+        <p>Follow us in Twitter: @FoschGroup</p>
+        </Container>
+        </footer>
       </div>
     </div>
   );

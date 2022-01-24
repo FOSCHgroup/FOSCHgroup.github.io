@@ -1,6 +1,6 @@
 import styles from "./profile.module.css";
 
-export default function Profile({ id, image, alt, title, link, bio }) {
+export default function Profile({ id, image, alt, title, link, position,bio }) {
   return (
     <div className={styles.profile} id={id}>
       <div>
@@ -13,7 +13,8 @@ export default function Profile({ id, image, alt, title, link, bio }) {
             Link
           </a>
         )}
-        <div className="bio">{bio}</div>
+        <div className={styles.position}>{position}</div>
+        <div className={styles.bio}>{bio}</div>
       </div>
     </div>
   );
