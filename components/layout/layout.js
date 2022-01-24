@@ -13,12 +13,13 @@ export default function Layout({ children, title, alt, image }) {
         <header className={styles.header}>
           <Navbar />
         </header>
-        <main>
+        <main className={styles.main}>
           <Container>
             {image && <img alt={alt} src={image} />}
             <h1 className={styles.title}>{title}</h1>
           </Container>
           {children}
+          <button className={styles.topButton}>Scroll to top</button>
         </main>
         <footer />
       </div>

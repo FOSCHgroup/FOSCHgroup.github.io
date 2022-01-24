@@ -1,19 +1,19 @@
 .nav {
   display: flex;
-  /* flex-direction: column; */
+  justify-content: space-between;
 }
 
 .nav a {
+  color: inherit;
   display: block;
   text-decoration: none;
-  color: black;
   font-weight: bold;
   font-family: sans-serif;
 }
 
-/* .nav a:not(:last-child) {
-  margin-bottom: 1em;
-} */
+.links {
+  display: flex;
+}
 
 @media screen and (min-width: 960px) {
   .nav {

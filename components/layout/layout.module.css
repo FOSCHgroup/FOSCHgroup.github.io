@@ -4,5 +4,17 @@
 }
 
 .header {
+  color: white;
+  background-color: black;
   padding: 1rem;
+}
+
+.main {
+  padding: 1em 0;
+}
+
+.topButton {
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
 }
