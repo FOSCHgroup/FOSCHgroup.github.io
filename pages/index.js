@@ -6,10 +6,14 @@ export default function IndexPage() {
     <Layout title="FOSCH Research Group">
       <Container>
         <h2>Foods, Oxidative Stress & Cardiovascular Health</h2>
-        <p>Our focus is to study the bioavailability, biotransformation, biokinetics and bioeffects of phytochemicals from by-products to prevent cardiometabolic diseases.</p>
+        <p>
+          Our focus is to study the bioavailability, biotransformation,
+          biokinetics and bioeffects of phytochemicals from by-products to
+          prevent cardiometabolic diseases.
+        </p>
         <img
           alt="Foods, Oxidative Stress, and Cardiovascular Health"
-          src="/imagenes/fosch.jpg"
+          src="/images/fosch.jpg"
         />
       </Container>
       <Container>
@@ -20,16 +24,23 @@ export default function IndexPage() {
         <p>Department of Production and Characterization of Novel Foods</p>
         <p>Institute of Food Science Research (CIAL-CSIC)</p>
         <p>Universidad Autonónoma de Madrid</p>
-        <p>Laboratory: C/ Nicolás Cabrera 9, Campus de Cantoblanco - 28049 Madrid, Spain</p>
-        
-        <h3>Area of Oxidavive Stress, Fetal Programming and Cardiometabolic Health</h3>
+        <p>
+          Laboratory: C/ Nicolás Cabrera 9, Campus de Cantoblanco - 28049
+          Madrid, Spain
+        </p>
+
+        <h3>
+          Area of Oxidavive Stress, Fetal Programming and Cardiometabolic Health
+        </h3>
         <p>Department of Physiology</p>
-        <p>Department of of Preventive Medicine, Public Health and Microbiology</p>
+        <p>
+          Department of of Preventive Medicine, Public Health and Microbiology
+        </p>
         <p>Faculty of Medicine</p>
         <p>Universidad Autonónoma de Madrid</p>
         <p>Laboratory: C/ Arzobispo Morcillo 2, 28029 Madrid, Spain</p>
-        </Container>
-        <Container>
+      </Container>
+      <Container>
         <h2>News</h2>
       </Container>
     </Layout>

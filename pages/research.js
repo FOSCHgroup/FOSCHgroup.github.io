@@ -29,7 +29,7 @@ export default function AboutPage() {
             title="Bioavailability of Melatonin from Lentil Sprouts and Its Role in the Plasmatic Antioxidant Status in Rats"
             abstract="We investigated the bioavailability of melatonin from lentil sprouts and its role in plasmatic antioxidant status. Their intake could increase melatonin plasmatic concentration and attenuate plasmatic oxidative stress."
             link="https://www.mdpi.com/2304-8158/9/3/330"
-            image="/imagenes/foods_1.png"
+            image="/images/foods_1.png"
           />
           <Article
             title="Teas and herbal infusions as sources of melatonin and other bioactive non-nutrient components"
@@ -40,13 +40,13 @@ export default function AboutPage() {
             title="Phenolic compounds from coffee by-products modulate adipogenesis-related inflammation, mitochondrial dysfunction, and insulin resistance in adipocytes, via insulin/PI3K/AKT signaling pathways"
             abstract="Coffee silverskin and husk are beneficial in reducing adipogenesis and inflammation-related disorders."
             link="https://www.sciencedirect.com/science/article/pii/S0278691519304612"
-            image="/imagenes/CSE_1.jpg"
+            image="/images/CSE_1.jpg"
           />
           <Article
             title="Extraction of phenolic compounds from cocoa shell: Modeling using response surface methodology and artificial neural networks"
             abstract="Green extraction of phenolic compounds from the cocoa shell was modeled and optimized."
             link="https://www.sciencedirect.com/science/article/pii/S1383586621004913"
-            image="/imagenes/foods_2.jpg"
+            image="/images/foods_2.jpg"
           />
           <Article
             title="Black bean coats: New source of anthocyanins stabilized by β-cyclodextrin copigmentation in a sport beverage"
@@ -57,7 +57,7 @@ export default function AboutPage() {
             title="Coffee parchment as a new dietary fiber ingredient: Functional and physiological characterization"
             abstract="Milling is a strategy for developing fiber-rich coffee parchment-based ingredients. Coffee parchment shows promising hypoglycemic and hypolipidemic capacities."
             link="https://www.sciencedirect.com/science/article/abs/pii/S096399691930225X"
-            image="/imagenes/CSE_2.jpg"
+            image="/images/CSE_2.jpg"
           />
           <Article
             title="Impact of Melatonin Enrichment during Germination of Legumes on Bioactive Compounds and Antioxidant Activity"
@@ -68,13 +68,13 @@ export default function AboutPage() {
             title="Revalorization of Coffee Husk: Modeling and Optimizing the Green Sustainable Extraction of Phenolic Compounds"
             abstract="The phenolic aqueous extracts from the coffee husk could be used as sustainable food ingredients and nutraceutical products."
             link="https://www.mdpi.com/2304-8158/10/3/653"
-            image="/imagenes/CSE_5.png"
+            image="/images/CSE_5.png"
           />
           <Article
             title="Relationship of the Phytochemicals from Coffee and Cocoa By-Products with their Potential to Modulate Biomarkers of Metabolic Syndrome In Vitro"
             abstract="We identified the phytochemicals from coffee and cocoa by-products and offered new insights into their associations with biomarkers of inflammation, oxidative stress, adipogenesis, and insulin resistance in vitro."
             link="https://www.mdpi.com/2076-3921/8/8/279"
-            image="/imagenes/CSE_3.png"
+            image="/images/CSE_3.png"
           />
           <Article
             title="Cocoa Shell Aqueous Phenolic Extract Preserves Mitochondrial Function and Insulin Sensitivity by Attenuating Inflammation between Macrophages and Adipocytes In Vitro"
@@ -85,7 +85,7 @@ export default function AboutPage() {
             title="Inhibition of the Maillard Reaction by Phytochemicals Composing an Aqueous Coffee Silverskin Extract via a Mixed Mechanism of Action"
             abstract="Isoflavones and melatonin may contribute to the antiglycative/antiglycoxidative properties associated with coffee silverskin."
             link="https://www.mdpi.com/2304-8158/8/10/438"
-            image="/imagenes/CSE_4.webp"
+            image="/images/CSE_4.webp"
           />
         </Accordion>
         <Accordion title="Related to Gestational Health">
@@ -103,31 +103,31 @@ export default function AboutPage() {
             title="Maternal Resources, Pregnancy Concerns, and Biological Factors Associated to Birth Weight and Psychological Health"
             abstract="The relevance of psychological health during pregnancy for maternal and neonatal outcome, and to consider it in preventive policies in OBS/GYN."
             link="https://www.mdpi.com/2077-0383/10/4/695"
-            image="/imagenes/ECUSA_news1.png"
+            image="/images/ECUSA_news1.png"
           />
           <Article
             title="Effects of Arachidonic and Docosohexahenoic Acid Supplementation during Gestation in Rats. Implication of Placental Oxidative Stress"
             abstract="High arachidonic acid during gestation associates with intrauterine growth restriction, through placental oxidative stress, with females being more susceptible."
             link="https://www.mdpi.com/1422-0067/19/12/3863"
-            image="/imagenes/IJMS_2.png"
+            image="/images/IJMS_2.png"
           />
           <Article
             title="Maternal Psychological and Biological Factors Associated to Gestational Complications"
             abstract="High maternal melatonin and life satisfaction could be protective factors against the maternal complications during pregnancy. Low anxiety and cortisol and reduced work–life conflicts could prevent fetal complications."
             link="https://www.mdpi.com/2075-4426/11/3/183"
-            image="/imagenes/JPM_1.jpeg"
+            image="/images/JPM_1.jpeg"
           />
           <Article
             title="Maternal Antioxidant Status in Early Pregnancy and Development of Fetal Complications in Twin Pregnancies: A Pilot Study"
             abstract="In twin gestations, maternal antioxidants and melatonin could be biomarkers to be included in algorithms to predict fetal growth restriction and preterm labor."
             link="https://www.mdpi.com/2076-3921/9/4/269"
-            image="/imagenes/antioxidants_cover.png"
+            image="/images/antioxidants_cover.png"
           />
           <Article
             title="Early Association Factors for Depression Symptoms in Pregnancy: A Comparison between Spanish Women Spontaneously Gestation and with Assisted Reproduction Techniques"
             abstract="Women undergoing ART need interventions to reduce anxiety and stressful life events, and to improve resilience, self-esteem, and emotional partner support to prevent depressive symptomatology during early pregnancy."
             link="https://www.mdpi.com/2077-0383/10/23/5672"
-            image="/imagenes/ART_twiter.jpeg"
+            image="/images/ART_twiter.jpeg"
           />
         </Accordion>
         <Accordion title="Related to Pregnancy Epidemiology">
@@ -152,13 +152,13 @@ export default function AboutPage() {
             title="Role of fetal nutrient restriction and postnatal catch-up growth on structural and mechanical alterations of rat aorta"
             abstract="Fetal undernutrition induces similar aortic structural and mechanical alterations in young male and female rats. Our data argue against an early mechanical cause for the sex differences in hypertension development."
             link="https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP275030"
-            image="/imagenes/JPHY_1.jpeg"
+            image="/images/JPHY_1.jpeg"
           />
           <Article
             title="Male fetal sex is associated with low maternal plasma anti-inflammatory cytokine profile in the first trimester of healthy pregnancies"
             abstract="Women with a male fetus may have a worse capacity to counteract an inflammatory response. They may have better vasodilator capacity, but in the presence of an oxidative environment, a higher nitrosative damage may occur."
             link="https://www.sciencedirect.com/science/article/abs/pii/S1043466620303069?via%3Dihub"
-            image="/imagenes/cytokines_1.png"
+            image="/images/cytokines_1.png"
           />
           <Article
             title="Fetal undernutrition is associated with perinatal sex-dependent alterations in oxidative status"
@@ -174,13 +174,13 @@ export default function AboutPage() {
             title="Sex Differences in Placental Protein Expression and Efficiency in a Rat Model of Fetal Programming Induced by Maternal Undernutrition"
             abstract="Male placenta has worse adaptation to undernutrition with lower efficiency, associated with oxidative disbalance and reduced vascularization and glucocorticoid barrier."
             link="https://www.mdpi.com/1422-0067/22/1/237"
-            image="/imagenes/IJMS_1.png"
+            image="/images/IJMS_1.png"
           />
           <Article
             title="Fetal Undernutrition Induces Resistance Artery Remodeling and Stiffness in Male and Female Rats Independent of Hypertension"
             abstract="Fetal undernutrition induces resistence artery inward eutrophic remodeling and stiffness in both sexes. Resistance artery structural and mechanical alterations can participate in the development of hypertension in aged females."
             link="https://www.mdpi.com/2227-9059/8/10/424"
-            image="/imagenes/MRA_1.png"
+            image="/images/MRA_1.png"
           />
         </Accordion>
         <Accordion title="Related to Healthy Habits in Lactation Period: Nutrition and Psychological Stage">
@@ -188,7 +188,7 @@ export default function AboutPage() {
             title="Assessment of Adherence to the Healthy Food Pyramid in Pregnant and Lactating Women"
             abstract="Breastfeeding mothers of young age and low socioeconomic/educational level would be the target population to carry out nutritional interventions that improve their adherence to the Healthy Foos Piramyd."
             link="https://www.mdpi.com/2072-6643/13/7/2372"
-            image="/imagenes/ECUSA_news2.png"
+            image="/images/ECUSA_news2.png"
           />
           <Article
             title="Influence of Maternal Age and Gestational Age on Breast Milk Antioxidants During the First Month of Lactation"
@@ -199,7 +199,7 @@ export default function AboutPage() {
             title="Multidimensional Approach to Assess Nutrition and Lifestyle in Breastfeeding Women during the First Month of Lactation"
             abstract="During the 1st month postpartum, breastfeeding women exhibited nutritional imbalances and poor physical activity negatively influencing anthropometric parameters."
             link="https://www.mdpi.com/2072-6643/13/6/1766"
-            image="/imagenes/nutrients_1.png"
+            image="/images/nutrients_1.png"
           />
           <Article
             title="Healthy Habits and Emotional Balance in Women during the Postpartum Period: Differences between Term and Preterm Delivery"
@@ -210,7 +210,7 @@ export default function AboutPage() {
             title="Association between Maternal Postpartum Depression, Stress, Optimism, and Breastfeeding Pattern in the First Six Months"
             abstract="In the 3rd month of breastfeeding, women with mixed breastfeeding exhibited higher stress and depression compared to those with exclusively breastfeeding. Evaluation of maternal psychological concerns and providing support to lactating mothers may help improving breastfeeding adherence."
             link="https://www.mdpi.com/1660-4601/17/19/7153"
-            image="/imagenes/IJERPH_1.png"
+            image="/images/IJERPH_1.png"
           />
         </Accordion>
         <Accordion title="Nutrition During Neonatal Period">
@@ -223,7 +223,7 @@ export default function AboutPage() {
             title="Parenteral Fish-Oil Containing Lipid Emulsions Limit Initial Lipopolysaccharide-Induced Host Immune Responses in Preterm Pigs"
             abstract="Host priming with soybean oil in the early postnatal period preserves a higher ARA:DHA ratio and the ability to acutely respond to an external stimulus. In contrast, fish-oil containing lipid emulsions increase DHA, exacerbate a deficit in ARA, and limit the initial LPS-induced inflammatory responses in preterm pigs."
             link="https://www.mdpi.com/2072-6643/13/1/205"
-            image="/imagenes/nutrients_2.png"
+            image="/images/nutrients_2.png"
           />
           <Article
             title="Plasma Oxidative Status in Preterm Infants Receiving LCPUFA Supplementation: A Pilot Study"
@@ -241,34 +241,34 @@ export default function AboutPage() {
             title="Finerenone Attenuates Endothelial Dysfunction and Albuminuria in a Chronic Kidney Disease Model by a Reduction in Oxidative Stress"
             abstract="Finerenone improves endothelial dysfunction through an enhancement in NO bioavailability and a decrease in superoxide anion levels due to an upregulation in SOD activity. This is associated with an increase in renal SOD activity and a reduction of albuminuria."
             link="https://www.frontiersin.org/articles/10.3389/fphar.2018.01131/full"
-            image="/imagenes/finerenona.jpeg"
+            image="/images/finerenona.jpeg"
           />
         </Accordion>
         <Accordion title="Reviews">
-        <Article
-          title="Implication of Oxidative Stress in Fetal Programming of Cardiovascular Disease"
-          abstract="This review summarize the alterations in oxidative balance in fetal stress factors covering: the evidence from human studies of low birth weight, and the specific redox alterations in cardiovascular control organs induced by exposure to stress factors."
-          link="https://www.frontiersin.org/articles/10.3389/fphys.2018.00602/full"
-          image="/imagenes/review_frontiers_in_phys.jpeg"
-        />
-        <Article
-          title="A Review of Bioactive Factors in Human Breastmilk: A Focus on Prematurity"
-          abstract="The aim of the review is to summarize the knowledge regarding bioactive factors present in breastmilk, namely antioxidants, growth factors, adipokines, and cytokines, paying attention to prematurity."
-          link="https://www.mdpi.com/2072-6643/11/6/1307"
-          image="/imagenes/review_nutrients1.webp"
-        />
-        <Article
-          title="Breast Milk Lipids and Fatty Acids in Regulating Neonatal Intestinal Development and Protecting against Intestinal Injury"
-          abstract="In this review, we focus on lipids and fatty acids present in breast milk and their impact on neonatal gut development and the risk of disease."
-          link="https://www.mdpi.com/2072-6643/12/2/534"
-          image="/imagenes/review_nutrients2.webp"
-        />
-        <Article
-          title="Specialized Pro-Resolving Lipid Mediators in Neonatal Cardiovascular Physiology and Diseases"
-          abstract="In this review, we discuss LCPUFAs metabolism, SPMs, and their effect on cardiovascular health and diseases primarily focusing in neonates."
-          link="https://www.mdpi.com/2076-3921/10/6/933"
-          image="/imagenes/review_antioxidants1.webp"
-        />
+          <Article
+            title="Implication of Oxidative Stress in Fetal Programming of Cardiovascular Disease"
+            abstract="This review summarize the alterations in oxidative balance in fetal stress factors covering: the evidence from human studies of low birth weight, and the specific redox alterations in cardiovascular control organs induced by exposure to stress factors."
+            link="https://www.frontiersin.org/articles/10.3389/fphys.2018.00602/full"
+            image="/images/review_frontiers_in_phys.jpeg"
+          />
+          <Article
+            title="A Review of Bioactive Factors in Human Breastmilk: A Focus on Prematurity"
+            abstract="The aim of the review is to summarize the knowledge regarding bioactive factors present in breastmilk, namely antioxidants, growth factors, adipokines, and cytokines, paying attention to prematurity."
+            link="https://www.mdpi.com/2072-6643/11/6/1307"
+            image="/images/review_nutrients1.webp"
+          />
+          <Article
+            title="Breast Milk Lipids and Fatty Acids in Regulating Neonatal Intestinal Development and Protecting against Intestinal Injury"
+            abstract="In this review, we focus on lipids and fatty acids present in breast milk and their impact on neonatal gut development and the risk of disease."
+            link="https://www.mdpi.com/2072-6643/12/2/534"
+            image="/images/review_nutrients2.webp"
+          />
+          <Article
+            title="Specialized Pro-Resolving Lipid Mediators in Neonatal Cardiovascular Physiology and Diseases"
+            abstract="In this review, we discuss LCPUFAs metabolism, SPMs, and their effect on cardiovascular health and diseases primarily focusing in neonates."
+            link="https://www.mdpi.com/2076-3921/10/6/933"
+            image="/images/review_antioxidants1.webp"
+          />
         </Accordion>
       </Container>
       <Container>
