@@ -3,7 +3,7 @@ import Layout from "../components/layout/layout";
 
 export default function AboutPage() {
   return (
-    <Layout title="Nuestra Formación">
+    <Layout title="Educational Programming">
       <Container>
         <h2>Técnicas de Investigación</h2>
       </Container>

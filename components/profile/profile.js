@@ -1,4 +1,5 @@
 import styles from "./profile.module.css";
+import classNames from "classnames";
 
 export default function Profile({
   id,
@@ -10,14 +11,17 @@ export default function Profile({
   bio,
 }) {
   return (
-    <div className={styles.profile} id={id}>
-      <div>
-        <img
-          className={styles.image}
-          src={image || "/images/profiles/avatar.png"}
-          alt={alt}
-        />
-      </div>
+    <div
+      className={classNames(styles.profile, {
+        [styles.profileWithImage]: !!image,
+      })}
+      id={id}
+    >
+      {image && (
+        <div>
+          <img className={styles.image} src={image} alt={alt} />
+        </div>
+      )}
       <div>
         <div className={styles.title}>{title}</div>
         {link && (

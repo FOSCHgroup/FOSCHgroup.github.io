@@ -10,8 +10,8 @@ export default function Navbar() {
       <div className={styles.links}>
         <Link href="/team">Our Team</Link>
         <Link href="/research">Research</Link>
-        <Link href="/divulgacion">Divulgación</Link>
-        <Link href="/formacion">Formación</Link>
+        <Link href="/talks">Talks</Link>
+        <Link href="/education">Education</Link>
         <Link href="/resources">Resources</Link>
       </div>
     </nav>

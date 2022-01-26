@@ -3,13 +3,12 @@
   border-radius: 0.125rem;
   box-shadow: 0.125em 0.125em 0 0 lightgray;
   margin-bottom: 1em;
-  padding: 1em;
-  cursor: pointer;
 }
 
 .title {
   font-size: 1rem;
-  padding-bottom: 0;
+  padding: 1em;
+  cursor: pointer;
 }
 
 .show .title::before {
@@ -34,5 +33,5 @@
 }
 
 .details {
-  padding-top: 0.5em;
+  padding: 1em;
 }
