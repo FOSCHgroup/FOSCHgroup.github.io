@@ -23,7 +23,7 @@ export default function IndexPage() {
         <h2>Work address and Laboratories</h2>
         <div className="grid">
           <div>
-            <h3>Area of Food Technology and New Ingredient Development</h3>
+            <h3>Food Technology and New Ingredient Development</h3>
             <p>
               Department of Agricultural Chemistry and Bromatology
               <br />
@@ -42,8 +42,7 @@ export default function IndexPage() {
 
           <div>
             <h3>
-              Area of Oxidavive Stress, Fetal Programming and Cardiometabolic
-              Health
+              Oxidative Stress, Fetal Programming and Cardiometabolic Health
             </h3>
             <p>
               Department of Physiology
@@ -65,17 +64,33 @@ export default function IndexPage() {
           <Link href="/news">News</Link>
         </h2>
         <Carousel>
-          <Card>
-            <img src="https://placekitten.com/g/250/250" />
-            <h3>FOSCH Group is Crazy About Kittens</h3>
+        <Card>
+          <img src="https://www.madrimasd.org/uploads/autumn-1850044_960_720.jpg" />
+            <h3>Insufficient nutrition in the fetal stage predisposes to the development of cardiovascular diseases</h3>
+          </Card>
+        <Card>
+          <img src="https://www.madrimasd.org/uploads/noti7_11_12_20.jpg" />
+            <h3>Fetal sex affects on inflammatory cytokine and nitric oxide levels in the pregnant woman</h3>
           </Card>
           <Card>
-            <img src="https://placekitten.com/g/250/250" />
-            <h3>FOSCH Group is Crazy About Kittens</h3>
+          <img src="https://www.bonka.es/themes/custom/bonka/img/donde_viene_cafe_1.jpg" />
+            <h3>New beneficial properties discovered in coffee husks</h3>
           </Card>
           <Card>
-            <img src="https://placekitten.com/g/250/250" />
-            <h3>FOSCH Group is Crazy About Kittens</h3>
+            <img src="https://pbs.twimg.com/media/EHjY_S7WkAAbgrw?format=jpg&name=small" />
+            <h3>Conference on the innovations in precision nutrition</h3>
+          </Card>
+          <Card>
+            <img src="https://pbs.twimg.com/media/EIHgPnjX0AEp7EJ?format=jpg&name=small" />
+            <h3>Programming cardiovascular disease: an ontological perspective</h3>
+          </Card>
+          <Card>
+            <img src="https://www.youtube.com/watch?v=8Ao0FkFun1s" />
+            <h3>InnoUAM_BioHealth</h3>
+          </Card>
+          <Card>
+            <img src="https://i.ytimg.com/vi/hkdPk4pAo40/maxresdefault.jpg" />
+            <h3>Biomarkers of oxidative stress for diagnostics</h3>
           </Card>
         </Carousel>
       </Container>

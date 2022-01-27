@@ -19,7 +19,7 @@ export default function NuestroEquipoPage() {
                   title="Dra. Silvia M. Arribas Rodríguez"
                   link="https://www.uam.es/Medicina/ArribasRodriguezSilvia/1242677452339.htm?pid=1242677452589&%20Silvia"
                   position="Head of area: Oxidavive Stress, Fetal Programming and Cardiometabolic Health."
-                  bio="PhD in Biomolecular Sciences by Universidad Autónoma de Madrid. Her research was focused on the fetal programming of the cardiovascular disease. She has extensive expertis in the oxidative stress pathways and their implication to physio-pathology balance. She was head of Physiology Department where is Professor of human physiology."
+                  bio="PhD in Biomolecular Sciences. Her research was focused on the fetal programming of the cardiovascular disease. She has extensive expertis in the oxidative stress pathways and their implication to physio-pathology balance. She was head of Physiology Department where is Professor of human physiology."
                 />
               </td>
               <td>
@@ -30,7 +30,7 @@ export default function NuestroEquipoPage() {
                   title="Dra. María Ángeles Martín Cabrejas"
                   link="https://www.uam.es/Ciencias/Martin_Cabrejas_Maris-Angeles/1446767769606.htm?language=es&pid=1446765791606&n%20Cabrejas,%20Mar?a%20?ngeles"
                   position="Head of area: Food Technology and New Ingredient Development."
-                  bio="PhD in Chemical Sciences by Universidad Autónoma de Madrid. An important part of her research was dedicated to search the revalorization of agri-food by-products as strategy to obtain new ingredients. She has gained broad experience in the characterization of plant-derived waste products and their conversion into food ingredients. She is Full Professor receiving additional award of 5th Plan for Scientific Research and Technological Innovation."
+                  bio="PhD in Chemical Sciences. Her research studies the revalorization of agri-food by-products as strategy to obtain new ingredients. She has experience in the characterization of plant-derived products and their conversion into food ingredients. She is Full Professor receiving the Plan for Research and Technological Innovation award (Spain)."
                 />
               </td>
             </tr>
@@ -49,8 +49,8 @@ export default function NuestroEquipoPage() {
                   alt="Una foto de Ignacio Monedero"
                   title="Dr. Ignacio Monedero Cobeta"
                   link="https://www.uam.es/Medicina/MonederoCobetaIgnacio/1446774319870.htm?pid=1242663815769&%20Ignacio"
-                  position="Leader of Genomic Technology"
-                  bio="PhD in Molecular Biology by Universidad Autónoma de Madrid. He is a specialist in developmental biology and its molecular factors controlling neuronal division. He studies the control of proliferation of the nervous system and its effect on memory. Currently, he is an Associate Professor of Physiology of the Faculty of Medicine of the Universidad Autónoma de Madrid"
+                  position="Leader of Genomic Technology."
+                  bio="PhD in Molecular Biology. He is a specialist in developmental biology and molecular factors to control neuronal division. He studies the proliferation of the nervous system and its effect on memory. He is an Associate Professor of Physiology of the Universidad Autónoma de Madrid"
                 />
               </td>
               <td>
@@ -61,7 +61,7 @@ export default function NuestroEquipoPage() {
                   title="Dra. Yolanda Aguilera Gutiérrez"
                   link="https://www.uam.es/Ciencias/Yolanda-Aguilera-Guti%C3%A9rrez/1446766152599.htm?language=es&pid=1446765791606&rrez,%20Yolanda"
                   position="Coordinator of New Ingredient Development unit."
-                  bio="PhD in Food Science and Technology by Universidad Autónoma de Madrid. Her research focuses on insects for human consumption and their effect on health due to their antioxidant compounds. At present, she is an Associate Professor in the agricultural chemistry unit of the Faculty of Sciences of the Universidad Autonoma de Madrid."
+                  bio="PhD in Food Science and Technology. Her research focuses on insects for human consumption and the effect on health by antioxidant compounds. She is an Associate Professor in the Agricultural Chemistry Unit of the Universidad Autonoma de Madrid"
                 />
               </td>
             </tr>
@@ -74,6 +74,7 @@ export default function NuestroEquipoPage() {
                   title="Dr. David Ramiro Cortijo"
                   link="https://www.uam.es/Medicina/RamiroCortijoDavid/1446825270432.htm?language=es&pid=1242663815769&title=Ramiro%20Cortijo%20David"
                   position="Coordinator of Pregnancy and Lactation unit."
+                  bio="PhD in Pharmacology and Physiology. He is focuse on perinatal stage and psycho-biological aspect of health. He is an Assistant Professor of Physiology in the Universidad Autonoma de Madrid"
                 />
               </td>
               <td>
@@ -95,7 +96,8 @@ export default function NuestroEquipoPage() {
                   alt="Una foto de Pilar Rodríguez"
                   title="Dra. Pilar Rodríguez Rodríguez"
                   link="https://uam.es/Medicina/RodriguezRodriguezPilar/1242691508065.htm?language=es&pid=1242664265346&title=Rodr?guez%20Rodr?guez%20Pilar"
-                  position="Coordinator of Fetal Programming unit and Animal models."
+                  position="Fetal Programming unit and Animal models."
+                  bio="PhD in Pharmacology and Physiology. She explores, in animal models, the oxidative stress and pathways related of cardiovascular health and diseases"
                 />
               </td>
               <td>
@@ -147,7 +149,7 @@ export default function NuestroEquipoPage() {
                 <Profile
                   id="santiago"
                   alt="Una foto de Santiago Ruvira"
-                  title="Santiago Ruvira"
+                  title="Santiago Ruvira Hernándo"
                   image="/images/profiles/avatar.png"
                   link="https://www.google.com/"
                 />
@@ -203,43 +205,39 @@ export default function NuestroEquipoPage() {
         <Accordion title="External Colaborators and Advisory Board">
           <Profile
             title="Dra. Begoña Quintana Villamandos"
-            bio="Cardiac surgery unit of Anesthesiology and Resuscitation Service at Hospital General Universitario Gregorio Marañón (Madrid, Spain)"
+            bio="Cardiac surgery unit of Anesthesiology and Resuscitation Service; Hospital General Universitario Gregorio Marañón (Madrid, Spain)"
           />
           <Profile
             title="Dra. Maria de la Calle Fernández-Miranda"
-            bio="High-risk unit of OBS/GYN Service at Hospital Universitario La Paz (Madrid, Spain)"
+            bio="High-risk unit of OBS/GYN Service; Hospital Universitario La Paz (Madrid, Spain)"
           />
           <Profile
             title="Dr. Miguel Sáen de Pipaón Marcos"
-            bio="Neonatal Intensive Care unit of Neonatology Service at Hospital Universitario La Paz (Madrid, Spain)"
+            bio="Neonatal Intensive Care unit of Neonatology Service; Hospital Universitario La Paz (Madrid, Spain)"
           />
           <Profile
-            title="Dr. Jose Maria"
-            bio="Cardiac surgery unit of Anesthesiology and Resuscitation Service at Hospital General Universitario Gregorio Marañón (Madrid, Spain)"
+            title="Dr. Jose María González Granado"
+            bio="Group Lead of LamImSys Lab; Instituto de Investigaciones Sanitarias Hospital 12 de Octubre (imas12, Madrid, Spain)"
           />
           <Profile
             title="Dra. Gloria Hernández Carrillo"
-            bio="Neonatology Service at Hospital Clínico San Carlos (Madrid, Spain)"
+            bio="Neonatology Service; Hospital Clínico San Carlos (Madrid, Spain)"
           />
           <Profile
             title="Dra. Eva Garrosa Hernández"
-            bio="Department of psychology-biology and health psychology of Faculty of Psychology of Universidad Autónoma de Madrid (Spain)"
+            bio="Department of bio-psychology and health psychology of Faculty of Psychology; Universidad Autónoma de Madrid (Spain)"
           />
           <Profile
             title="Dra. María de la Fé Rodriguez Muñoz"
-            bio="Department of Personality Psychology, Treatment and Assesment of Faculty of Psychology of Universidad Nacional de Educación a Distancia (Spain)"
+            bio="Department of Personality, Treatment and Assesment of Faculty of Psychology; Universidad Nacional de Educación a Distancia (Spain)"
           />
           <Profile
             title="Dra. Marta Gil Ortega"
-            bio="Neonatology Service at Hospital Clínico San Carlos (Madrid, Spain)"
+            bio="Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
           />
           <Profile
-            title="Dra. Beatriz Somoza"
-            bio="Neonatology Service at Hospital Clínico San Carlos (Madrid, Spain)"
-          />
-          <Profile
-            title="Dra. Perla Y. Gutierrez Arzapalo"
-            bio="Neonatology Service at Hospital Clínico San Carlos (Madrid, Spain)"
+            title="Dra. Beatriz Somoza Hernandez"
+            bio="Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
           />
         </Accordion>
       </Container>

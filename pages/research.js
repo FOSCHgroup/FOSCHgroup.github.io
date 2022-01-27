@@ -276,14 +276,17 @@ export default function AboutPage() {
         <Article
           title="Legumes: Nutritional Quality, Processing and Potential Health Benefits"
           link="https://pubs.rsc.org/en/content/ebook/978-1-78801-161-7"
+          image="/images/research/cover_legumes.jpeg"
         />
         <Article
           title="Fetal Undernutrition and Oxidative Stress: Influence of Sex and Gender"
           link="https://link.springer.com/referenceworkentry/10.1007%2F978-3-319-55387-0_32"
+          image="/images/research/cover_starvation.jpeg"
         />
         <Article
           title="Coffee: Antioxidants in Chronic Diseases"
           link="https://pubs.rsc.org/en/content/chapter/bk9781788014977-00020/978-1-78801-497-7"
+          image="/images/research/cover_coffee.jpeg"
         />
       </Container>
     </Layout>
