@@ -149,7 +149,7 @@ export default function NuestroEquipoPage() {
                 <Profile
                   id="santiago"
                   alt="Una foto de Santiago Ruvira"
-                  title="Santiago Ruvira Hernándo"
+                  title="Santiago Ruvira Hernando"
                   image="/images/profiles/santiago.jpg"
                   link="https://www.google.com/"
                 />
