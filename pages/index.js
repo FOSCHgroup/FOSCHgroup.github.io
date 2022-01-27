@@ -1,6 +1,8 @@
 import Container from "../components/container/container";
 import Layout from "../components/layout/layout";
 import Card from "../components/card/card";
+import Carousel from "../components/carousel/carousel";
+import Link from "next/link";
 
 export default function IndexPage() {
   return (
@@ -22,12 +24,17 @@ export default function IndexPage() {
         <div className="grid">
           <div>
             <h3>Area of Food Technology and New Ingredient Development</h3>
-            <p>Department of Agricultural Chemistry and Bromatology</p>
-            <p>Faculty of Sciences</p>
-            <p>Department of Production and Characterization of Novel Foods</p>
-            <p>Institute of Food Science Research (CIAL-CSIC)</p>
-            <p>Universidad Autonónoma de Madrid</p>
             <p>
+              Department of Agricultural Chemistry and Bromatology
+              <br />
+              Faculty of Sciences
+              <br />
+              Department of Production and Characterization of Novel Foods
+              <br />
+              Institute of Food Science Research (CIAL-CSIC)
+              <br />
+              Universidad Autonónoma de Madrid
+              <br />
               Laboratory: C/ Nicolás Cabrera 9, Campus de Cantoblanco - 28049
               Madrid, Spain
             </p>
@@ -38,22 +45,26 @@ export default function IndexPage() {
               Area of Oxidavive Stress, Fetal Programming and Cardiometabolic
               Health
             </h3>
-            <p>Department of Physiology</p>
             <p>
+              Department of Physiology
+              <br />
               Department of of Preventive Medicine, Public Health and
               Microbiology
+              <br />
+              Faculty of Medicine
+              <br />
+              Universidad Autonónoma de Madrid
+              <br />
+              Laboratory: C/ Arzobispo Morcillo 2, 28029 Madrid, Spain
             </p>
-            <p>Faculty of Medicine</p>
-            <p>Universidad Autonónoma de Madrid</p>
-            <p>Laboratory: C/ Arzobispo Morcillo 2, 28029 Madrid, Spain</p>
           </div>
         </div>
       </Container>
       <Container>
         <h2>
-          <a href="/news">News</a>
+          <Link href="/news">News</Link>
         </h2>
-        <div style={{ display: "flex" }}>
+        <Carousel>
           <Card>
             <img src="https://placekitten.com/g/250/250" />
             <h3>FOSCH Group is Crazy About Kittens</h3>
@@ -66,7 +77,7 @@ export default function IndexPage() {
             <img src="https://placekitten.com/g/250/250" />
             <h3>FOSCH Group is Crazy About Kittens</h3>
           </Card>
-        </div>
+        </Carousel>
       </Container>
     </Layout>
   );

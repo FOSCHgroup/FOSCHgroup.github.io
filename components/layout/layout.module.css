@@ -5,20 +5,43 @@
 
 .header {
   color: white;
-  background-color: black;
-  padding: 1rem;
+  background-color: #4527a0;
+  padding: 1em 2em;
 }
 
 .main {
   padding: 1em 0;
+  background: #e8eaf6;
 }
 
 .footer {
-  background-color: black;
+  background-color: #111;
   color: white;
-  padding: 1em;
+  padding: 2em 1em;
 }
 
 .footer a {
   color: inherit;
+}
+
+.socialButtons {
+  display: flex;
+}
+
+.socialButtons svg {
+  width: 2em;
+}
+
+.socialButtons a {
+  display: block;
+  opacity: 0.5;
+  transition: 0.2s opacity ease-in-out;
+}
+
+.socialButtons a:not(:last-child) {
+  margin-right: 0.5em;
+}
+
+.socialButtons a:hover {
+  opacity: 1;
 }

@@ -1,0 +1,32 @@
+.carousel {
+  display: flex;
+  position: relative;
+}
+
+.carousel > * {
+  margin-right: 1em;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgba(90, 90, 90, 0.1);
+  color: white;
+}
+
+.leftArrow {
+  display: none;
+  left: -2.5em;
+}
+
+.rightArrow {
+  right: -2.5em;
+}

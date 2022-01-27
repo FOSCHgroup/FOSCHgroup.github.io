@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../styles/style.css";
 import IconButton from "../components/icon-button/icon-button";
-import ChevronIcon from "../components/icons/chevron";
+import ChevronUpIcon from "../components/icons/chevron-up";
 
 function MyApp({ Component, pageProps }) {
   const [toggleButton, setToggleButton] = useState(false);
@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
       <IconButton
         show={toggleButton}
         onClick={handleScrollButtonClick}
-        icon={<ChevronIcon />}
+        icon={<ChevronUpIcon />}
       />
     </>
   );

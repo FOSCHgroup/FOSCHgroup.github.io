@@ -1,11 +1,16 @@
 import Link from "next/link";
 import styles from "./navbar.module.css";
+import ActivityIcon from "../icons/activity";
 
 export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
-        <Link href="/">FOSCH Group</Link>
+        <Link passHref href="/">
+          <a>
+            <ActivityIcon /> FOSCH Group
+          </a>
+        </Link>
       </div>
       <div className={styles.links}>
         <Link href="/team">Our Team</Link>
