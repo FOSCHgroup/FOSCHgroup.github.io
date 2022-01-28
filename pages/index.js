@@ -61,24 +61,24 @@ export default function IndexPage() {
       </Container>
       <Container>
         <h2>
-          <Link href="/news">News</Link>
+          <Link href="/talks">News</Link>
         </h2>
         <Carousel>
           <Card
             image="https://www.madrimasd.org/uploads/autumn-1850044_960_720.jpg"
-            title="Insufficient nutrition in the fetal stage predisposes to the development of cardiovascular diseases"
+            title="Insufficient nutrition in the fetal and development of cardiovascular diseases"
           />
           <Card
             image="https://www.madrimasd.org/uploads/noti7_11_12_20.jpg"
-            title="Fetal sex affects on inflammatory cytokine and nitric oxide levels in the pregnant woman"
+            title="Fetal sex affects on inflammatory pathways in the pregnant woman"
           />
           <Card
             image="https://www.bonka.es/themes/custom/bonka/img/donde_viene_cafe_1.jpg"
             title="New beneficial properties discovered in coffee husks"
           />
           <Card
-            image="https://pbs.twimg.com/media/EHjY_S7WkAAbgrw?format=jpg&name=small"
-            title="Conference on the innovations in precision nutrition"
+            video="https://www.youtube.com/embed/watch?v=--TgJgZuwjM"
+            title="Innovations in precision nutrition"
           />
           <Card
             image="https://pbs.twimg.com/media/EIHgPnjX0AEp7EJ?format=jpg&name=small"
