@@ -4,3 +4,7 @@
   box-shadow: 0.125em 0.125em lightgray;
   padding: 1em;
 }
+
+.image {
+  max-width: 250px;
+}

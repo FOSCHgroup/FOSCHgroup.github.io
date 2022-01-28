@@ -9,7 +9,7 @@ export default function Carousel({ children }) {
       <div className={classNames(styles.arrow, styles.leftArrow)}>
         <ChevronLeft />
       </div>
-      {children}
+      <div className={styles.content}>{children}</div>
       <div className={classNames(styles.arrow, styles.rightArrow)}>
         <ChevronRight />
       </div>

@@ -68,3 +68,7 @@ a:hover {
 a:visited {
   color: inherit;
 }
+
+iframe {
+  border: none;
+}

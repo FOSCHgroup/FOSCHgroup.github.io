@@ -64,34 +64,34 @@ export default function IndexPage() {
           <Link href="/news">News</Link>
         </h2>
         <Carousel>
-        <Card>
-          <img src="https://www.madrimasd.org/uploads/autumn-1850044_960_720.jpg" />
-            <h3>Insufficient nutrition in the fetal stage predisposes to the development of cardiovascular diseases</h3>
-          </Card>
-        <Card>
-          <img src="https://www.madrimasd.org/uploads/noti7_11_12_20.jpg" />
-            <h3>Fetal sex affects on inflammatory cytokine and nitric oxide levels in the pregnant woman</h3>
-          </Card>
-          <Card>
-          <img src="https://www.bonka.es/themes/custom/bonka/img/donde_viene_cafe_1.jpg" />
-            <h3>New beneficial properties discovered in coffee husks</h3>
-          </Card>
-          <Card>
-            <img src="https://pbs.twimg.com/media/EHjY_S7WkAAbgrw?format=jpg&name=small" />
-            <h3>Conference on the innovations in precision nutrition</h3>
-          </Card>
-          <Card>
-            <img src="https://pbs.twimg.com/media/EIHgPnjX0AEp7EJ?format=jpg&name=small" />
-            <h3>Programming cardiovascular disease: an ontological perspective</h3>
-          </Card>
-          <Card>
-            <img src="https://www.youtube.com/watch?v=8Ao0FkFun1s" />
-            <h3>InnoUAM_BioHealth</h3>
-          </Card>
-          <Card>
-            <img src="https://i.ytimg.com/vi/hkdPk4pAo40/maxresdefault.jpg" />
-            <h3>Biomarkers of oxidative stress for diagnostics</h3>
-          </Card>
+          <Card
+            image="https://www.madrimasd.org/uploads/autumn-1850044_960_720.jpg"
+            title="Insufficient nutrition in the fetal stage predisposes to the development of cardiovascular diseases"
+          />
+          <Card
+            image="https://www.madrimasd.org/uploads/noti7_11_12_20.jpg"
+            title="Fetal sex affects on inflammatory cytokine and nitric oxide levels in the pregnant woman"
+          />
+          <Card
+            image="https://www.bonka.es/themes/custom/bonka/img/donde_viene_cafe_1.jpg"
+            title="New beneficial properties discovered in coffee husks"
+          />
+          <Card
+            image="https://pbs.twimg.com/media/EHjY_S7WkAAbgrw?format=jpg&name=small"
+            title="Conference on the innovations in precision nutrition"
+          />
+          <Card
+            image="https://pbs.twimg.com/media/EIHgPnjX0AEp7EJ?format=jpg&name=small"
+            title="Programming cardiovascular disease: an ontological perspective"
+          ></Card>
+          <Card
+            video="https://www.youtube.com/embed/8Ao0FkFun1s"
+            title="InnoUAM_BioHealth"
+          />
+          <Card
+            image="https://i.ytimg.com/vi/hkdPk4pAo40/maxresdefault.jpg"
+            title="Biomarkers of oxidative stress for diagnostics"
+          />
         </Carousel>
       </Container>
     </Layout>
