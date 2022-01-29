@@ -17,14 +17,12 @@ export default function AboutPage() {
       </Container>
       <Container>
         <h2>Articles</h2>
-        <Accordion title="General Nutrition">
-          <Article
-            title="Development and Validation of a Questionnaire to Assess Adherence to the Healthy Food Pyramid in Spanish Adults"
-            abstract="AP-Q is a questionnaire to assess healthy food pyramid adherence, easy to complete, cost-effective, timesaving and has the competency to assess, besides diet, several features affecting health status."
-            link="https://www.mdpi.com/2072-6643/12/6/1656"
+        <Accordion title="Food Technology & Developmental of New Ingredients">
+        <Article
+            title="Intake of bean sprouts influences melatonin and antioxidant capacity biomarker levels in rats"
+            abstract="Kidney bean sprouts could be a good source of dietary melatonin and other bioactive compounds known to have health benefits."
+            link="https://pubs.rsc.org/en/content/articlehtml/2016/fo/c5fo01538c"
           />
-        </Accordion>
-        <Accordion title="Food Technology and Developmental of New Ingredients">
           <Article
             title="Bioavailability of Melatonin from Lentil Sprouts and Its Role in the Plasmatic Antioxidant Status in Rats"
             abstract="We investigated the bioavailability of melatonin from lentil sprouts and its role in plasmatic antioxidant status. Their intake could increase melatonin plasmatic concentration and attenuate plasmatic oxidative stress."
@@ -47,6 +45,11 @@ export default function AboutPage() {
             abstract="Green extraction of phenolic compounds from the cocoa shell was modeled and optimized."
             link="https://www.sciencedirect.com/science/article/pii/S1383586621004913"
             image="/images/research/foods_2.jpg"
+          />
+          <Article
+            title="Response surface methodology to optimise the heat-assisted aqueous extraction of phenolic compounds from coffee parchment and their comprehensive analysis"
+            abstract="Potential application of a useful, clean, environmentally friendly and cost-effective method to recover phenolic compounds from coffee parchment and to revalorize the by-product by converting it into high-added value new products to be used in the food."
+            link="https://pubs.rsc.org/en/content/articlelanding/2019/fo/c9fo00544g/unauth"
           />
           <Article
             title="Black bean coats: New source of anthocyanins stabilized by β-cyclodextrin copigmentation in a sport beverage"
@@ -87,8 +90,14 @@ export default function AboutPage() {
             link="https://www.mdpi.com/2304-8158/8/10/438"
             image="/images/research/CSE_4.webp"
           />
+          <Article
+            title="Phytochemicals from the Cocoa Shell Modulate Mitochondrial Function, Lipid and Glucose Metabolism in Hepatocytes via Activation of FGF21/ERK, AKT, and mTOR Pathways"
+            abstract="The cocoa shell phytochemicals are proved to modulate FGF21 signaling. Results demonstrate the in vitro preventive effect of the phytochemicals from the cocoa shell on non-alcoholic fatty liver disease."
+            link="https://www.mdpi.com/2076-3921/11/1/136"
+            image="/images/research/liver_1.webp"
+          />
         </Accordion>
-        <Accordion title="Related to Gestational Health">
+        <Accordion title="Gestational Health & Pregnancy Epidemiology">
           <Article
             title="Maternal plasma antioxidant status in the first trimester of pregnancy and development of obstetric complications"
             abstract="In early gestation, low antioxidants were associated with development of complications."
@@ -129,8 +138,6 @@ export default function AboutPage() {
             link="https://www.mdpi.com/2077-0383/10/23/5672"
             image="/images/research/ART_twiter.jpeg"
           />
-        </Accordion>
-        <Accordion title="Related to Pregnancy Epidemiology">
           <Article
             title="Obstetric Outcomes in the Surviving Fetus after Intrauterine Fetal Death in Bichorionic Twin Gestations"
             abstract="Single intrauterine fetal death in twin gestations is a rare complication that should be monitored and attended by a clinical multidisciplinary team."
@@ -147,7 +154,7 @@ export default function AboutPage() {
             link="https://www.mdpi.com/1660-4601/18/16/8514"
           />
         </Accordion>
-        <Accordion title="Fetal Progaming of Cardiovascular Disease: Sex differences and Maternal Undernutrition">
+        <Accordion title="Fetal Progaming of Cardiovascular Disease: Sex differences & Maternal Undernutrition">
           <Article
             title="Role of fetal nutrient restriction and postnatal catch-up growth on structural and mechanical alterations of rat aorta"
             abstract="Fetal undernutrition induces similar aortic structural and mechanical alterations in young male and female rats. Our data argue against an early mechanical cause for the sex differences in hypertension development."
@@ -183,7 +190,12 @@ export default function AboutPage() {
             image="/images/research/MRA_1.png"
           />
         </Accordion>
-        <Accordion title="Related to Healthy Habits in Lactation Period: Nutrition and Psychological Stage">
+        <Accordion title="General Nutrition & Healthy Habits in Lactation Period: Nutrition & Psychological Stage">
+          <Article
+            title="Development and Validation of a Questionnaire to Assess Adherence to the Healthy Food Pyramid in Spanish Adults"
+            abstract="AP-Q is a questionnaire to assess healthy food pyramid adherence, easy to complete, cost-effective, timesaving and has the competency to assess, besides diet, several features affecting health status."
+            link="https://www.mdpi.com/2072-6643/12/6/1656"
+          />
           <Article
             title="Assessment of Adherence to the Healthy Food Pyramid in Pregnant and Lactating Women"
             abstract="Breastfeeding mothers of young age and low socioeconomic/educational level would be the target population to carry out nutritional interventions that improve their adherence to the Healthy Foos Piramyd."

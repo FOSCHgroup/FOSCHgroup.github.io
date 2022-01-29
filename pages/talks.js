@@ -10,42 +10,42 @@ export default function DivulgacionPage() {
       </Container>
       <Container>
         <Card
-            image="https://www.madrimasd.org/uploads/autumn-1850044_960_720.jpg"
+            image="/images/talks/pregnancy_1.jpeg"
             title="Insufficient nutrition in the fetal stage predisposes to the development of cardiovascular diseases"
             link="https://www.madrimasd.org/notiweb/noticias/una-nutricion-insuficiente-en-etapa-fetal-predispone-desarrollo-enfermedades-cardiovasculares"
           />
       </Container>
       <Container>
         <Card
-           image="https://www.madrimasd.org/uploads/noti7_11_12_20.jpg"
+           image="/images/talks/pregnancy_2.jpeg"
            title="Fetal sex affects on inflammatory pathways in the pregnant woman"
            link="https://www.madrimasd.org/notiweb/noticias/sexo-feto-influye-en-los-niveles-citoquinas-inflamatorias-oxido-nitrico-en-embarazada"
           />
       </Container>
       <Container>
         <Card
-           image="https://www.bonka.es/themes/custom/bonka/img/donde_viene_cafe_1.jpg"
+           image="/images/talks/coffee_1.jpeg"
            title="New beneficial properties discovered in coffee husks"
            link="https://www.alimente.elconfidencial.com/bienestar/2020-11-28/propiedades-antiinflamatorias-cascara-cafe_2282159/"
           />
       </Container>
       <Container>
         <Card
-           image="https://www.ecusa.es/wp-content/uploads/2021/07/Foto-para-portada_II.jpg"
+           image="/images/talks/silvia_andrea_drc.jpeg"
            title="Postpartum diet... What do I eat now?"
            link="https://www.ecusa.es/dieta-postparto/"
           />
       </Container>
       <Container>
         <Card
-            image="https://d3wo5wojvuv7l.cloudfront.net/t_square_limited_720/images.spreaker.com/original/c5b3351c099a50c669af35390a70f294.jpg"
+            image="/images/talks/andrea_potcast_1.jpeg"
             title="Nursing and research"
             link="https://www.spreaker.com/user/12083995/episodio-17-la-enfermeria-y-la-investiga"
           />
       </Container>
       <Container>
         <Card
-            image="https://www.ecusa.es/wp-content/uploads/2021/02/David-Ramiro-Cortijo-500x500.jpg"
+            image="/images/talks/drc_ecusa_new.jpeg"
             title="Anti-stress pregnancies: Benefits for mother and baby during pregnancy"
             link="https://www.ecusa.es/embarazos-antiestres-beneficios-para-la-madre-y-el-bebe-durante-la-gestacion/"
           />
@@ -55,8 +55,8 @@ export default function DivulgacionPage() {
       </Container>
       <Container>
         <Card
-           image="https://pbs.twimg.com/media/EIHgPnjX0AEp7EJ?format=jpg&name=small"
-           image2="https://pbs.twimg.com/media/EIh26HNWoAIytTX?format=jpg&name=small"
+           image="/images/talks/cover_casa_fieras.jpeg"
+           image2="/images/talks/silvia_casa_fieras.jpeg"
            title="Programming cardiovascular disease: an ontological perspective"
            bio="On October 31, 2019, one of the most interesting Science&Coffee of the UAM was held. Dr. Arribas presented us in -La Casa de las Fieras- (Madrid, Spain) whether cardiovascular diseases can be programmed already in utero."
           />
