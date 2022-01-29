@@ -50,7 +50,7 @@ export default function NuestroEquipoPage() {
                   title="Dr. Ignacio Monedero Cobeta"
                   link="https://www.uam.es/Medicina/MonederoCobetaIgnacio/1446774319870.htm?pid=1242663815769&%20Ignacio"
                   position="Leader of Genomic Technology."
-                  bio="PhD in Molecular Biology. He is a specialist in developmental biology and molecular factors to control neuronal division. He studies the proliferation of the nervous system and its effect on memory. He is an Associate Professor of Physiology of the Universidad Autónoma de Madrid"
+                  bio="PhD in Molecular Biology. He is a specialist in developmental biology and molecular factors to control neuronal division. He studies the proliferation of the nervous system and its effect on memory. He is an Associate Professor of Physiology of the Universidad Autónoma de Madrid."
                 />
               </td>
               <td>
@@ -61,7 +61,7 @@ export default function NuestroEquipoPage() {
                   title="Dra. Yolanda Aguilera Gutiérrez"
                   link="https://www.uam.es/Ciencias/Yolanda-Aguilera-Guti%C3%A9rrez/1446766152599.htm?language=es&pid=1446765791606&rrez,%20Yolanda"
                   position="Coordinator of New Ingredient Development unit."
-                  bio="PhD in Food Science and Technology. Her research focuses on insects for human consumption and the effect on health by antioxidant compounds. She is an Associate Professor in the Agricultural Chemistry Unit of the Universidad Autonoma de Madrid"
+                  bio="PhD in Food Science and Technology. Her research focuses on insects for human consumption and the effect on health by antioxidant compounds. She is an Associate Professor in the Agricultural Chemistry Unit of the Universidad Autonoma de Madrid."
                 />
               </td>
             </tr>
@@ -74,7 +74,7 @@ export default function NuestroEquipoPage() {
                   title="Dr. David Ramiro Cortijo"
                   link="https://www.uam.es/Medicina/RamiroCortijoDavid/1446825270432.htm?language=es&pid=1242663815769&title=Ramiro%20Cortijo%20David"
                   position="Coordinator of Pregnancy and Lactation unit."
-                  bio="PhD in Pharmacology and Physiology. He is focuse on perinatal stage and psycho-biological aspect of health. He is an Assistant Professor of Physiology in the Universidad Autonoma de Madrid"
+                  bio="PhD in Pharmacology and Physiology. He is focuse on perinatal stage and psycho-biological aspect of health. He is an Assistant Professor of Physiology in the Universidad Autonoma de Madrid."
                 />
               </td>
               <td>
@@ -85,6 +85,7 @@ export default function NuestroEquipoPage() {
                   title="Dra. Vanesa Benitez García"
                   link="https://www.uam.es/Ciencias/Ben%C3%ADtez-Garcia_Vanesa/1446767457251.htm?pid=1446766111829&language=es"
                   position="Coordinator of Food Technology unit."
+                  bio="PhD in Agricultural Chemistry. She is focused on effect of fiber on human health. She is an Associate Professor in the Agricultural Chemistry Unit of the Universidad Autonoma de Madrid."
                 />
               </td>
             </tr>
@@ -97,7 +98,7 @@ export default function NuestroEquipoPage() {
                   title="Dra. Pilar Rodríguez Rodríguez"
                   link="https://uam.es/Medicina/RodriguezRodriguezPilar/1242691508065.htm?language=es&pid=1242664265346&title=Rodr?guez%20Rodr?guez%20Pilar"
                   position="Fetal Programming unit and Animal models."
-                  bio="PhD in Pharmacology and Physiology. She explores, in animal models, the oxidative stress and pathways related of cardiovascular health and diseases"
+                  bio="PhD in Pharmacology and Physiology. She explores, in animal models, the oxidative stress and pathways related of cardiovascular health and diseases."
                 />
               </td>
               <td>
@@ -107,6 +108,8 @@ export default function NuestroEquipoPage() {
                   alt="Una foto de Alicia Gil"
                   title="Dra. Alicia Gil Ramírez"
                   link="https://www.uam.es/Ciencias/Gil-Ramirez_Alicia/1446816498069.htm?language=es&pid=1446765791606&rez,%20Alicia"
+                  position="Food Technology unit."
+                  bio="PhD in Biology and Food Sciences. She studies the sustainable technologies in food to promote health. She is an Assistant Professor of Agricultural Chemistry Unit of the Universidad Autónoma de Madrid."
                 />
               </td>
             </tr>
@@ -125,6 +128,7 @@ export default function NuestroEquipoPage() {
                   alt="Una foto de Andrea Gila"
                   title="Dra. Andrea Gila Díaz"
                   link="https://www.researchgate.net/profile/Andrea-Gila-Diaz"
+                  bio="Nurse and PhD in Pharmacology and Physiology. Specialist in nutrition maternal health and promote the breastfeeding."
                 />
               </td>
               <td>
@@ -134,6 +138,7 @@ export default function NuestroEquipoPage() {
                   alt="Una foto de Miguel Rebollo"
                   title="Dr. Miguel Rebollo Hernánz"
                   link="https://scholar.google.com/citations?user=2twRnqMAAAAJ"
+                  bio="Chemist and PhD in Food Science and Technology. Specialist in molecular pathways related to biactive compounds of food."
                 />
               </td>
             </tr>
@@ -152,6 +157,7 @@ export default function NuestroEquipoPage() {
                   title="Santiago Ruvira Hernando"
                   image="/images/profiles/santiago.jpg"
                   link="https://www.google.com/"
+                  bio="Nutritionist and dietician specializing in human physiology. Focused on the study of cardiovascular improvements through functional foods."
                 />
               </td>
               <td>
@@ -161,6 +167,7 @@ export default function NuestroEquipoPage() {
                   alt="Una foto de Silvia Cañas"
                   title="Silvia Cañas Rodríguez"
                   link="https://www.uam.es/Ciencias/Ca%C3%B1as-Rodr%C3%ADguez,-Silvia/1446805074232.htm?language=es&pid=1446765791620&as%20Rodr?guez,%20Silvia"
+                  bio="Food thecnologist specializing in biactive compounds. Focused on the study of cardiovascular improvements through functional foods."
                 />
               </td>
             </tr>
@@ -173,6 +180,7 @@ export default function NuestroEquipoPage() {
                   alt="Una foto de Cheyenne Braojos"
                   title="Cheyenne Braojos Molero"
                   link="https://www.linkedin.com/in/cheyennebma/"
+                  bio="Food thecnologist specializing in biactive compounds. Focused on the study of cardiovascular improvements through functional foods."
                 />
               </td>
             </tr>
