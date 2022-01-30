@@ -1,9 +1,15 @@
 .carousel {
   position: relative;
+  overflow: hidden;
+}
+
+.content {
+  width: 3000px;
 }
 
 .content > * {
   margin-right: 1em;
+  width: 250px;
 }
 
 .arrow {
@@ -23,15 +29,13 @@
 }
 
 .leftArrow {
-  display: none;
-  left: -2.5em;
+  left: 1em;
 }
 
 .rightArrow {
-  right: -2.5em;
+  right: 1em;
 }
 
 .content {
   display: flex;
-  overflow: hidden;
 }

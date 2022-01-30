@@ -32,7 +32,7 @@
 }
 
 .links {
-  display: flex;
+  display: none;
 }
 
 .links a {
@@ -42,4 +42,22 @@
 .links a:hover {
   text-decoration: underline;
   text-underline-offset: 0.3em;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.hamburger svg {
+  width: 2em;
+}
+
+@media screen and (min-width: 960px) {
+  .hamburger {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+  }
 }

@@ -1,8 +1,8 @@
 import Container from "../components/container/container";
 import Layout from "../components/layout/layout";
-import Card from "../components/card/card";
 import Carousel from "../components/carousel/carousel";
 import Link from "next/link";
+import talks from "../public/data/talks.json";
 
 export default function IndexPage() {
   return (
@@ -63,36 +63,7 @@ export default function IndexPage() {
         <h2>
           <Link href="/talks">News</Link>
         </h2>
-        <Carousel>
-          <Card
-            image="https://www.madrimasd.org/uploads/autumn-1850044_960_720.jpg"
-            title="Insufficient nutrition in the fetal and development of cardiovascular diseases"
-          />
-          <Card
-            image="https://www.madrimasd.org/uploads/noti7_11_12_20.jpg"
-            title="Fetal sex affects on inflammatory pathways in the pregnant woman"
-          />
-          <Card
-            image="https://www.bonka.es/themes/custom/bonka/img/donde_viene_cafe_1.jpg"
-            title="New beneficial properties discovered in coffee husks"
-          />
-          <Card
-            video="https://www.youtube.com/embed/watch?v=--TgJgZuwjM"
-            title="Innovations in precision nutrition"
-          />
-          <Card
-            image="https://pbs.twimg.com/media/EIHgPnjX0AEp7EJ?format=jpg&name=small"
-            title="Programming cardiovascular disease: an ontological perspective"
-          ></Card>
-          <Card
-            video="https://www.youtube.com/embed/8Ao0FkFun1s"
-            title="InnoUAM_BioHealth"
-          />
-          <Card
-            image="https://i.ytimg.com/vi/hkdPk4pAo40/maxresdefault.jpg"
-            title="Biomarkers of oxidative stress for diagnostics"
-          />
-        </Carousel>
+        <Carousel data={talks} />
       </Container>
     </Layout>
   );

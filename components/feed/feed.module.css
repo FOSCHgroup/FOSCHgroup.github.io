@@ -1,0 +1,11 @@
+.feed {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (min-width: 960px) {
+  .feed {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

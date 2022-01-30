@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "./navbar.module.css";
 import ActivityIcon from "../icons/activity";
+import Hamburger from "../icons/hamburger";
 
 export default function Navbar() {
   return (
@@ -11,6 +12,9 @@ export default function Navbar() {
             <ActivityIcon /> FOSCH Group
           </a>
         </Link>
+      </div>
+      <div className={styles.hamburger}>
+        <Hamburger />
       </div>
       <div className={styles.links}>
         <Link href="/team">Our Team</Link>

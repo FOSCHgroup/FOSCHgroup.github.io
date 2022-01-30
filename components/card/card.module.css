@@ -5,10 +5,9 @@
   padding: 1em;
 }
 
-.image {
-  max-width: 250px;
-}
-
-.image2 {
-  max-width: 250px;
+.image,
+.video {
+  display: block;
+  margin-bottom: 0.5em;
+  max-width: 100%;
 }

@@ -4,7 +4,7 @@ import styles from "./icon-button.module.css";
 export default function IconButton({ icon, className, show, ...passedProps }) {
   return (
     <button
-      className={classNames(styles.iconButton, styles.topButton, {
+      className={classNames(className, styles.iconButton, styles.topButton, {
         [styles.show]: show,
       })}
       {...passedProps}
