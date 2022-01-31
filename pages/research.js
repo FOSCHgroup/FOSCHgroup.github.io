@@ -2,6 +2,7 @@ import Accordion from "../components/accordion/accordion";
 import Article from "../components/article/article";
 import Container from "../components/container/container";
 import Layout from "../components/layout/layout";
+import Feed from "../components/feed/feed";
 
 export default function AboutPage() {
   return (
@@ -18,7 +19,7 @@ export default function AboutPage() {
       <Container>
         <h2>Articles</h2>
         <Accordion title="Food Technology & Developmental of New Ingredients">
-        <Article
+          <Article
             title="Intake of bean sprouts influences melatonin and antioxidant capacity biomarker levels in rats"
             abstract="Kidney bean sprouts could be a good source of dietary melatonin and other bioactive compounds known to have health benefits."
             link="https://pubs.rsc.org/en/content/articlehtml/2016/fo/c5fo01538c"
@@ -285,21 +286,23 @@ export default function AboutPage() {
       </Container>
       <Container>
         <h2>Books and Chapters</h2>
-        <Article
-          title="Legumes: Nutritional Quality, Processing and Potential Health Benefits"
-          link="https://pubs.rsc.org/en/content/ebook/978-1-78801-161-7"
-          image="/images/research/cover_legumes.jpeg"
-        />
-        <Article
-          title="Fetal Undernutrition and Oxidative Stress: Influence of Sex and Gender"
-          link="https://link.springer.com/referenceworkentry/10.1007%2F978-3-319-55387-0_32"
-          image="/images/research/cover_starvation.jpeg"
-        />
-        <Article
-          title="Coffee: Antioxidants in Chronic Diseases"
-          link="https://pubs.rsc.org/en/content/chapter/bk9781788014977-00020/978-1-78801-497-7"
-          image="/images/research/cover_coffee.jpeg"
-        />
+        <Feed>
+          <Article
+            title="Legumes: Nutritional Quality, Processing and Potential Health Benefits"
+            link="https://pubs.rsc.org/en/content/ebook/978-1-78801-161-7"
+            image="/images/research/cover_legumes.jpeg"
+          />
+          <Article
+            title="Fetal Undernutrition and Oxidative Stress: Influence of Sex and Gender"
+            link="https://link.springer.com/referenceworkentry/10.1007%2F978-3-319-55387-0_32"
+            image="/images/research/cover_starvation.jpeg"
+          />
+          <Article
+            title="Coffee: Antioxidants in Chronic Diseases"
+            link="https://pubs.rsc.org/en/content/chapter/bk9781788014977-00020/978-1-78801-497-7"
+            image="/images/research/cover_coffee.jpeg"
+          />
+        </Feed>
       </Container>
     </Layout>
   );

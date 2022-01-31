@@ -8,6 +8,7 @@ export default function Card({
   video,
   link,
   bio,
+  date,
 }) {
   return (
     <div className={styles.card}>
@@ -20,6 +21,7 @@ export default function Card({
         </a>
       )}
       <h3>{title}</h3>
+      <span style={{ fontStyle: "italic", color: "#666" }}>{date}</span>
       <div className={styles.bio}>{bio}</div>
       {children}
     </div>
