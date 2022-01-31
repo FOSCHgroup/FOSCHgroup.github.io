@@ -1,15 +1,7 @@
 import styles from "./profile.module.css";
 import classNames from "classnames";
 
-export default function Profile({
-  id,
-  image,
-  alt,
-  title,
-  link,
-  position,
-  bio,
-}) {
+export default function Profile({ id, image, alt, name, link, position, bio }) {
   return (
     <div
       className={classNames(styles.profile, {
@@ -23,12 +15,11 @@ export default function Profile({
         </div>
       )}
       <div>
-        <div className={styles.title}>{title}</div>
-        {link && (
+        <div className={styles.name}>
           <a target="_blank" rel="noreferrer" href={link}>
-            Link
+            {name}
           </a>
-        )}
+        </div>
         <div className={styles.position}>{position}</div>
         <div className={styles.bio}>{bio}</div>
       </div>

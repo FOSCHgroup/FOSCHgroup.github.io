@@ -15,12 +15,11 @@ export default function Card({
       {image && <img alt={title} src={image} className={styles.image} />}
       {image2 && <img alt={title} src={image2} className={styles.image} />}
       {video && <iframe src={video} className={styles.video} />}
-      {link && (
+      <h3>
         <a target="_blank" rel="noreferrer" href={link}>
-          Link
+          {title}
         </a>
-      )}
-      <h3>{title}</h3>
+      </h3>
       <span style={{ fontStyle: "italic", color: "#666" }}>{date}</span>
       <div className={styles.bio}>{bio}</div>
       {children}

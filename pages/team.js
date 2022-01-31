@@ -11,13 +11,13 @@ export default function NuestroEquipoPage() {
         <h2>Principal Investigators</h2>
         {team.principal.map((member, index) => (
           <Profile
-            alt={member.title}
+            alt={member.name}
             bio={member.bio}
             image={member.image}
             key={index}
             link={member.link}
             position={member.position}
-            title={member.title}
+            name={member.name}
           />
         ))}
       </Container>
@@ -25,13 +25,13 @@ export default function NuestroEquipoPage() {
         <h2>Junior Investigators</h2>
         {team.junior.map((member, index) => (
           <Profile
-            alt={member.title}
+            alt={member.name}
             bio={member.bio}
             image={member.image}
             key={index}
             link={member.link}
             position={member.position}
-            title={member.title}
+            name={member.name}
           />
         ))}
       </Container>
@@ -39,13 +39,13 @@ export default function NuestroEquipoPage() {
         <h2>Postdoctoral Researchers</h2>
         {team.postdoctoral.map((member, index) => (
           <Profile
-            alt={member.title}
+            alt={member.name}
             bio={member.bio}
             image={member.image}
             key={index}
             link={member.link}
             position={member.position}
-            title={member.title}
+            name={member.name}
           />
         ))}
       </Container>
@@ -53,13 +53,13 @@ export default function NuestroEquipoPage() {
         <h2>PhD Students</h2>
         {team.phd.map((member, index) => (
           <Profile
-            alt={member.title}
+            alt={member.name}
             bio={member.bio}
             image={member.image}
             key={index}
             link={member.link}
             position={member.position}
-            title={member.title}
+            name={member.name}
           />
         ))}
       </Container>
