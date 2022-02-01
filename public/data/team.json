@@ -55,7 +55,8 @@
       "name": "Dra. Vanesa Benitez García",
       "link": "https://www.uam.es/Ciencias/Ben%C3%ADtez-Garcia_Vanesa/1446767457251.htm?pid=1446766111829&language=es",
       "position": "Food Technology unit.",
-      "bio": "PhD in Agricultural Chemistry. She is focused on effect of fiber on human health. She is an Associate Professor in the Agricultural Chemistry Unit of the Universidad Autonoma de Madrid."
+      "bio": "PhD in Agricultural Chemistry. She is focused on effect of fiber on human health. She is an Associate Professor in the Agricultural Chemistry Unit of the Universidad Autonoma de Madrid.",
+      "area": "cial"
     },
     {
       "id": "Pilar",
@@ -64,7 +65,8 @@
       "name": "Dra. Pilar Rodríguez Rodríguez",
       "link": "https://uam.es/Medicina/RodriguezRodriguezPilar/1242691508065.htm?language=es&pid=1242664265346&title=Rodr?guez%20Rodr?guez%20Pilar",
       "position": "Fetal Programming unit and Animal models.",
-      "bio": "PhD in Pharmacology and Physiology. She explores, in animal models, the oxidative stress and pathways related of cardiovascular health and diseases."
+      "bio": "PhD in Pharmacology and Physiology. She explores, in animal models, the oxidative stress and pathways related of cardiovascular health and diseases.",
+      "area": "medicina"
     },
     {
       "id": "Alicia",
@@ -73,7 +75,8 @@
       "name": "Dra. Alicia Gil Ramírez",
       "link": "https://www.uam.es/Ciencias/Gil-Ramirez_Alicia/1446816498069.htm?language=es&pid=1446765791606&rez,%20Alicia",
       "position": "Funtional Foods unit.",
-      "bio": "PhD in Biology and Food Sciences. She studies the sustainable technologies in food to promote health. She is an Assistant Professor of Agricultural Chemistry Unit of the Universidad Autónoma de Madrid."
+      "bio": "PhD in Biology and Food Sciences. She studies the sustainable technologies in food to promote health. She is an Assistant Professor of Agricultural Chemistry Unit of the Universidad Autónoma de Madrid.",
+      "area": "cial"
     }
   ],
   "postdoctoral": [
