@@ -2,45 +2,50 @@
   {
     "title": "Dehydrated legume flours: nutritional characterization and evaluation of their techno-functional properties",
     "name": "Dra. Yolanda Aguilera Gutiérrez",
-    "link": "https://repositorio.uam.es/handle/10486/4180"
+    "link": "https://repositorio.uam.es/handle/10486/4180",
+    "areas": ["cial"],
+    "date": "January, 2010"
   },
   {
     "title": "Oxidative stress in cardiovascular alterations associated with fetal programming of hypertension",
     "name": "Dra. Pilar Rodríguez Rodríguez",
-    "link": "https://dialnet.unirioja.es/servlet/tesis?codigo=53787"
+    "link": "https://dialnet.unirioja.es/servlet/tesis?codigo=53787",
+    "areas": ["medicina"],
+    "date": "April, 2016"
   },
   {
     "title": "Vascular structural and mechanical alterations associated with fetal programming of hypertension",
     "name": "Dra. Perla Y. Gutiérrez Arzapalo",
-    "link": "https://repositorio.uam.es/handle/10486/676668"
-  },
-  {
-    "title": "Characterization of onion by-products as a source of dietary fiber and other bioactive compounds",
-    "name": "Dra. Vanesa Benítez García",
-    "link": "https://repositorio.uam.es/handle/10486/7754"
+    "link": "https://repositorio.uam.es/handle/10486/676668",
+    "areas": ["medicina"],
+    "date": "July, 2016"
   },
   {
     "title": "Biomarkers predictive of the development of maternal and fetal complications",
     "name": "Dr. David Ramiro Cortijo",
     "link": "https://repositorio.uam.es/handle/10486/685312",
-    "areas": [
-      "medicina",
-      "cial"
-    ]
+    "areas": ["medicina"],
+    "date": "April, 2018"
   },
   {
     "title": "Influence of nutritional interventions during gestation on fetal development in the rat",
     "name": "Dra. Cynthia G. Reyes Hernández",
-    "link": "https://repositorio.uam.es/handle/10486/686709"
+    "link": "https://repositorio.uam.es/handle/10486/686709",
+    "areas": ["medicina"],
+    "date": "December, 2018"
   },
   {
     "title": "Strategies for the Valorization of Coffee and Cocoa By-products",
     "name": "Dr. Miguel Rebollo Hernánz",
-    "link": "https://repositorio.uam.es/handle/10486/697219"
+    "link": "https://repositorio.uam.es/handle/10486/697219",
+    "areas": ["cial"],
+    "date": "June, 2021"
   },
   {
     "title": "Composition of breast milk in the first month of lactation",
     "name": "Dra. Andrea Gila Díaz",
-    "link": "https://repositorio.uam.es/handle/10486/696535"
+    "link": "https://repositorio.uam.es/handle/10486/696535",
+    "areas": ["medicina"],
+    "date": "May, 2021"
   }
 ]
