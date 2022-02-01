@@ -1,5 +1,5 @@
-import ChevronRight from "../icons/chevron-right";
-import ChevronLeft from "../icons/chevron-left";
+import ChevronRightIcon from "../icons/chevron-right";
+import ChevronLeftIcon from "../icons/chevron-left";
 import styles from "./carousel.module.css";
 import classNames from "classnames";
 import { useState } from "react";
@@ -23,7 +23,7 @@ export default function Carousel({ data }) {
         style={{ display: marginLeft ? "flex" : "none" }}
         onClick={handleClickLeft}
       >
-        <ChevronLeft />
+        <ChevronLeftIcon />
       </div>
       <div
         className={styles.content}
@@ -43,7 +43,7 @@ export default function Carousel({ data }) {
         onClick={handleClickRight}
         style={{ display: marginLeft === data.length - 3 ? "none" : "flex" }}
       >
-        <ChevronRight />
+        <ChevronRightIcon />
       </div>
     </div>
   );

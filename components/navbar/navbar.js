@@ -1,9 +1,18 @@
 import Link from "next/link";
 import styles from "./navbar.module.css";
 import ActivityIcon from "../icons/activity";
-import Hamburger from "../icons/hamburger";
+import HamburgerIcon from "../icons/hamburger";
+import CloseIcon from "../icons/close";
+import { useState } from "react";
+import classNames from "classnames";
 
 export default function Navbar() {
+  const [isMenuExpanded, setIsMenuExpanded] = useState(false);
+
+  const handleToggleMenu = () => {
+    setIsMenuExpanded((isMenuExpanded) => !isMenuExpanded);
+  };
+
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
@@ -13,10 +22,14 @@ export default function Navbar() {
           </a>
         </Link>
       </div>
-      <div className={styles.hamburger}>
-        <Hamburger />
+      <div className={styles.icon} onClick={handleToggleMenu}>
+        {isMenuExpanded ? <CloseIcon /> : <HamburgerIcon />}
       </div>
-      <div className={styles.links}>
+      <div
+        className={classNames(styles.links, {
+          [styles.hide]: !isMenuExpanded,
+        })}
+      >
         <Link href="/team">Our Team</Link>
         <Link href="/research">Research</Link>
         <Link href="/talks">Talks</Link>

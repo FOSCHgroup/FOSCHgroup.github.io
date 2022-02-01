@@ -1,4 +1,4 @@
-export default function ChevronUp() {
+export default function ChevronUpIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
