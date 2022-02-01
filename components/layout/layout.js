@@ -42,14 +42,14 @@ export default function Layout({ children, title }) {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://www.twitter.com/"
+                href="https://www.twitter.com/foschgroup"
               >
                 <TwitterIcon />
               </a>
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://www.twitter.com/"
+                href="https://www.youtube.com/foschgroup"
               >
                 <YouTubeIcon />
               </a>

@@ -3,6 +3,8 @@ import Layout from "../components/layout/layout";
 import Carousel from "../components/carousel/carousel";
 import Link from "next/link";
 import talks from "../public/data/talks.json";
+import Grid from "../components/grid/grid";
+import GridItem from "../components/grid-item/grid-item";
 
 export default function IndexPage() {
   return (
@@ -21,8 +23,8 @@ export default function IndexPage() {
       </Container>
       <Container>
         <h2>Work address and Laboratories</h2>
-        <div className="grid">
-          <div>
+        <Grid>
+          <GridItem>
             <h3>Food Technology and New Ingredient Development</h3>
             <p>
               Department of Agricultural Chemistry and Bromatology
@@ -38,9 +40,8 @@ export default function IndexPage() {
               Laboratory: C/ Nicolás Cabrera 9, Campus de Cantoblanco - 28049
               Madrid, Spain
             </p>
-          </div>
-
-          <div>
+          </GridItem>
+          <GridItem>
             <h3>
               Oxidative Stress, Fetal Programming and Cardiometabolic Health
             </h3>
@@ -56,8 +57,8 @@ export default function IndexPage() {
               <br />
               Laboratory: C/ Arzobispo Morcillo 2, 28029 Madrid, Spain
             </p>
-          </div>
-        </div>
+          </GridItem>
+        </Grid>
       </Container>
       <Container>
         <h2>

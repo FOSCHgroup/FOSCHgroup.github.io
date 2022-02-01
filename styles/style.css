@@ -4,11 +4,6 @@ body,
   height: 100%;
 }
 
-#__next {
-  display: flex;
-  flex-direction: column;
-}
-
 main {
   flex: 1;
 }
@@ -43,20 +38,6 @@ p {
   margin-bottom: 0.5em;
 }
 
-.grid {
-  display: flex;
-}
-
-table {
-  width: 100%;
-}
-
-td {
-  width: 50%;
-  vertical-align: top;
-  padding-bottom: 1em;
-}
-
 a {
   text-decoration: none;
 }
@@ -71,4 +52,11 @@ a:visited {
 
 iframe {
   border: none;
+}
+
+@media screen and (min-width: 960px) {
+  #__next {
+    display: flex;
+    flex-direction: column;
+  }
 }

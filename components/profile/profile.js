@@ -10,7 +10,7 @@ export default function Profile({ id, image, alt, name, link, position, bio }) {
       id={id}
     >
       {image && (
-        <div>
+        <div className={styles.imageWrapper}>
           <img className={styles.image} src={image} alt={alt} />
         </div>
       )}

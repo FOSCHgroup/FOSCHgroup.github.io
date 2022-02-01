@@ -1,0 +1,5 @@
+.col-xs-6 {
+  flex: 1;
+  width: 50%;
+  max-width: 50%;
+}

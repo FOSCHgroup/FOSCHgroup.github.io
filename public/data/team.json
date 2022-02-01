@@ -5,14 +5,16 @@
       "link": "https://www.uam.es/Medicina/ArribasRodriguezSilvia/1242677452339.htm?pid=1242677452589&%20Silvia",
       "image": "/images/profiles/silvia.png",
       "position": "Head of area: Oxidavive Stress, Fetal Programming and Cardiometabolic Health",
-      "bio": "PhD in Biomolecular Sciences. Her research was focused on the fetal programming of the cardiovascular disease. She has extensive expertis in the oxidative stress pathways and their implication to physio-pathology balance. She was head of Physiology Department where is Professor of human physiology."
+      "bio": "PhD in Biomolecular Sciences. Her research was focused on the fetal programming of the cardiovascular disease. She has extensive expertis in the oxidative stress pathways and their implication to physio-pathology balance. She was head of Physiology Department where is Professor of human physiology.",
+      "area": "medicina"
     },
     {
       "image": "/images/profiles/maria.jpg",
       "name": "Dra. María Ángeles Martín Cabrejas",
       "link": "https://www.uam.es/Ciencias/Martin_Cabrejas_Maris-Angeles/1446767769606.htm?language=es&pid=1446765791606&n%20Cabrejas,%20Mar?a%20?ngeles",
       "position": "Head of area: Food Technology and New Ingredient Development.",
-      "bio": "PhD in Chemical Sciences. Her research studies the revalorization of agri-food by-products as strategy to obtain new ingredients. She has experience in the characterization of plant-derived products and their conversion into food ingredients. She is Full Professor receiving the Plan for Research and Technological Innovation award (Spain)."
+      "bio": "PhD in Chemical Sciences. Her research studies the revalorization of agri-food by-products as strategy to obtain new ingredients. She has experience in the characterization of plant-derived products and their conversion into food ingredients. She is Full Professor receiving the Plan for Research and Technological Innovation award (Spain).",
+      "area": "cial"
     }
   ],
   "junior": [
@@ -43,7 +45,8 @@
       "name": "Dr. David Ramiro Cortijo",
       "link": "https://www.uam.es/Medicina/RamiroCortijoDavid/1446825270432.htm?language=es&pid=1242663815769&title=Ramiro%20Cortijo%20David",
       "position": "Pregnancy and Lactation unit.",
-      "bio": "PhD in Pharmacology and Physiology. He is focuse on perinatal stage and psycho-biological aspect of health. He is an Assistant Professor of Physiology in the Universidad Autonoma de Madrid."
+      "bio": "PhD in Pharmacology and Physiology. He is focuse on perinatal stage and psycho-biological aspect of health. He is an Assistant Professor of Physiology in the Universidad Autonoma de Madrid.",
+      "area": "medicina"
     },
     {
       "id": "Vanesa",
@@ -80,7 +83,8 @@
       "alt": "Una foto de Andrea Gila",
       "name": "Dra. Andrea Gila Díaz",
       "link": "https://www.researchgate.net/profile/Andrea-Gila-Diaz",
-      "bio": "Nurse and PhD in Pharmacology and Physiology. Specialist in nutrition maternal health and promote the breastfeeding."
+      "bio": "Nurse and PhD in Pharmacology and Physiology. Specialist in nutrition maternal health and promote the breastfeeding.",
+      "area": "medicina"
     },
     {
       "id": "miguel",
@@ -88,7 +92,8 @@
       "alt": "Una foto de Miguel Rebollo",
       "name": "Dr. Miguel Rebollo Hernánz",
       "link": "https://scholar.google.com/citations?user=2twRnqMAAAAJ",
-      "bio": "Chemist and PhD in Food Science and Technology. Specialist in molecular pathways related to biactive compounds of food."
+      "bio": "Chemist and PhD in Food Science and Technology. Specialist in molecular pathways related to biactive compounds of food.",
+      "area": "cial"
     }
   ],
   "phd": [
@@ -98,7 +103,8 @@
       "name": "Santiago Ruvira Hernando",
       "image": "/images/profiles/santiago.jpg",
       "link": "https://www.google.com/",
-      "bio": "Nutritionist and dietician specializing in human physiology. Focused on the study of cardiovascular improvements through functional foods."
+      "bio": "Nutritionist and dietician specializing in human physiology. Focused on the study of cardiovascular improvements through functional foods.",
+      "area": "medicina"
     },
     {
       "id": "silvia-cañas",
@@ -106,7 +112,8 @@
       "alt": "Una foto de Silvia Cañas",
       "name": "Silvia Cañas Rodríguez",
       "link": "https://www.uam.es/Ciencias/Ca%C3%B1as-Rodr%C3%ADguez,-Silvia/1446805074232.htm?language=es&pid=1446765791620&as%20Rodr?guez,%20Silvia",
-      "bio": "Food thecnologist specializing in biactive compounds. Focused on the study of cardiovascular improvements through functional foods."
+      "bio": "Food thecnologist specializing in biactive compounds. Focused on the study of cardiovascular improvements through functional foods.",
+      "area": "cial"
     },
     {
       "id": "cheyenne",
@@ -114,7 +121,8 @@
       "alt": "Una foto de Cheyenne Braojos",
       "name": "Cheyenne Braojos Molero",
       "link": "https://www.linkedin.com/in/cheyennebma/",
-      "bio": "Food thecnologist specializing in biactive compounds. Focused on the study of cardiovascular improvements through functional foods."
+      "bio": "Food thecnologist specializing in biactive compounds. Focused on the study of cardiovascular improvements through functional foods.",
+      "area": "cial"
     }
   ]
 }
