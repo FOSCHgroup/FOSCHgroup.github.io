@@ -1,9 +1,8 @@
-import Card from "../components/card/card";
 import Container from "../components/container/container";
 import Layout from "../components/layout/layout";
 import Profile from "../components/profile/profile";
+import EducationFeed from "../page-components/education/education-feed/education-feed";
 import education from "../public/data/education.json";
-import Feed from "../components/feed/feed";
 
 export default function AboutPage() {
   return (
@@ -26,18 +25,7 @@ export default function AboutPage() {
       </Container>
       <Container>
         <h2>PhD Thesis by the Group</h2>
-        <Feed>
-          {education.map((thesis, index) => (
-            <Card
-              key={index}
-              title={thesis.title}
-              bio={thesis.name}
-              link={thesis.link}
-              date={thesis.date}
-              areas={thesis.areas}
-            />
-          ))}
-        </Feed>
+        <EducationFeed education={education} />
       </Container>
     </Layout>
   );

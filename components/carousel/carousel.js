@@ -35,6 +35,8 @@ export default function Carousel({ data }) {
             title={talk.title}
             image={talk.image}
             video={talk.video}
+            link={talk.link}
+            date={talk.date}
           />
         ))}
       </div>

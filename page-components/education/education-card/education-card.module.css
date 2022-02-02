@@ -1,0 +1,23 @@
+.medicine {
+  border-left: 1em solid var(--medicine);
+}
+
+.cial {
+  border-left: 1em solid var(--cial);
+}
+
+.both {
+  border-left: 1em solid var(--medicine);
+  position: relative;
+}
+
+.both:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -1em;
+  width: 1em;
+  height: 50%;
+  background-color: var(--cial);
+  border-bottom-left-radius: 0.5em;
+}
