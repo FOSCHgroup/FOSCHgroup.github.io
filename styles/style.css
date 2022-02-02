@@ -1,3 +1,8 @@
+:root {
+  --medicine: #efb410;
+  --cial: #2e3261;
+}
+
 html,
 body,
 #__next {

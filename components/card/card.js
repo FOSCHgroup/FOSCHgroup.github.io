@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import styles from "./card.module.css";
 
 export default function Card({
@@ -9,9 +10,16 @@ export default function Card({
   link,
   bio,
   date,
+  areas = [],
 }) {
   return (
-    <div className={styles.card}>
+    <div
+      className={classNames(styles.card, {
+        [styles.medicine]: areas.length === 1 && areas[0] === "medicina",
+        [styles.cial]: areas.length === 1 && areas[0] === "cial",
+        [styles.both]: areas.length > 1,
+      })}
+    >
       {image && <img alt={title} src={image} className={styles.image} />}
       {image2 && <img alt={title} src={image2} className={styles.image} />}
       {video && <iframe src={video} className={styles.video} />}

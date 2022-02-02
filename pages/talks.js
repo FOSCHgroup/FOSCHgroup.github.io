@@ -8,21 +8,38 @@ export default function DivulgacionPage() {
   return (
     <Layout title="News & Talks">
       <Container>
-        <h2>News in social media</h2>
+        <h2>News in Social Media</h2>
         <Feed>
-          {talks.map((talk, index) => (
-            <Card
-              key={index}
-              image={talk.image}
-              title={talk.title}
-              link={talk.link}
-              video={talk.video}
-            />
-          ))}
+          {talks
+            .filter(({ section }) => section === "news")
+            .map((talk, index) => (
+              <Card
+                key={index}
+                image={talk.image}
+                title={talk.title}
+                link={talk.link}
+                video={talk.video}
+                date={talk.date}
+              />
+            ))}
         </Feed>
       </Container>
       <Container>
-        <h2>Contribution to society</h2>
+        <h2>Contribution to Society</h2>
+        <Feed>
+          {talks
+            .filter(({ section }) => section === "contribution")
+            .map((talk, index) => (
+              <Card
+                key={index}
+                image={talk.image}
+                title={talk.title}
+                link={talk.link}
+                video={talk.video}
+                date={talk.date}
+              />
+            ))}
+        </Feed>
       </Container>
     </Layout>
   );
