@@ -41,7 +41,7 @@ export default function Carousel({ data }) {
       <div
         className={classNames(styles.arrow, styles.rightArrow)}
         onClick={handleClickRight}
-        style={{ display: marginLeft === data.length - 3 ? "none" : "flex" }}
+        style={{ display: marginLeft === data.length - 5 ? "none" : "flex" }}
       >
         <ChevronRightIcon />
       </div>

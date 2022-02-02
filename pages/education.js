@@ -34,6 +34,7 @@ export default function AboutPage() {
               bio={thesis.name}
               link={thesis.link}
               date={thesis.date}
+              areas={thesis.areas}
             />
           ))}
         </Feed>
