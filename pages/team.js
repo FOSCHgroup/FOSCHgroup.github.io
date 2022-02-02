@@ -155,58 +155,58 @@ export default function NuestroEquipoPage() {
             id="rosario"
             image="/images/profiles/charo.jpeg"
             alt="Una foto de M. Rosario López"
-            title="Dra. María Rosario López Giménez"
+            name="Dra. María Rosario López Giménez"
           />
           <Profile
             id="angel"
             image="/images/profiles/angel_luis.jpeg"
             alt="Una foto de Ángel L. López de Pablo"
-            title="Dr. Ángel L. López de Pablo León"
+            name="Dr. Ángel L. López de Pablo León"
           />
           <Profile
             id="carmen"
             image="/images/profiles/mari_carmen.jpg"
             alt="Una foto de Maria dek Carmen González"
-            title="Dra. María del Carmen González"
+            name="Dra. María del Carmen González"
           />
         </Accordion>
       </Container>
       <Container>
         <Accordion title="External Colaborators and Advisory Board">
           <Profile
-            title="Dra. Begoña Quintana Villamandos"
+            name="Dra. Begoña Quintana Villamandos"
             bio="Cardiac surgery unit of Anesthesiology and Resuscitation Service; Hospital General Universitario Gregorio Marañón (Madrid, Spain)"
           />
           <Profile
-            title="Dra. Maria de la Calle Fernández-Miranda"
+            name="Dra. Maria de la Calle Fernández-Miranda"
             bio="High-risk unit of OBS/GYN Service; Hospital Universitario La Paz (Madrid, Spain)"
           />
           <Profile
-            title="Dr. Miguel Sáen de Pipaón Marcos"
+            name="Dr. Miguel Sáen de Pipaón Marcos"
             bio="Neonatal Intensive Care unit of Neonatology Service; Hospital Universitario La Paz (Madrid, Spain)"
           />
           <Profile
-            title="Dr. Jose María González Granado"
+            name="Dr. Jose María González Granado"
             bio="Group Lead of LamImSys Lab; Instituto de Investigaciones Sanitarias Hospital 12 de Octubre (imas12, Madrid, Spain)"
           />
           <Profile
-            title="Dra. Gloria Hernández Carrillo"
+            name="Dra. Gloria Hernández Carrillo"
             bio="Neonatology Service; Hospital Clínico San Carlos (Madrid, Spain)"
           />
           <Profile
-            title="Dra. Eva Garrosa Hernández"
+            name="Dra. Eva Garrosa Hernández"
             bio="Department of bio-psychology and health psychology of Faculty of Psychology; Universidad Autónoma de Madrid (Spain)"
           />
           <Profile
-            title="Dra. María de la Fé Rodriguez Muñoz"
+            name="Dra. María de la Fé Rodriguez Muñoz"
             bio="Department of Personality, Treatment and Assesment of Faculty of Psychology; Universidad Nacional de Educación a Distancia (Spain)"
           />
           <Profile
-            title="Dra. Marta Gil Ortega"
+            name="Dra. Marta Gil Ortega"
             bio="Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
           />
           <Profile
-            title="Dra. Beatriz Somoza Hernandez"
+            name="Dra. Beatriz Somoza Hernandez"
             bio="Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
           />
         </Accordion>
