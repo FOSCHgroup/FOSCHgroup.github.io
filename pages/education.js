@@ -13,12 +13,12 @@ export default function AboutPage() {
       <Container>
         <h2>Students enrolled in our group</h2>
         <Profile
-          title="Dra. Perla Y. Gutierrez Arzapalo"
+          name="Dra. Perla Y. Gutierrez Arzapalo"
           position="4 years in PhD program"
           bio="Currently: Assosiate Professor in the Research Center in Health Sciences, Universidad Autónoma de Sinaloa (Sinaloa, Mexico)"
         />
         <Profile
-          title="Dra. Cynthia G. Reyes Hernández"
+          name="Dra. Cynthia G. Reyes Hernández"
           position="4 years in PhD program"
           bio="Currently: Dermatologist in IMSS Hospital General de Monterrey (Mexico)"
         />
