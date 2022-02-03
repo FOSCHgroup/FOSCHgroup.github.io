@@ -18,7 +18,7 @@ export default function IndexPage() {
         </p>
         <img
           alt="Foods, Oxidative Stress, and Cardiovascular Health"
-          src="/images/fosch.jpg"
+          src="/images/presentación2.jpg"
         />
       </Container>
       <Container>
