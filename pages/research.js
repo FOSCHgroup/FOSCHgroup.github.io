@@ -12,9 +12,50 @@ export default function AboutPage() {
       </Container>
       <Container>
         <h2>Competitive Projects</h2>
+        <br />
+        <p>2013-2016. Oxidative stress and fetal programming of cardiovascular disease (FEM2012-37634-C03-01)
+        <br />Ministry of Economy and Competitiveness (Spain)
+        <br />
+        </p>
+        <p>2016-2019. Effect of supplementation with DHA on oxidative stress associated with low birth weight (FEM2015-63631-R)
+        <br />Ministry of Economy and Competitiveness (Spain)
+        <br />
+        </p>
+        <p>2015-2018. Sustainable coffee production and consumption: validation of by-products as food ingredients (AGL2014-57239-R)
+        <br />Ministry of Economy and Competitiveness (Spain)
+        <br />
+        </p>
+        <h3>New ingredient & Cardiovascular health</h3>
+        <p>2019-2021. Antioxidant ingredients from coffee as a strategy to reprogram cardiometabolic disease through lactation (ARTI2018-097504-B-I00)
+        <br />Ministry of Science (Spain)
+        <br />
+        </p>
       </Container>
       <Container>
-        <h2>Industry-transferency Projects</h2>
+        <h2>Industry-Transferency Projects</h2>
+        <p>2019-2020. Validation of new food ingredients for the development of anti-obesity nutraceuticals (PFTC-19)
+        <br />Universidad Autónoma de Madrid (Spain) - AORA Health S.L. Company
+        <br />
+        </p>
+        <p>2020-2022. Characterization of Bioactive Compounds in Breast Milk for the Improvement of Infant Formulas (PFTC-20)
+        <br />Universidad Autónoma de Madrid (Spain) - Alter Farmacia S.A.-Nutribén Company
+        <br />
+        </p>
+      </Container>
+      <Container>
+        <h2>Networking Cooperation Projects</h2>
+        <p>2011-2012. Creation of basic research lines with National University of Singapore (2011/ASIA/01)
+        <br />Santander Bank (Spain) - Singapore
+        <br />
+        </p>
+        <p>2015-2016. Interuniversity network in nutrition and perinatal health (2015/EEUU/01)
+        <br />Santander Bank (Spain) - USA
+        <br />
+        </p>
+        <p>2017-2018. Strategy for the design of sustainable food ingredients (2017/EEUU/01)
+        <br />Santander Bank (Spain) - USA
+        <br />
+        </p>
       </Container>
       <Container>
         <h2>Articles</h2>

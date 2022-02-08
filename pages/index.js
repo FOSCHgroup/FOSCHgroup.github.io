@@ -37,14 +37,11 @@ export default function IndexPage() {
               <br />
               Universidad Autonónoma de Madrid
               <br />
-              Laboratory: C/ Nicolás Cabrera 9, Campus de Cantoblanco - 28049
-              Madrid, Spain
+              Lab: C/ Nicolás Cabrera 9, Cantoblanco, 28049 Madrid, Spain
             </p>
           </GridItem>
           <GridItem>
-            <h3>
-              Oxidative Stress, Fetal Programming and Cardiometabolic Health
-            </h3>
+            <h3>Oxidative Stress, Fetal Programming and Cardiometabolic Health</h3>
             <p>
               Department of Physiology
               <br />
@@ -55,7 +52,7 @@ export default function IndexPage() {
               <br />
               Universidad Autonónoma de Madrid
               <br />
-              Laboratory: C/ Arzobispo Morcillo 2, 28029 Madrid, Spain
+              Lab: C/ Arzobispo Morcillo 2, 28029 Madrid, Spain
             </p>
           </GridItem>
         </Grid>

@@ -11,16 +11,36 @@ export default function AboutPage() {
         <h2>Research Techniques</h2>
       </Container>
       <Container>
-        <h2>Students enrolled in our group</h2>
+        <h2>Researchers trained in our group</h2>
+        <Profile
+          name="Dra. Parichat Prachaney"
+          position="4 months in Specialty program"
+          bio="Currently: Professor of Physiology, Khon Kaen University (Thailand)"
+        />
         <Profile
           name="Dra. Perla Y. Gutierrez Arzapalo"
           position="4 years in PhD program"
           bio="Currently: Assosiate Professor in the Research Center in Health Sciences, Universidad Autónoma de Sinaloa (Sinaloa, Mexico)"
         />
         <Profile
+          name="Dra. Sophida Puthong"
+          position="1 year in Specialty program"
+          bio="Currently: Associate Professor of Physiology, Khon Kaen University (Thailand)"
+        />
+        <Profile
+          name="Romain Sauvestre"
+          position="8 months in MSc program"
+          bio="Currently: Researcher, University of Poitiers (France)"
+        />
+        <Profile
           name="Dra. Cynthia G. Reyes Hernández"
           position="4 years in PhD program"
           bio="Currently: Dermatologist in IMSS Hospital General de Monterrey (Mexico)"
+        />
+        <Profile
+          name="Anuson Poasakate"
+          position="6 months in PhD program"
+          bio="Currently: Researcher Khon Kaen University (Thailand)"
         />
       </Container>
       <Container>
