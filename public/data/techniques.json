@@ -1,6 +1,61 @@
 [
   {
-    "name": "",
+    "name": "Hemodynamic",
+    "description": "In animal models, blood pressure can be recorded under anesthesia and analgesia in the iliac artery and aorta to measure systolic and diastolic blood pressure and heart rate. These parameters allow calculating pulse wave velocity to estimate arterial elasticity.",
+    "image": "/images/techniques/hemodinamyc.jpg"
+  },
+  {
+    "name": "Electrocardiography",
+    "description": "In animal models under anesthesia, the ECG and intraventricular pressure can also recorded.",
+    "image": ""
+  },
+  {
+    "name": "Echocardiography",
+    "description": "Transthoracic echocardiography can be performed under anesthesia, using an echocardiographic system (Acuson Sequoia C512) equipped with a 13-MHz transducer. This allows measuring left ventricular mass end-diastolic internal diameter, posterior wall thickness at diastole, and septal wall thickness at diastole.",
+    "image": "/images/techniques/echocardiography.jpg"
+  },
+  {
+    "name": "Vascular isometric tension",
+    "description": "In an organ bath under physiological conditions a large vessel can be mounted to record isometric tension in the presence of vasoactive drugs. The influence of perivascular fat, adventitia and endothelium can be assessed by using intact or denuded vessels.",
+    "image": "/images/techniques/isometric_tension.png"
+  },
+  {
+    "name": "Pressure myography",
+    "description": "Small vessels set between two glass cannulae under physiological conditions, and visualized with a video-dimension analyzer. It is possible to measure internal and external diameter and the change in the presence of vasoactivo drugs.",
+    "image": "/images/techniques/pressure_myography.png"
+  },
+  {
+    "name": "Wire myography",
+    "description": "Vessels of small diameter are mounted between wires under physiological conditions. They are exposed to vasoactivo drugs to study vascular contraction and relaxation.",
+    "image": "/images/techniques/wire_myography.png"
+  },
+  {
+    "name": "Laser Scanning Confocal Microscopy (LSCM)",
+    "description": "We have combined LSCM with pressure myography and image analysis, which we named “confocal myography”, to gain insight in the study of vascular structure in 3D.",
+    "image": "/images/techniques/confocal.jpg"
+  },
+  {
+    "name": "Spectroscopic and Fluorimetric",
+    "description": "These techniques can be used to assess parameters related to reactive oxygen species production, destruction total antioxidant capacity or oxidative damage.",
+    "image": "/images/techniques/spectrophotometry.jpg"
+  },
+  {
+    "name": "Molecular biology: WBs & ELISAs",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Genomic",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "HPLC",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Food compounds physiology digestion",
     "description": "",
     "image": ""
   }
