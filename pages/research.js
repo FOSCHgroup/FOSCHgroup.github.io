@@ -274,6 +274,11 @@ export default function AboutPage() {
             link="https://journals.biologists.com/dmm/article/13/8/dmm044776/225253/Maltodextrin-induced-intestinal-injury-in-a"
           />
           <Article
+            title="Acetaminophen and Xenobiotic Metabolites in Human Milk and the Development of Bronchopulmonary Dysplasia and Retinopathy of Prematurity in a Cohort of Extremely Preterm Infants"
+            abstract="In Press."
+            link="https://www.jpeds.com/article/S0022-3476(22)00056-7/fulltext"
+          />
+          <Article
             title="Parenteral Fish-Oil Containing Lipid Emulsions Limit Initial Lipopolysaccharide-Induced Host Immune Responses in Preterm Pigs"
             abstract="Host priming with soybean oil in the early postnatal period preserves a higher ARA:DHA ratio and the ability to acutely respond to an external stimulus. In contrast, fish-oil containing lipid emulsions increase DHA, exacerbate a deficit in ARA, and limit the initial LPS-induced inflammatory responses in preterm pigs."
             link="https://www.mdpi.com/2072-6643/13/1/205"

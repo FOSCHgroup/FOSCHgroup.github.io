@@ -12,9 +12,13 @@ export default function IndexPage() {
       <Container>
         <h2>Foods, Oxidative Stress & Cardiovascular Health</h2>
         <p>
-          Our focus is to study the bioavailability, biotransformation,
-          biokinetics and bioeffects of phytochemicals from by-products to
-          prevent cardiometabolic diseases.
+        Welcome to the official website of the multidisciplinary research group on Food, Oxidative Stress and Cardiovascular Health (FOSCH)!
+        <br /> 
+        FOSCH is part of the scientific teams of the Universidad Autónoma de Madrid (UAM, Spain). The fundamental mission is to study the properties and bioactive compounds of foods in relation to the promotion and well-being of cardiovascular health, as well as the development of new food products through sustainable ecology and to explore the role of the oxidative status in modulating cardiovascular disease. 
+        <br /> 
+        FOSCH is led by Dr. Silvia M. Arribas, Physiologist of the Faculty of Medicine and Dr. Maria A. Martin, Bromatologist of the Faculty of Sciences of the UAM. 
+        <br /> 
+        Learn more about our contribution to science!
         </p>
         <img
           alt="Foods, Oxidative Stress, and Cardiovascular Health"
