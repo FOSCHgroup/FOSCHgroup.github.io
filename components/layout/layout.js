@@ -49,7 +49,7 @@ export default function Layout({ children, title }) {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://www.youtube.com/foschgroup"
+                href="https://www.youtube.com/channel/UCt2XE6YCt0PVfxfRA6EBoxQ"
               >
                 <YouTubeIcon />
               </a>
