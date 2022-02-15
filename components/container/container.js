@@ -1,8 +1,9 @@
+import classNames from "classnames";
 import styles from "./container.module.css";
 
-export default function Container({ children }) {
+export default function Container({ className, children, ...passedProps }) {
   return (
-    <div className={styles.container}>
+    <div className={classNames(styles.container, className)} {...passedProps}>
       <div className={styles.content}>{children}</div>
     </div>
   );

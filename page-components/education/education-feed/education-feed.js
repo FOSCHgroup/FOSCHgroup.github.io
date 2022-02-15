@@ -1,10 +1,16 @@
 import Feed from "../../../components/feed/feed";
 import EducationCard from "../education-card/education-card";
 
-export default function EducationFeed({ education }) {
+export default function EducationFeed({ education, filter }) {
+  let theses = education;
+
+  if (filter) {
+    theses = theses.filter(({ areas }) => areas.includes(filter));
+  }
+
   return (
     <Feed>
-      {education.map((thesis, index) => (
+      {theses.map((thesis, index) => (
         <EducationCard
           key={index}
           title={thesis.title}

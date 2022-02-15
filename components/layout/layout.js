@@ -4,8 +4,9 @@ import Navbar from "../navbar/navbar";
 import styles from "./layout.module.css";
 import TwitterIcon from "../icons/twitter";
 import YouTubeIcon from "../icons/youtube";
+import classNames from "classnames";
 
-export default function Layout({ children, title }) {
+export default function Layout({ children, title, banner }) {
   return (
     <>
       <Head>
@@ -15,7 +16,12 @@ export default function Layout({ children, title }) {
         <Navbar />
       </header>
       <main className={styles.main}>
-        <Container>
+        <Container
+          className={classNames(styles.headingContainer, {
+            [styles.withBanner]: !!banner,
+          })}
+        >
+          {banner && <img src={banner} className={styles.banner} />}
           <h1 className={styles.title}>{title}</h1>
         </Container>
         {children}

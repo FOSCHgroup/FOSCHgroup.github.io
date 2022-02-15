@@ -1,0 +1,35 @@
+.pill {
+  width: 100px;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  font-family: sans-serif;
+  cursor: pointer;
+  box-shadow: 0 0 0.125em 0.1em lightgray;
+  font-weight: bold;
+}
+
+.pill:hover {
+  box-shadow: 0 0 0.2em 0.1em dimgray;
+}
+
+.medicine {
+  background-color: var(--medicine);
+  color: white;
+}
+
+.cial {
+  background-color: var(--cial);
+  color: white;
+}
+
+.basic,
+.basic:hover {
+  box-shadow: unset;
+  color: #aaa;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.basic:hover {
+  text-decoration: underline;
+}

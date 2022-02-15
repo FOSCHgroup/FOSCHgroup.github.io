@@ -1,0 +1,81 @@
+[
+  {
+    "image": "/images/talks/pregnancy_3.jpg",
+    "title": "Insufficient nutrition in the fetal and development of cardiovascular diseases",
+    "link": "https://www.madrimasd.org/notiweb/noticias/una-nutricion-insuficiente-en-etapa-fetal-predispone-desarrollo-enfermedades-cardiovasculares",
+    "date": "March, 2019",
+    "section": "news"
+  },
+  {
+    "image": "/images/talks/neonate_feed.jpg",
+    "title": "Fetal sex affects on inflammatory pathways in the pregnant woman",
+    "link": "https://www.madrimasd.org/notiweb/noticias/sexo-feto-influye-en-los-niveles-citoquinas-inflamatorias-oxido-nitrico-en-embarazada",
+    "date": "December, 2020",
+    "section": "news"
+  },
+  {
+    "image": "/images/talks/coffee_1.jpg",
+    "title": "New beneficial properties discovered in coffee husks",
+    "link": "https://www.alimente.elconfidencial.com/bienestar/2020-11-28/propiedades-antiinflamatorias-cascara-cafe_2282159/",
+    "date": "November, 2020",
+    "section": "news"
+  },
+  {
+    "image": "/images/talks/stress_1.jpg",
+    "title": "Anti-stress pregnancies: Benefits for mother and baby during pregnancy",
+    "link": "https://www.ecusa.es/embarazos-antiestres-beneficios-para-la-madre-y-el-bebe-durante-la-gestacion/",
+    "date": "January, 2020",
+    "section": "news"
+  },
+  {
+    "image": "/images/talks/diet_postpartum_1.jpg",
+    "title": "Postpartum diet... What do I eat now?",
+    "link": "https://www.ecusa.es/dieta-postparto/",
+    "date": "October, 2020",
+    "section": "news"
+  },
+  {
+    "image": "/images/talks/andrea_potcast_1.jpeg",
+    "title": "Nursing and research",
+    "link": "https://www.spreaker.com/user/12083995/episodio-17-la-enfermeria-y-la-investiga",
+    "section": "news"
+  },
+  {
+    "video": "https://www.youtube.com/embed/zpwUOiZncT8",
+    "title": "Advanced food technologies",
+    "details": "Sustainable Functional Ingredients as a use of agri-food by-products. Technology leads to a better food: bioactive ingredients and compounds, new foods and precision nutrition.",
+    "section": "contribution",
+    "date": "January, 2021"
+  },
+  {
+    "video": "https://www.youtube.com/embed/--TgJgZuwjM",
+    "title": "Innovations in precision nutrition",
+    "section": "contribution",
+    "date": "October, 2019"
+  },
+  {
+    "image": "/images/talks/casa_de_fieras_2.png",
+    "title": "Programming cardiovascular disease: an ontological perspective",
+    "section": "contribution",
+    "date": "October, 2019"
+  },
+  {
+    "video": "https://www.youtube.com/embed/8Ao0FkFun1s",
+    "title": "InnoUAM_BioHealth",
+    "section": "contribution",
+    "date": "June, 2019"
+  },
+  {
+    "video": "https://www.youtube.com/embed/WegaJ8mItFg",
+    "title": "Science for Kids",
+    "details": "Dr. Ramiro teaches us how to make edible slimes. The result of this video is a class on how to make troll and fairy slimes.",
+    "section": "contribution",
+    "date": "Junuary, 2022"
+  },
+  {
+    "video": "https://www.youtube.com/embed/hkdPk4pAo40",
+    "title": "Biomarkers of oxidative stress for diagnostics",
+    "section": "contribution",
+    "date": "June, 2020"
+  }
+]

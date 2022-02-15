@@ -1,10 +1,15 @@
+import { useState } from "react";
 import Container from "../components/container/container";
 import Layout from "../components/layout/layout";
+import PillBox from "../components/pill-box/pill-box";
+import Pill from "../components/pill/pill";
 import Profile from "../components/profile/profile";
 import EducationFeed from "../page-components/education/education-feed/education-feed";
 import education from "../public/data/education.json";
 
 export default function AboutPage() {
+  const [department, setDepartment] = useState(null);
+
   return (
     <Layout title="Postgraduate Educational Programming">
       <Container>
@@ -45,7 +50,20 @@ export default function AboutPage() {
       </Container>
       <Container>
         <h2>PhD Thesis by the Group</h2>
-        <EducationFeed education={education} />
+        <PillBox>
+          <Pill
+            area="cial"
+            label="CIAL"
+            onClick={() => setDepartment("cial")}
+          />
+          <Pill
+            area="medicine"
+            label="Medicine"
+            onClick={() => setDepartment("medicina")}
+          />
+          <Pill basic label="Clear All" onClick={() => setDepartment(null)} />
+        </PillBox>
+        <EducationFeed education={education} filter={department} />
       </Container>
     </Layout>
   );

@@ -1,0 +1,13 @@
+.listItem {
+  display: flex;
+}
+
+.listItem > *:first-child {
+  font-size: 1.5em;
+  padding: 0 0.5em;
+  line-height: 0.75;
+}
+
+.listItem + .listItem {
+  margin-top: 1em;
+}
