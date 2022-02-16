@@ -127,5 +127,63 @@
       "bio": "Food thecnologist specializing in biactive compounds. Focused on the study of cardiovascular improvements through functional foods.",
       "area": "cial"
     }
+  ],
+  "emeritus": [
+    {
+      "id": "rosario",
+      "image": "/images/profiles/charo.jpeg",
+      "alt": "Una foto de M. Rosario López",
+      "name": "Dra. María Rosario López Giménez"
+    },
+    {
+      "id": "angel",
+      "image": "/images/profiles/angel_luis.jpeg",
+      "alt": "Una foto de Ángel L. López de Pablo",
+      "name": "Dr. Ángel L. López de Pablo León"
+    },
+    {
+      "id": "carmen",
+      "image": "/images/profiles/mari_carmen.jpg",
+      "alt": "Una foto de Maria dek Carmen González",
+      "name": "Dra. María del Carmen González"
+    }
+  ],
+  "advisory": [
+    {
+      "name": "Dra. Begoña Quintana Villamandos",
+      "bio": "Cardiac surgery unit of Anesthesiology and Resuscitation Service; Hospital General Universitario Gregorio Marañón (Madrid, Spain)"
+    },
+    {
+      "name": "Dra. Maria de la Calle Fernández-Miranda",
+      "bio": "High-risk unit of OBS/GYN Service; Hospital Universitario La Paz (Madrid, Spain)"
+    },
+    {
+      "name": "Dr. Miguel Sáen de Pipaón Marcos",
+      "bio": "Neonatal Intensive Care unit of Neonatology Service; Hospital Universitario La Paz (Madrid, Spain)"
+    },
+    {
+      "name": "Dr. Jose María González Granado",
+      "bio": "Group Lead of LamImSys Lab; Instituto de Investigaciones Sanitarias Hospital 12 de Octubre (imas12, Madrid, Spain)"
+    },
+    {
+      "name": "Dra. Gloria Hernández Carrillo",
+      "bio": "Neonatology Service; Hospital Clínico San Carlos (Madrid, Spain)"
+    },
+    {
+      "name": "Dra. Eva Garrosa Hernández",
+      "bio": "Department of bio-psychology and health psychology of Faculty of Psychology; Universidad Autónoma de Madrid (Spain)"
+    },
+    {
+      "name": "Dra. María de la Fé Rodriguez Muñoz",
+      "bio": "Department of Personality, Treatment and Assesment of Faculty of Psychology; Universidad Nacional de Educación a Distancia (Spain)"
+    },
+    {
+      "name": "Dra. Marta Gil Ortega",
+      "bio": "Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
+    },
+    {
+      "name": "Dra. Beatriz Somoza Hernandez",
+      "bio": "Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
+    }
   ]
 }

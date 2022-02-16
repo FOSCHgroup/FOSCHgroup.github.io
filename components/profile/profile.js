@@ -16,9 +16,13 @@ export default function Profile({ id, image, alt, name, link, position, bio }) {
       )}
       <div>
         <div className={styles.name}>
-          <a target="_blank" rel="noreferrer" href={link}>
-            {name}
-          </a>
+          {link ? (
+            <a target="_blank" rel="noreferrer" href={link}>
+              {name}
+            </a>
+          ) : (
+            name
+          )}
         </div>
         <div className={styles.position}>{position}</div>
         <div className={styles.bio}>{bio}</div>

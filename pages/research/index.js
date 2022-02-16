@@ -1,10 +1,12 @@
-import Accordion from "../components/accordion/accordion";
-import Article from "../components/article/article";
-import Container from "../components/container/container";
-import Layout from "../components/layout/layout";
-import Feed from "../components/feed/feed";
-import List from "../components/list/list";
-import ListItem from "../components/list-item/list-item";
+import Accordion from "../../components/accordion/accordion";
+import Article from "../../components/article/article";
+import Container from "../../components/container/container";
+import Layout from "../../components/layout/layout";
+import Feed from "../../components/feed/feed";
+import List from "../../components/list/list";
+import ListItem from "../../components/list-item/list-item";
+import research from "../../public/data/research.json";
+import styles from "./research.module.css";
 
 export default function AboutPage() {
   return (
@@ -100,141 +102,38 @@ export default function AboutPage() {
       <Container>
         <h2>Articles</h2>
         <Accordion title="Food Technology & Developmental of New Ingredients">
-          <Article
-            title="Intake of bean sprouts influences melatonin and antioxidant capacity biomarker levels in rats"
-            abstract="Kidney bean sprouts could be a good source of dietary melatonin and other bioactive compounds known to have health benefits."
-            link="https://pubs.rsc.org/en/content/articlehtml/2016/fo/c5fo01538c"
-          />
-          <Article
-            title="Bioavailability of Melatonin from Lentil Sprouts and Its Role in the Plasmatic Antioxidant Status in Rats"
-            abstract="We investigated the bioavailability of melatonin from lentil sprouts and its role in plasmatic antioxidant status. Their intake could increase melatonin plasmatic concentration and attenuate plasmatic oxidative stress."
-            link="https://www.mdpi.com/2304-8158/9/3/330"
-            image="/images/research/foods_1.png"
-          />
-          <Article
-            title="Teas and herbal infusions as sources of melatonin and other bioactive non-nutrient components"
-            abstract="The teas and herbal infusions could be consided as suitable drinks herein validated for their bioactive compounds that may act as antioxidants and non-protein inhibitors of digestive enzymes."
-            link="https://www.sciencedirect.com/science/article/abs/pii/S0023643817307697"
-          />
-          <Article
-            title="Phenolic compounds from coffee by-products modulate adipogenesis-related inflammation, mitochondrial dysfunction, and insulin resistance in adipocytes, via insulin/PI3K/AKT signaling pathways"
-            abstract="Coffee silverskin and husk are beneficial in reducing adipogenesis and inflammation-related disorders."
-            link="https://www.sciencedirect.com/science/article/pii/S0278691519304612"
-            image="/images/research/CSE_1.jpg"
-          />
-          <Article
-            title="Extraction of phenolic compounds from cocoa shell: Modeling using response surface methodology and artificial neural networks"
-            abstract="Green extraction of phenolic compounds from the cocoa shell was modeled and optimized."
-            link="https://www.sciencedirect.com/science/article/pii/S1383586621004913"
-            image="/images/research/foods_2.jpg"
-          />
-          <Article
-            title="Response surface methodology to optimise the heat-assisted aqueous extraction of phenolic compounds from coffee parchment and their comprehensive analysis"
-            abstract="Potential application of a useful, clean, environmentally friendly and cost-effective method to recover phenolic compounds from coffee parchment and to revalorize the by-product by converting it into high-added value new products to be used in the food."
-            link="https://pubs.rsc.org/en/content/articlelanding/2019/fo/c9fo00544g/unauth"
-          />
-          <Article
-            title="Black bean coats: New source of anthocyanins stabilized by β-cyclodextrin copigmentation in a sport beverage"
-            abstract="These black bean coat aqueous extracts and powders might represent natural alternatives to synthetic colorants, ecologically extracted, and with a high antioxidant potential."
-            link="https://www.sciencedirect.com/science/article/abs/pii/S0308814616309153"
-          />
-          <Article
-            title="Coffee parchment as a new dietary fiber ingredient: Functional and physiological characterization"
-            abstract="Milling is a strategy for developing fiber-rich coffee parchment-based ingredients. Coffee parchment shows promising hypoglycemic and hypolipidemic capacities."
-            link="https://www.sciencedirect.com/science/article/abs/pii/S096399691930225X"
-            image="/images/research/CSE_2.jpg"
-          />
-          <Article
-            title="Impact of Melatonin Enrichment during Germination of Legumes on Bioactive Compounds and Antioxidant Activity"
-            abstract="The melatonin-enriched foods exhibited potent free radical scavenger and antioxidant functions that may be used as a nutritional strategy to alleviate chronic and age-related diseases."
-            link="https://pubs.acs.org/doi/abs/10.1021/acs.jafc.5b03128"
-          />
-          <Article
-            title="Revalorization of Coffee Husk: Modeling and Optimizing the Green Sustainable Extraction of Phenolic Compounds"
-            abstract="The phenolic aqueous extracts from the coffee husk could be used as sustainable food ingredients and nutraceutical products."
-            link="https://www.mdpi.com/2304-8158/10/3/653"
-            image="/images/research/CSE_5.png"
-          />
-          <Article
-            title="Relationship of the Phytochemicals from Coffee and Cocoa By-Products with their Potential to Modulate Biomarkers of Metabolic Syndrome In Vitro"
-            abstract="We identified the phytochemicals from coffee and cocoa by-products and offered new insights into their associations with biomarkers of inflammation, oxidative stress, adipogenesis, and insulin resistance in vitro."
-            link="https://www.mdpi.com/2076-3921/8/8/279"
-            image="/images/research/CSE_3.png"
-          />
-          <Article
-            title="Cocoa Shell Aqueous Phenolic Extract Preserves Mitochondrial Function and Insulin Sensitivity by Attenuating Inflammation between Macrophages and Adipocytes In Vitro"
-            abstract="Cocoa shell phenolics promote a beige phenotype in adipocytes. Macrophages-adipocytes inflammatory interaction is reduced preventing mitochondrial dysfunction and insulin resistance."
-            link="https://onlinelibrary.wiley.com/doi/abs/10.1002/mnfr.201801413"
-          />
-          <Article
-            title="Inhibition of the Maillard Reaction by Phytochemicals Composing an Aqueous Coffee Silverskin Extract via a Mixed Mechanism of Action"
-            abstract="Isoflavones and melatonin may contribute to the antiglycative/antiglycoxidative properties associated with coffee silverskin."
-            link="https://www.mdpi.com/2304-8158/8/10/438"
-            image="/images/research/CSE_4.webp"
-          />
-          <Article
-            title="Phytochemicals from the Cocoa Shell Modulate Mitochondrial Function, Lipid and Glucose Metabolism in Hepatocytes via Activation of FGF21/ERK, AKT, and mTOR Pathways"
-            abstract="The cocoa shell phytochemicals are proved to modulate FGF21 signaling. Results demonstrate the in vitro preventive effect of the phytochemicals from the cocoa shell on non-alcoholic fatty liver disease."
-            link="https://www.mdpi.com/2076-3921/11/1/136"
-            image="/images/research/liver_1.webp"
-          />
+          <List>
+            {research.foodTech.map((article, index) => (
+              <ListItem key={index}>
+                <div className={styles.article}>
+                  <a target="_blank" rel="noreferrer" href={article.link}>
+                    {article.title}
+                  </a>
+                  <div>{article.abstract}</div>
+                  {article.image && (
+                    <img alt={article.title} src={article.image} />
+                  )}
+                </div>
+              </ListItem>
+            ))}
+          </List>
         </Accordion>
         <Accordion title="Gestational Health & Pregnancy Epidemiology">
-          <Article
-            title="Maternal plasma antioxidant status in the first trimester of pregnancy and development of obstetric complications"
-            abstract="In early gestation, low antioxidants were associated with development of complications."
-            link="https://www.sciencedirect.com/science/article/abs/pii/S0143400416304969?via%3Dihub"
-          />
-          <Article
-            title="First trimester elevations of hematocrit, lipid peroxidation and nitrates in women with twin pregnancies who develop preeclampsia"
-            abstract="We showed an association between red blood cells, hematocrit, malondialdehyde, and nitrates with preeclampsia in twin pregnancies."
-            link="https://www.sciencedirect.com/science/article/abs/pii/S2210778920301215?via%3Dihub"
-          />
-          <Article
-            title="Maternal Resources, Pregnancy Concerns, and Biological Factors Associated to Birth Weight and Psychological Health"
-            abstract="The relevance of psychological health during pregnancy for maternal and neonatal outcome, and to consider it in preventive policies in OBS/GYN."
-            link="https://www.mdpi.com/2077-0383/10/4/695"
-            image="/images/research/ECUSA_news1.png"
-          />
-          <Article
-            title="Effects of Arachidonic and Docosohexahenoic Acid Supplementation during Gestation in Rats. Implication of Placental Oxidative Stress"
-            abstract="High arachidonic acid during gestation associates with intrauterine growth restriction, through placental oxidative stress, with females being more susceptible."
-            link="https://www.mdpi.com/1422-0067/19/12/3863"
-            image="/images/research/IJMS_2.png"
-          />
-          <Article
-            title="Maternal Psychological and Biological Factors Associated to Gestational Complications"
-            abstract="High maternal melatonin and life satisfaction could be protective factors against the maternal complications during pregnancy. Low anxiety and cortisol and reduced work–life conflicts could prevent fetal complications."
-            link="https://www.mdpi.com/2075-4426/11/3/183"
-            image="/images/research/JPM_1.jpeg"
-          />
-          <Article
-            title="Maternal Antioxidant Status in Early Pregnancy and Development of Fetal Complications in Twin Pregnancies: A Pilot Study"
-            abstract="In twin gestations, maternal antioxidants and melatonin could be biomarkers to be included in algorithms to predict fetal growth restriction and preterm labor."
-            link="https://www.mdpi.com/2076-3921/9/4/269"
-            image="/images/research/antioxidants_cover.png"
-          />
-          <Article
-            title="Early Association Factors for Depression Symptoms in Pregnancy: A Comparison between Spanish Women Spontaneously Gestation and with Assisted Reproduction Techniques"
-            abstract="Women undergoing ART need interventions to reduce anxiety and stressful life events, and to improve resilience, self-esteem, and emotional partner support to prevent depressive symptomatology during early pregnancy."
-            link="https://www.mdpi.com/2077-0383/10/23/5672"
-            image="/images/research/ART_twiter.jpeg"
-          />
-          <Article
-            title="Obstetric Outcomes in the Surviving Fetus after Intrauterine Fetal Death in Bichorionic Twin Gestations"
-            abstract="Single intrauterine fetal death in twin gestations is a rare complication that should be monitored and attended by a clinical multidisciplinary team."
-            link="https://www.mdpi.com/2227-9067/8/10/927"
-          />
-          <Article
-            title="Women Aged over 40 with Twin Pregnancies Have a Higher Risk of Adverse Obstetrical Outcomes"
-            abstract="Over 40 years old are an independent risk factor for complications in twin pregnancies."
-            link="https://www.mdpi.com/1660-4601/18/24/13117"
-          />
-          <Article
-            title="Younger Age in Adolescent Pregnancies Is Associated with Higher Risk of Adverse Outcomes"
-            abstract="Young adolescents are at risk of complications during pregnancy and labor."
-            link="https://www.mdpi.com/1660-4601/18/16/8514"
-          />
+          <List>
+            {research.gestationalHealth.map((article, index) => (
+              <ListItem key={index}>
+                <div className={styles.article}>
+                  <a target="_blank" rel="noreferrer" href={article.link}>
+                    {article.title}
+                  </a>
+                  <div>{article.abstract}</div>
+                  {article.image && (
+                    <img alt={article.title} src={article.image} />
+                  )}
+                </div>
+              </ListItem>
+            ))}
+          </List>
         </Accordion>
         <Accordion title="Fetal Progaming of Cardiovascular Disease: Sex differences & Maternal Undernutrition">
           <Article

@@ -1,4 +1,4 @@
-.pill {
+.chip {
   width: 100px;
   border-radius: 1em;
   padding: 0.5em 1em;
@@ -8,7 +8,7 @@
   font-weight: bold;
 }
 
-.pill:hover {
+.chip:hover {
   box-shadow: 0 0 0.2em 0.1em dimgray;
 }
 

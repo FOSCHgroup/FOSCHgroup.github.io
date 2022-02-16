@@ -1,8 +1,8 @@
-.pillBox {
+.stack {
   display: flex;
   margin-bottom: 1em;
 }
 
-.pillBox > *:not(:first-child) {
+.stack > *:not(:first-child) {
   margin-left: 1em;
 }

@@ -3,7 +3,6 @@ import styles from "./card.module.css";
 
 export default function Card({
   image,
-  image2,
   title,
   video,
   link,
@@ -13,10 +12,11 @@ export default function Card({
 }) {
   return (
     <div className={classNames(styles.card, className)}>
-      {image && <img alt={title} src={image} className={styles.image} />}
-      {image2 && <img alt={title} src={image2} className={styles.image} />}
-      {video && <iframe src={video} className={styles.video} />}
-      <div>
+      <div className={styles.cardMedia}>
+        {image && <img alt={title} src={image} className={styles.image} />}
+        {video && <iframe src={video} className={styles.video} />}
+      </div>
+      <div className={styles.cardContent}>
         {link ? (
           <a target="_blank" rel="noreferrer" href={link}>
             {title}
@@ -24,9 +24,9 @@ export default function Card({
         ) : (
           title
         )}
+        {date && <div className={styles.date}>{date}</div>}
+        {details && <div className={styles.details}>{details}</div>}
       </div>
-      {date && <div className={styles.date}>{date}</div>}
-      {details && <div className={styles.details}>{details}</div>}
     </div>
   );
 }

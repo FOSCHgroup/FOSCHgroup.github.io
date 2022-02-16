@@ -151,64 +151,22 @@ export default function NuestroEquipoPage() {
       </Container>
       <Container>
         <Accordion title="Emeritus Professors">
-          <Profile
-            id="rosario"
-            image="/images/profiles/charo.jpeg"
-            alt="Una foto de M. Rosario López"
-            name="Dra. María Rosario López Giménez"
-          />
-          <Profile
-            id="angel"
-            image="/images/profiles/angel_luis.jpeg"
-            alt="Una foto de Ángel L. López de Pablo"
-            name="Dr. Ángel L. López de Pablo León"
-          />
-          <Profile
-            id="carmen"
-            image="/images/profiles/mari_carmen.jpg"
-            alt="Una foto de Maria dek Carmen González"
-            name="Dra. María del Carmen González"
-          />
+          {team.emeritus.map((member, index) => (
+            <Profile
+              key={index}
+              id={member.id}
+              image={member.image}
+              alt={member.alt}
+              name={member.name}
+            />
+          ))}
         </Accordion>
       </Container>
       <Container>
         <Accordion title="External Colaborators and Advisory Board">
-          <Profile
-            name="Dra. Begoña Quintana Villamandos"
-            bio="Cardiac surgery unit of Anesthesiology and Resuscitation Service; Hospital General Universitario Gregorio Marañón (Madrid, Spain)"
-          />
-          <Profile
-            name="Dra. Maria de la Calle Fernández-Miranda"
-            bio="High-risk unit of OBS/GYN Service; Hospital Universitario La Paz (Madrid, Spain)"
-          />
-          <Profile
-            name="Dr. Miguel Sáen de Pipaón Marcos"
-            bio="Neonatal Intensive Care unit of Neonatology Service; Hospital Universitario La Paz (Madrid, Spain)"
-          />
-          <Profile
-            name="Dr. Jose María González Granado"
-            bio="Group Lead of LamImSys Lab; Instituto de Investigaciones Sanitarias Hospital 12 de Octubre (imas12, Madrid, Spain)"
-          />
-          <Profile
-            name="Dra. Gloria Hernández Carrillo"
-            bio="Neonatology Service; Hospital Clínico San Carlos (Madrid, Spain)"
-          />
-          <Profile
-            name="Dra. Eva Garrosa Hernández"
-            bio="Department of bio-psychology and health psychology of Faculty of Psychology; Universidad Autónoma de Madrid (Spain)"
-          />
-          <Profile
-            name="Dra. María de la Fé Rodriguez Muñoz"
-            bio="Department of Personality, Treatment and Assesment of Faculty of Psychology; Universidad Nacional de Educación a Distancia (Spain)"
-          />
-          <Profile
-            name="Dra. Marta Gil Ortega"
-            bio="Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
-          />
-          <Profile
-            name="Dra. Beatriz Somoza Hernandez"
-            bio="Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
-          />
+          {team.advisory.map((member, index) => (
+            <Profile key={index} name={member.name} bio={member.bio} />
+          ))}
         </Accordion>
       </Container>
     </Layout>

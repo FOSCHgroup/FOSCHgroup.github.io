@@ -1,7 +1,7 @@
 import classNames from "classnames";
-import styles from "./pill.module.css";
+import styles from "./chip.module.css";
 
-export default function Pill({
+export default function Chip({
   className,
   label,
   basic,
@@ -11,7 +11,7 @@ export default function Pill({
   return (
     <div
       className={classNames(
-        styles.pill,
+        styles.chip,
         styles[area],
         basic && styles.basic,
         className
