@@ -1,0 +1,8 @@
+.gridItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.gridItem > * {
+  flex: 1;
+}

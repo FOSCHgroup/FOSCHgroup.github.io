@@ -29,16 +29,6 @@
       "area": "medicina"
     },
     {
-      "id": "yolanda",
-      "image": "/images/profiles/yolanda.jpg",
-      "alt": "Una foto de Yolanda Aguilera",
-      "name": "Dra. Yolanda Aguilera Gutiérrez",
-      "link": "https://www.uam.es/Ciencias/Yolanda-Aguilera-Guti%C3%A9rrez/1446766152599.htm?language=es&pid=1446765791606&rrez,%20Yolanda",
-      "position": "New Ingredient Development unit.",
-      "bio": "PhD in Food Science and Technology. Her research focuses on insects for human consumption and the effect on health by antioxidant compounds. She is an Associate Professor in the Agricultural Chemistry Unit of the Universidad Autonoma de Madrid.",
-      "area": "cial"
-    },
-    {
       "id": "David",
       "image": "/images/profiles/david.jpg",
       "alt": "Una foto de David Ramiro",
@@ -47,6 +37,16 @@
       "position": "Pregnancy and Lactation unit.",
       "bio": "PhD in Pharmacology and Physiology. He is focuse on perinatal stage and psycho-biological aspect of health. He is an Assistant Professor of Physiology in the Universidad Autonoma de Madrid.",
       "area": "medicina"
+    },
+    {
+      "id": "yolanda",
+      "image": "/images/profiles/yolanda.jpg",
+      "alt": "Una foto de Yolanda Aguilera",
+      "name": "Dra. Yolanda Aguilera Gutiérrez",
+      "link": "https://www.uam.es/Ciencias/Yolanda-Aguilera-Guti%C3%A9rrez/1446766152599.htm?language=es&pid=1446765791606&rrez,%20Yolanda",
+      "position": "New Ingredient Development unit.",
+      "bio": "PhD in Food Science and Technology. Her research focuses on insects for human consumption and the effect on health by antioxidant compounds. She is an Associate Professor in the Agricultural Chemistry Unit of the Universidad Autonoma de Madrid.",
+      "area": "cial"
     },
     {
       "id": "Vanesa",
