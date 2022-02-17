@@ -27,7 +27,10 @@ export default function Carousel({ data }) {
       </div>
       <div
         className={styles.content}
-        style={{ marginLeft: `${marginLeft * -298}px` }}
+        style={{
+          marginLeft: `${marginLeft * -298}px`,
+          transition: "0.2s margin-left ease-in",
+        }}
       >
         {data.map((talk, index) => (
           <Card

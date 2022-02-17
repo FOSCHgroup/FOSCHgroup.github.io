@@ -6,8 +6,9 @@ import List from "../../components/list/list";
 import ListItem from "../../components/list-item/list-item";
 import research from "../../public/data/research.json";
 import styles from "./research.module.css";
+import projects from "../../public/data/projects.json";
 
-export default function AboutPage() {
+export default function ResearchPage() {
   return (
     <Layout title="Our Research" banner="/images/headers/research.svg">
       <Container>
@@ -16,86 +17,37 @@ export default function AboutPage() {
       <Container>
         <h2>Competitive Projects</h2>
         <List>
-          <ListItem>
-            <div>
-              2013-2016. Oxidative stress and fetal programming of
-              cardiovascular disease (FEM2012-37634-C03-01)
-            </div>
-            <div>Ministry of Economy and Competitiveness (Spain)</div>
-          </ListItem>
-          <ListItem>
-            <div>
-              2016-2019. Effect of supplementation with DHA on oxidative stress
-              associated with low birth weight (FEM2015-63631-R)
-            </div>
-            <div>Ministry of Economy and Competitiveness (Spain)</div>
-          </ListItem>
-          <ListItem>
-            <div>
-              2015-2018. Sustainable coffee production and consumption:
-              validation of by-products as food ingredients (AGL2014-57239-R)
-            </div>
-            <div>Ministry of Economy and Competitiveness (Spain)</div>
-          </ListItem>
-          <ListItem>
-            <h3>New ingredient & Cardiovascular health</h3>
-            <div>
-              2019-2021. Antioxidant ingredients from coffee as a strategy to
-              reprogram cardiometabolic disease through lactation
-              (ARTI2018-097504-B-I00)
-            </div>
-            <div>Ministry of Science (Spain)</div>
-          </ListItem>
+          {projects.competitive.map((project, index) => (
+            <ListItem className={styles.project} key={index}>
+              <div className={styles.name}>{project.name}</div>
+              <div className={styles.dates}>{project.dates}</div>
+              <div className={styles.organization}>{project.organization}</div>
+            </ListItem>
+          ))}
         </List>
       </Container>
       <Container>
         <h2>Industry-Transferency Projects</h2>
         <List>
-          <ListItem>
-            <div>
-              2019-2020. Validation of new food ingredients for the development
-              of anti-obesity nutraceuticals (PFTC-19)
-            </div>
-            <div>
-              Universidad Autónoma de Madrid (Spain) - AORA Health S.L. Company
-            </div>
-          </ListItem>
-          <ListItem>
-            <div>
-              2020-2022. Characterization of Bioactive Compounds in Breast Milk
-              for the Improvement of Infant Formulas (PFTC-20)
-            </div>
-            <div>
-              Universidad Autónoma de Madrid (Spain) - Alter Farmacia
-              S.A.-Nutribén Company
-            </div>
-          </ListItem>
+          {projects.industry.map((project, index) => (
+            <ListItem className={styles.project} key={index}>
+              <div className={styles.name}>{project.name}</div>
+              <div className={styles.dates}>{project.dates}</div>
+              <div className={styles.organization}>{project.organization}</div>
+            </ListItem>
+          ))}
         </List>
       </Container>
       <Container>
         <h2>Networking Cooperation Projects</h2>
         <List>
-          <ListItem>
-            <div>
-              2011-2012. Creation of basic research lines with National
-              University of Singapore (2011/ASIA/01)
-            </div>
-            <div>Santander Bank (Spain) - Singapore</div>
-          </ListItem>
-          <ListItem>
-            <div>
-              2015-2016. Interuniversity network in nutrition and perinatal
-              health (2015/EEUU/01)
-            </div>
-            <div>Santander Bank (Spain) - USA</div>
-          </ListItem>
-          <ListItem>
-            <div>
-              2017-2018. Strategy for the design of sustainable food ingredients
-              (2017/EEUU/01)
-            </div>
-            <div>Santander Bank (Spain) - USA</div>
-          </ListItem>
+          {projects.networking.map((project, index) => (
+            <ListItem className={styles.project} key={index}>
+              <div className={styles.name}>{project.name}</div>
+              <div className={styles.dates}>{project.dates}</div>
+              <div className={styles.organization}>{project.organization}</div>
+            </ListItem>
+          ))}
         </List>
       </Container>
       <Container>
