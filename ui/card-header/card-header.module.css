@@ -1,0 +1,17 @@
+.cardHeader {
+  padding: 1em;
+}
+
+.title,
+.subtitle {
+  display: block;
+}
+
+.title {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.subtitle {
+  font-size: 0.95em;
+}

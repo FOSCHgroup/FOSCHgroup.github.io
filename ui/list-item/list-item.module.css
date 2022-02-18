@@ -1,3 +1,7 @@
+.listItem {
+  display: flex;
+}
+
 .listItem + .listItem {
   margin-top: 1em;
 }

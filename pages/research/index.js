@@ -1,12 +1,13 @@
-import Accordion from "../../components/accordion/accordion";
+import Accordion from "../../ui/accordion/accordion";
 import Container from "../../components/container/container";
 import Layout from "../../components/layout/layout";
 import Feed from "../../components/feed/feed";
-import List from "../../components/list/list";
-import ListItem from "../../components/list-item/list-item";
+import List from "../../ui/list/list";
+import ListItem from "../../ui/list-item/list-item";
 import research from "../../public/data/research.json";
 import styles from "./research.module.css";
 import projects from "../../public/data/projects.json";
+import Link from "../../ui/link/link";
 
 export default function ResearchPage() {
   return (
@@ -57,9 +58,7 @@ export default function ResearchPage() {
             {research.foodTech.map((article, index) => (
               <ListItem key={index}>
                 <div className={styles.article}>
-                  <a target="_blank" rel="noreferrer" href={article.link}>
-                    {article.title}
-                  </a>
+                  <Link href={article.link}>{article.title}</Link>
                   <div>{article.abstract}</div>
                   {article.image && (
                     <img alt={article.title} src={article.image} />
@@ -74,9 +73,7 @@ export default function ResearchPage() {
             {research.gestationalHealth.map((article, index) => (
               <ListItem key={index}>
                 <div className={styles.article}>
-                  <a target="_blank" rel="noreferrer" href={article.link}>
-                    {article.title}
-                  </a>
+                  <Link href={article.link}>{article.title}</Link>
                   <div>{article.abstract}</div>
                   {article.image && (
                     <img alt={article.title} src={article.image} />
@@ -91,9 +88,7 @@ export default function ResearchPage() {
             {research.fetalProgaming.map((article, index) => (
               <ListItem key={index}>
                 <div className={styles.article}>
-                  <a target="_blank" rel="noreferrer" href={article.link}>
-                    {article.title}
-                  </a>
+                  <Link href={article.link}>{article.title}</Link>
                   <div>{article.abstract}</div>
                   {article.image && (
                     <img alt={article.title} src={article.image} />
@@ -108,9 +103,7 @@ export default function ResearchPage() {
             {research.generalNutrition.map((article, index) => (
               <ListItem key={index}>
                 <div className={styles.article}>
-                  <a target="_blank" rel="noreferrer" href={article.link}>
-                    {article.title}
-                  </a>
+                  <Link href={article.link}>{article.title}</Link>
                   <div>{article.abstract}</div>
                   {article.image && (
                     <img alt={article.title} src={article.image} />
@@ -125,9 +118,7 @@ export default function ResearchPage() {
             {research.neonatalNutrition.map((article, index) => (
               <ListItem key={index}>
                 <div className={styles.article}>
-                  <a target="_blank" rel="noreferrer" href={article.link}>
-                    {article.title}
-                  </a>
+                  <Link href={article.link}>{article.title}</Link>
                   <div>{article.abstract}</div>
                   {article.image && (
                     <img alt={article.title} src={article.image} />
@@ -142,9 +133,7 @@ export default function ResearchPage() {
             {research.cardiovascularHealth.map((article, index) => (
               <ListItem key={index}>
                 <div className={styles.article}>
-                  <a target="_blank" rel="noreferrer" href={article.link}>
-                    {article.title}
-                  </a>
+                  <Link href={article.link}>{article.title}</Link>
                   <div>{article.abstract}</div>
                   {article.image && (
                     <img alt={article.title} src={article.image} />
@@ -159,9 +148,7 @@ export default function ResearchPage() {
             {research.reviews.map((article, index) => (
               <ListItem key={index}>
                 <div className={styles.article}>
-                  <a target="_blank" rel="noreferrer" href={article.link}>
-                    {article.title}
-                  </a>
+                  <Link href={article.link}>{article.title}</Link>
                   <div>{article.abstract}</div>
                   {article.image && (
                     <img alt={article.title} src={article.image} />
@@ -181,9 +168,7 @@ export default function ResearchPage() {
                 {article.image && (
                   <img alt={article.title} src={article.image} />
                 )}
-                <a target="_blank" rel="noreferrer" href={article.link}>
-                  {article.title}
-                </a>
+                <Link href={article.link}>{article.title}</Link>
                 <div>{article.abstract}</div>
               </div>
             </div>

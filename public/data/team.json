@@ -12,7 +12,7 @@
       "image": "/images/profiles/maria.jpg",
       "name": "Dra. María Ángeles Martín Cabrejas",
       "link": "https://www.uam.es/Ciencias/Martin_Cabrejas_Maris-Angeles/1446767769606.htm?language=es&pid=1446765791606&n%20Cabrejas,%20Mar?a%20?ngeles",
-      "position": "Head of area: Food Technology and New Ingredient Development.",
+      "position": "Head of area: Food Technology and New Ingredient Development",
       "bio": "PhD in Chemical Sciences. Her research studies the revalorization of agri-food by-products as strategy to obtain new ingredients. She has experience in the characterization of plant-derived products and their conversion into food ingredients. She is Full Professor receiving the Plan for Research and Technological Innovation award (Spain).",
       "area": "cial"
     }
@@ -151,39 +151,39 @@
   "advisory": [
     {
       "name": "Dra. Begoña Quintana Villamandos",
-      "bio": "Cardiac surgery unit of Anesthesiology and Resuscitation Service; Hospital General Universitario Gregorio Marañón (Madrid, Spain)"
+      "position": "Cardiac surgery unit of Anesthesiology and Resuscitation Service; Hospital General Universitario Gregorio Marañón (Madrid, Spain)"
     },
     {
       "name": "Dra. Maria de la Calle Fernández-Miranda",
-      "bio": "High-risk unit of OBS/GYN Service; Hospital Universitario La Paz (Madrid, Spain)"
+      "position": "High-risk unit of OBS/GYN Service; Hospital Universitario La Paz (Madrid, Spain)"
     },
     {
       "name": "Dr. Miguel Sáen de Pipaón Marcos",
-      "bio": "Neonatal Intensive Care unit of Neonatology Service; Hospital Universitario La Paz (Madrid, Spain)"
+      "position": "Neonatal Intensive Care unit of Neonatology Service; Hospital Universitario La Paz (Madrid, Spain)"
     },
     {
       "name": "Dr. Jose María González Granado",
-      "bio": "Group Lead of LamImSys Lab; Instituto de Investigaciones Sanitarias Hospital 12 de Octubre (imas12, Madrid, Spain)"
+      "position": "Group Lead of LamImSys Lab; Instituto de Investigaciones Sanitarias Hospital 12 de Octubre (imas12, Madrid, Spain)"
     },
     {
       "name": "Dra. Gloria Hernández Carrillo",
-      "bio": "Neonatology Service; Hospital Clínico San Carlos (Madrid, Spain)"
+      "position": "Neonatology Service; Hospital Clínico San Carlos (Madrid, Spain)"
     },
     {
       "name": "Dra. Eva Garrosa Hernández",
-      "bio": "Department of bio-psychology and health psychology of Faculty of Psychology; Universidad Autónoma de Madrid (Spain)"
+      "position": "Department of bio-psychology and health psychology of Faculty of Psychology; Universidad Autónoma de Madrid (Spain)"
     },
     {
       "name": "Dra. María de la Fé Rodriguez Muñoz",
-      "bio": "Department of Personality, Treatment and Assesment of Faculty of Psychology; Universidad Nacional de Educación a Distancia (Spain)"
+      "position": "Department of Personality, Treatment and Assesment of Faculty of Psychology; Universidad Nacional de Educación a Distancia (Spain)"
     },
     {
       "name": "Dra. Marta Gil Ortega",
-      "bio": "Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
+      "position": "Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
     },
     {
       "name": "Dra. Beatriz Somoza Hernandez",
-      "bio": "Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
+      "position": "Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
     }
   ]
 }

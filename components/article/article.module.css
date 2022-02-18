@@ -1,11 +1,9 @@
-.title {
-  font-weight: bold;
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.image {
-  max-width: 250px;
-}
-
-.article + .article {
-  margin-top: 1em;
+.article > *:first-child {
+  padding-bottom: 0;
 }

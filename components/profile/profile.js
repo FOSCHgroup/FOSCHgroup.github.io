@@ -1,32 +1,21 @@
 import styles from "./profile.module.css";
-import classNames from "classnames";
+import Card from "../../ui/card/card";
+import CardHeader from "../../ui/card-header/card-header";
+import CardMedia from "../../ui/card-media/card-media";
+import CardContent from "../../ui/card-content/card-content";
 
-export default function Profile({ id, image, alt, name, link, position, bio }) {
+export default function Profile({ user: { name, image, bio, position } }) {
   return (
-    <div
-      className={classNames(styles.profile, {
-        [styles.profileWithImage]: !!image,
-      })}
-      id={id}
-    >
+    <Card className={styles.member}>
+      <CardHeader
+        title={name}
+        subtitle={position}
+        className={styles.memberHeader}
+      />
       {image && (
-        <div className={styles.imageWrapper}>
-          <img className={styles.image} src={image} alt={alt} />
-        </div>
+        <CardMedia image={image} alt={name} className={styles.memberMedia} />
       )}
-      <div>
-        <div className={styles.name}>
-          {link ? (
-            <a target="_blank" rel="noreferrer" href={link}>
-              {name}
-            </a>
-          ) : (
-            name
-          )}
-        </div>
-        <div className={styles.position}>{position}</div>
-        <div className={styles.bio}>{bio}</div>
-      </div>
-    </div>
+      {bio && <CardContent className={styles.memberContent}>{bio}</CardContent>}
+    </Card>
   );
 }

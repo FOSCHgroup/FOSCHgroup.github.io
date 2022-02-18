@@ -3,7 +3,9 @@ import ChevronLeftIcon from "../icons/chevron-left";
 import styles from "./carousel.module.css";
 import classNames from "classnames";
 import { useState } from "react";
-import Card from "../card/card";
+import Card from "../../ui/card/card";
+import CardMedia from "../../ui/card-media/card-media";
+import CardContent from "../../ui/card-content/card-content";
 
 export default function Carousel({ data }) {
   const [marginLeft, setMarginLeft] = useState(0);
@@ -33,14 +35,17 @@ export default function Carousel({ data }) {
         }}
       >
         {data.map((talk, index) => (
-          <Card
-            key={index}
-            title={talk.title}
-            image={talk.image}
-            video={talk.video}
-            link={talk.link}
-            date={talk.date}
-          />
+          <Card key={index}>
+            <CardMedia image={talk.image} video={talk.video} />
+            <CardContent>
+              <div>
+                <a target="_blank" rel="noreferrer" href={talk.link}>
+                  {talk.title}
+                </a>
+              </div>
+              <div>{talk.date}</div>
+            </CardContent>
+          </Card>
         ))}
       </div>
       <div

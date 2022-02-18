@@ -1,4 +1,11 @@
-.medicine {
+.card {
+  background-color: white;
+  border-radius: 0.5em;
+  box-shadow: 0.125em 0.125em lightgray;
+  overflow: hidden;
+}
+
+.medicina {
   border-left: 1em solid var(--medicine);
 }
 

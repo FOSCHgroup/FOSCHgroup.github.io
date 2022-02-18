@@ -1,16 +1,18 @@
 import { useState } from "react";
 import Container from "../components/container/container";
 import Layout from "../components/layout/layout";
-import Stack from "../components/stack/stack";
+import Stack from "../ui/stack/stack";
 import Chip from "../components/chip/chip";
-import Profile from "../components/profile/profile";
 import theses from "../public/data/theses.json";
 import researchers from "../public/data/researchers.json";
 import Feed from "../components/feed/feed";
-import EducationCard from "../page-components/education/education-card/education-card";
+import List from "../ui/list/list";
+import ListItem from "../ui/list-item/list-item";
+import ListItemText from "../ui/list-item-text/list-item-text";
+import Article from "../components/article/article";
 
 export default function AboutPage() {
-  const [department, setDepartment] = useState(null);
+  const [area, setArea] = useState(null);
 
   return (
     <Layout title="Postgraduate Educational Programming">
@@ -19,44 +21,35 @@ export default function AboutPage() {
       </Container>
       <Container>
         <h2>Researchers trained in our group</h2>
-        {researchers.map((researcher, index) => (
-          <Profile
-            key={index}
-            name={researcher.name}
-            position={researcher.position}
-            bio={researcher.bio}
-          />
-        ))}
+        <List>
+          {researchers.map((researcher, index) => (
+            <ListItem key={index}>
+              <ListItemText
+                primary={researcher.name}
+                secondary={researcher.position}
+              >
+                <span>{researcher.bio}</span>
+              </ListItemText>
+            </ListItem>
+          ))}
+        </List>
       </Container>
       <Container>
         <h2>PhD Thesis by the Group</h2>
         <Stack>
-          <Chip
-            area="cial"
-            label="CIAL"
-            onClick={() => setDepartment("cial")}
-          />
+          <Chip area="cial" label="CIAL" onClick={() => setArea("cial")} />
           <Chip
             area="medicine"
             label="Medicine"
-            onClick={() => setDepartment("medicina")}
+            onClick={() => setArea("medicina")}
           />
-          <Chip basic label="Clear All" onClick={() => setDepartment(null)} />
+          <Chip basic label="Clear All" onClick={() => setArea(null)} />
         </Stack>
         <Feed>
           {theses
-            .filter(
-              (thesis) => !department || thesis.areas.includes(department)
-            )
+            .filter((thesis) => !area || thesis.areas.includes(area))
             .map((thesis, index) => (
-              <EducationCard
-                key={index}
-                title={thesis.title}
-                bio={thesis.name}
-                link={thesis.link}
-                date={thesis.date}
-                areas={thesis.areas}
-              />
+              <Article key={index} article={thesis} />
             ))}
         </Feed>
       </Container>

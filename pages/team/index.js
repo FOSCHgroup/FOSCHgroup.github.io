@@ -1,13 +1,17 @@
 import Container from "../../components/container/container";
 import Layout from "../../components/layout/layout";
 import Profile from "../../components/profile/profile";
-import Accordion from "../../components/accordion/accordion";
+import Accordion from "../../ui/accordion/accordion";
 import team from "../../public/data/team.json";
 import GridItem from "../../components/grid-item/grid-item";
 import Grid from "../../components/grid/grid";
-import Card from "../../components/card/card";
 import styles from "./team.module.css";
 import classNames from "classnames";
+import List from "../../ui/list/list";
+import ListItem from "../../ui/list-item/list-item";
+import ListItemText from "../../ui/list-item-text/list-item-text";
+import ListItemAvatar from "../../ui/list-item-avatar/list-item-avatar";
+import Avatar from "../../ui/avatar/avatar";
 
 export default function NuestroEquipoPage() {
   const getGridRowStart = (members, member) =>
@@ -28,16 +32,7 @@ export default function NuestroEquipoPage() {
                 styles[getGridRowStart(team.principal, member)]
               )}
             >
-              <Card>
-                <Profile
-                  alt={member.name}
-                  bio={member.bio}
-                  image={member.image}
-                  link={member.link}
-                  position={member.position}
-                  name={member.name}
-                />
-              </Card>
+              <Profile user={member} />
             </GridItem>
           ))}
         </Grid>
@@ -53,16 +48,7 @@ export default function NuestroEquipoPage() {
                 styles[getGridRowStart(team.junior, member)]
               )}
             >
-              <Card>
-                <Profile
-                  alt={member.name}
-                  bio={member.bio}
-                  image={member.image}
-                  link={member.link}
-                  position={member.position}
-                  name={member.name}
-                />
-              </Card>
+              <Profile user={member} />
             </GridItem>
           ))}
         </Grid>
@@ -78,16 +64,7 @@ export default function NuestroEquipoPage() {
                 styles[getGridRowStart(team.postdoctoral, member)]
               )}
             >
-              <Card>
-                <Profile
-                  alt={member.name}
-                  bio={member.bio}
-                  image={member.image}
-                  link={member.link}
-                  position={member.position}
-                  name={member.name}
-                />
-              </Card>
+              <Profile user={member} />
             </GridItem>
           ))}
         </Grid>
@@ -103,38 +80,37 @@ export default function NuestroEquipoPage() {
                 styles[getGridRowStart(team.phd, member)]
               )}
             >
-              <Card>
-                <Profile
-                  alt={member.name}
-                  bio={member.bio}
-                  image={member.image}
-                  link={member.link}
-                  position={member.position}
-                  name={member.name}
-                />
-              </Card>
+              <Profile user={member} />
             </GridItem>
           ))}
         </Grid>
       </Container>
       <Container>
         <Accordion title="Emeritus Professors">
-          {team.emeritus.map((member, index) => (
-            <Profile
-              key={index}
-              id={member.id}
-              image={member.image}
-              alt={member.alt}
-              name={member.name}
-            />
-          ))}
+          <List>
+            {team.emeritus.map((member, index) => (
+              <ListItem key={index}>
+                <ListItemAvatar>
+                  <Avatar alt={member.name} src={member.image} />
+                </ListItemAvatar>
+                <ListItemText primary={member.name} />
+              </ListItem>
+            ))}
+          </List>
         </Accordion>
       </Container>
       <Container>
         <Accordion title="External Colaborators and Advisory Board">
-          {team.advisory.map((member, index) => (
-            <Profile key={index} name={member.name} bio={member.bio} />
-          ))}
+          <List>
+            {team.advisory.map((member, index) => (
+              <ListItem key={index}>
+                <ListItemText
+                  primary={member.name}
+                  secondary={member.position}
+                />
+              </ListItem>
+            ))}
+          </List>
         </Accordion>
       </Container>
     </Layout>

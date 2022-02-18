@@ -1,0 +1,5 @@
+.cardMedia img,
+.cardMedia iframe {
+  width: 100%;
+  display: block;
+}

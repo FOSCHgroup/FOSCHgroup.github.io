@@ -1,0 +1,4 @@
+.link,
+.link:visited {
+  color: var(--material-deep-purple--800);
+}

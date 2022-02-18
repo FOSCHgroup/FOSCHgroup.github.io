@@ -1,35 +1,44 @@
-.profile + .profile {
-  margin-top: 1em;
+.member .memberHeader {
+  grid-area: header;
 }
 
-.name {
-  font-weight: bold;
+.member .memberMedia {
+  display: flex;
+  justify-content: center;
+  grid-area: media;
 }
 
-.imageWrapper {
-  text-align: center;
-  margin-bottom: 1em;
-}
-
-.image {
+.member .memberMedia img {
+  max-height: 200px;
+  max-width: 200px;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
   object-fit: cover;
+  aspect-ratio: 1;
+  width: 100%;
 }
 
-.position {
-  font-style: italic;
+.member .memberContent {
+  grid-area: content;
 }
 
-@media screen and (min-width: 960px) {
-  .profileWithImage {
+@media all and (min-width: 640px) {
+  .member {
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 100px 1fr;
+    grid-template-areas: "media header" "media content";
+    grid-template-columns: auto 1fr;
   }
 
-  .imageWrapper {
-    margin-bottom: 0;
+  .member .memberHeader {
+    padding-bottom: 0;
+  }
+
+  .member .memberMedia {
+    display: block;
+    padding: 1em 0 1em 1em;
+  }
+
+  .member .memberMedia img {
+    max-height: 100px;
+    max-width: 100px;
   }
 }

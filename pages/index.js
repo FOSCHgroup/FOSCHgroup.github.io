@@ -33,6 +33,7 @@ export default function IndexPage() {
         <img
           alt="Foods, Oxidative Stress, and Cardiovascular Health"
           src="/images/presentación2.jpg"
+          style={{ maxWidth: "100%" }}
         />
       </Container>
       <Container>
