@@ -12,7 +12,22 @@ import ListItemText from "../ui/list-item-text/list-item-text";
 import Thesis from "../components/thesis/thesis";
 
 export default function EducationPage() {
-  const [area, setArea] = useState(null);
+  const [areas, setAreas] = useState(null);
+  const getTheses = (theses, areas) => {
+    if (!areas) {
+      return theses;
+    }
+    const sortedAreas = areas.sort();
+    return theses.filter((thesis) => {
+      const sortedThesisAreas = thesis.areas.sort();
+      return (
+        thesis.areas.length === areas.length &&
+        sortedThesisAreas.every(
+          (sortedThesisArea, index) => sortedThesisArea === sortedAreas[index]
+        )
+      );
+    });
+  };
 
   return (
     <Layout title="Postgraduate Educational Programming">
@@ -37,20 +52,23 @@ export default function EducationPage() {
       <Container>
         <h2>PhD Thesis by the Group</h2>
         <Stack>
-          <Chip area="cial" label="CIAL" onClick={() => setArea("cial")} />
+          <Chip area="cial" label="CIAL" onClick={() => setAreas(["cial"])} />
           <Chip
             area="medicine"
             label="Medicine"
-            onClick={() => setArea("medicina")}
+            onClick={() => setAreas(["medicina"])}
           />
-          <Chip basic label="Clear All" onClick={() => setArea(null)} />
+          <Chip
+            area="both"
+            label="Both"
+            onClick={() => setAreas(["medicina", "cial"])}
+          />
+          <Chip basic label="Clear All" onClick={() => setAreas(null)} />
         </Stack>
         <Feed>
-          {theses
-            .filter((thesis) => !area || thesis.areas.includes(area))
-            .map((thesis, index) => (
-              <Thesis key={index} thesis={thesis} />
-            ))}
+          {getTheses(theses, areas).map((thesis, index) => (
+            <Thesis key={index} thesis={thesis} />
+          ))}
         </Feed>
       </Container>
     </Layout>

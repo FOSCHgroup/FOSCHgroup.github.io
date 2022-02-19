@@ -22,6 +22,11 @@
   color: white;
 }
 
+.both {
+  background-color: #4caf50;
+  color: white;
+}
+
 .basic,
 .basic:hover {
   box-shadow: unset;
