@@ -1,21 +1,18 @@
-import CardContent from "../../ui/card-content/card-content";
-import CardHeader from "../../ui/card-header/card-header";
-import Card from "../../ui/card/card";
+import Avatar from "../../ui/avatar/avatar";
+import ListItemAvatar from "../../ui/list-item-avatar/list-item-avatar";
+import ListItemText from "../../ui/list-item-text/list-item-text";
+import ListItem from "../../ui/list-item/list-item";
 import Typography from "../../ui/typography/typography";
-import styles from "./article.module.css";
 
 export default function Article({ article }) {
   return (
-    <Card
-      className={styles.article}
-      areas={article.areas}
-      variant={article.areas.length === 1 ? article.areas[0] : "both"}
-    >
-      <CardHeader title={article.title} link={article.link} />
-      <CardContent>
-        <Typography>{article.name}</Typography>
-        <Typography color="secondary">{article.date}</Typography>
-      </CardContent>
-    </Card>
+    <ListItem>
+      <ListItemAvatar>
+        <Avatar src={article.image} alt={article.title} />
+      </ListItemAvatar>
+      <ListItemText primary={article.title} link={article.link}>
+        <Typography>{article.abstract}</Typography>
+      </ListItemText>
+    </ListItem>
   );
 }

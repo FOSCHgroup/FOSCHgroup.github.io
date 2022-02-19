@@ -1,0 +1,22 @@
+.project {
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+}
+
+.header > *:first-child {
+  flex: 1;
+}
+
+.name {
+  flex: 1;
+}
+
+.dates {
+  font-style: italic;
+  color: #999;
+  font-size: 0.9em;
+  font-family: sans-serif;
+}

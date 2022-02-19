@@ -1,4 +1,4 @@
-import Container from "../components/container/container";
+import Container from "../ui/container/container";
 import Layout from "../components/layout/layout";
 import talks from "../public/data/talks.json";
 import Feed from "../components/feed/feed";
@@ -6,7 +6,7 @@ import Card from "../ui/card/card";
 import CardContent from "../ui/card-content/card-content";
 import CardMedia from "../ui/card-media/card-media";
 
-export default function DivulgacionPage() {
+export default function TalksPage() {
   return (
     <Layout title="News & Talks">
       <Container>

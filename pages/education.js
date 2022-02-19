@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Container from "../components/container/container";
+import Container from "../ui/container/container";
 import Layout from "../components/layout/layout";
 import Stack from "../ui/stack/stack";
 import Chip from "../components/chip/chip";
@@ -9,9 +9,9 @@ import Feed from "../components/feed/feed";
 import List from "../ui/list/list";
 import ListItem from "../ui/list-item/list-item";
 import ListItemText from "../ui/list-item-text/list-item-text";
-import Article from "../components/article/article";
+import Thesis from "../components/thesis/thesis";
 
-export default function AboutPage() {
+export default function EducationPage() {
   const [area, setArea] = useState(null);
 
   return (
@@ -49,7 +49,7 @@ export default function AboutPage() {
           {theses
             .filter((thesis) => !area || thesis.areas.includes(area))
             .map((thesis, index) => (
-              <Article key={index} article={thesis} />
+              <Thesis key={index} thesis={thesis} />
             ))}
         </Feed>
       </Container>

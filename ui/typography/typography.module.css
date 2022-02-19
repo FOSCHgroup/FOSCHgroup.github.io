@@ -3,3 +3,7 @@
   font-size: 0.9em;
   font-family: sans-serif;
 }
+
+.typography + .typography {
+  margin-top: 0.5em;
+}

@@ -1,21 +1,22 @@
-import Container from "../components/container/container";
+import Container from "../ui/container/container";
 import Layout from "../components/layout/layout";
 import Carousel from "../components/carousel/carousel";
 import Link from "next/link";
 import talks from "../public/data/talks.json";
 import Grid from "../components/grid/grid";
 import GridItem from "../components/grid-item/grid-item";
+import Typography from "../ui/typography/typography";
 
 export default function IndexPage() {
   return (
     <Layout title="FOSCH Research Group">
       <Container>
         <h2>Foods, Oxidative Stress & Cardiovascular Health</h2>
-        <p>
+        <Typography>
           Welcome to the official website of the multidisciplinary research
           group on Food, Oxidative Stress and Cardiovascular Health (FOSCH)!
-        </p>
-        <p>
+        </Typography>
+        <Typography>
           FOSCH is part of the scientific teams of the Universidad Autónoma de
           Madrid (UAM, Spain). The fundamental mission is to study the
           properties and bioactive compounds of foods in relation to the
@@ -23,17 +24,19 @@ export default function IndexPage() {
           development of new food products through sustainable ecology and to
           explore the role of the oxidative status in modulating cardiovascular
           disease.
-        </p>
-        <p>
+        </Typography>
+        <Typography>
           FOSCH is led by Dr. Silvia M. Arribas, Physiologist of the Faculty of
           Medicine and Dr. Maria A. Martin, Bromatologist of the Faculty of
           Sciences of the UAM.
-        </p>
-        <p>Learn more about our contribution to science!</p>
+        </Typography>
+        <Typography>Learn more about our contribution to science!</Typography>
+      </Container>
+      <Container>
         <img
           alt="Foods, Oxidative Stress, and Cardiovascular Health"
           src="/images/presentación2.jpg"
-          style={{ maxWidth: "100%" }}
+          style={{ maxWidth: "100%", display: "block", margin: "auto" }}
         />
       </Container>
       <Container>

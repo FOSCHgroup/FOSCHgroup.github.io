@@ -1,7 +1,7 @@
-import Container from "../components/container/container";
+import Container from "../ui/container/container";
 import Layout from "../components/layout/layout";
 
-export default function AboutPage() {
+export default function ResourcesPage() {
   return (
     <Layout title="Tools & Resources">
       <Container>

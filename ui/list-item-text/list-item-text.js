@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import Link from "../link/link";
 import styles from "./list-item-text.module.css";
 
 export default function ListItemText({
@@ -6,6 +7,7 @@ export default function ListItemText({
   secondary,
   className,
   children,
+  link,
   ...passedProps
 }) {
   return (
@@ -13,7 +15,9 @@ export default function ListItemText({
       className={classNames(styles.listItemText, className)}
       {...passedProps}
     >
-      <span className={styles.primary}>{primary}</span>
+      <span className={styles.primary}>
+        {link ? <Link href={link}>{primary}</Link> : primary}
+      </span>
       <span className={styles.secondary}>{secondary}</span>
       {children}
     </div>

@@ -6,6 +6,8 @@ import { useState } from "react";
 import Card from "../../ui/card/card";
 import CardMedia from "../../ui/card-media/card-media";
 import CardContent from "../../ui/card-content/card-content";
+import Link from "../../ui/link/link";
+import Typography from "../../ui/typography/typography";
 
 export default function Carousel({ data }) {
   const [marginLeft, setMarginLeft] = useState(0);
@@ -38,12 +40,10 @@ export default function Carousel({ data }) {
           <Card key={index}>
             <CardMedia image={talk.image} video={talk.video} />
             <CardContent>
-              <div>
-                <a target="_blank" rel="noreferrer" href={talk.link}>
-                  {talk.title}
-                </a>
-              </div>
-              <div>{talk.date}</div>
+              <Typography>
+                <Link href={talk.link}>{talk.title}</Link>
+              </Typography>
+              <Typography color="secondary">{talk.date}</Typography>
             </CardContent>
           </Card>
         ))}

@@ -1,10 +1,12 @@
 import Head from "next/head";
-import Container from "../container/container";
+import Container from "../../ui/container/container";
 import Navbar from "../navbar/navbar";
 import styles from "./layout.module.css";
 import TwitterIcon from "../icons/twitter";
 import YouTubeIcon from "../icons/youtube";
 import classNames from "classnames";
+import Typography from "../../ui/typography/typography";
+import Link from "../../ui/link/link";
 
 export default function Layout({ children, title, banner }) {
   return (
@@ -31,34 +33,36 @@ export default function Layout({ children, title, banner }) {
           <h2>Contact us</h2>
           <div style={{ display: "flex" }}>
             <div style={{ flex: "1" }} className={styles.contactInfo}>
-              <p>
+              <Typography>
                 For general inquiries, please write to:{" "}
-                <a href="mailto:fosch@uam.es">fosch@uam.es</a>
-              </p>
-              <p>
+                <Link href="mailto:fosch@uam.es">fosch@uam.es</Link>
+              </Typography>
+              <Typography>
                 For research/investigation questions, please write to:{" "}
-                <a href="mailto:fosch.research@uam.es">fosch.research@uam.es</a>
-              </p>
-              <p>
+                <Link href="mailto:fosch.research@uam.es">
+                  fosch.research@uam.es
+                </Link>
+              </Typography>
+              <Typography>
                 For formation issues or MSc/PhD stay, please write to:{" "}
-                <a href="mailto:fosch.educa@uam.es">fosch.educa@uam.es</a>
-              </p>
+                <Link href="mailto:fosch.educa@uam.es">fosch.educa@uam.es</Link>
+              </Typography>
             </div>
             <div className={styles.socialButtons}>
-              <a
+              <Link
                 rel="noreferrer"
                 target="_blank"
                 href="https://www.twitter.com/foschgroup"
               >
                 <TwitterIcon />
-              </a>
-              <a
+              </Link>
+              <Link
                 rel="noreferrer"
                 target="_blank"
                 href="https://www.youtube.com/channel/UCt2XE6YCt0PVfxfRA6EBoxQ"
               >
                 <YouTubeIcon />
-              </a>
+              </Link>
             </div>
           </div>
         </Container>

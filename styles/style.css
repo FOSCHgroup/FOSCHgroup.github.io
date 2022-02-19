@@ -1,7 +1,7 @@
 :root {
   --medicine: #efb410;
   --cial: #2e3261;
-  --material-deep-purple--800: #4527A0;
+  --material-deep-purple--800: #4527a0;
 }
 
 html,
@@ -40,8 +40,7 @@ h3 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 0.5em;
+  margin: 0;
 }
 
 a {
