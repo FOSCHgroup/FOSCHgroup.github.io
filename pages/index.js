@@ -35,7 +35,7 @@ export default function IndexPage() {
       <Container>
         <img
           alt="Foods, Oxidative Stress, and Cardiovascular Health"
-          src="/images/presentación2.jpg"
+          src="/images/FOSCH_logo.png"
           style={{ maxWidth: "100%", display: "block", margin: "auto" }}
         />
       </Container>
