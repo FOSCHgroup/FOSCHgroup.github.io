@@ -11,7 +11,9 @@ export default function IndexPage() {
   return (
     <Layout title="FOSCH Research Group">
       <Container>
-        <h2>Foods, Oxidative Stress & Cardiovascular Health</h2>
+        <Typography component="h2">
+          Foods, Oxidative Stress & Cardiovascular Health
+        </Typography>
         <Typography>
           Welcome to the official website of the multidisciplinary research
           group on Food, Oxidative Stress and Cardiovascular Health (FOSCH)!
@@ -36,15 +38,24 @@ export default function IndexPage() {
         <img
           alt="Foods, Oxidative Stress, and Cardiovascular Health"
           src="/images/FOSCH_logo.png"
-          style={{ maxWidth: "100%", display: "block", margin: "auto" }}
+          style={{
+            maxWidth: "100%",
+            display: "block",
+            margin: "auto",
+            borderRadius: "50%",
+            border: "4px solid var(--material-blue--500)",
+            boxShadow: "0 0 0.25rem 0.25rem gray",
+          }}
         />
       </Container>
       <Container>
-        <h2>Work address and Laboratories</h2>
+        <Typography component="h2">Work address and Laboratories</Typography>
         <Grid>
           <GridItem>
-            <h3>Food Technology and New Ingredient Development</h3>
-            <p>
+            <Typography component="h3">
+              Food Technology and New Ingredient Development
+            </Typography>
+            <Typography>
               Department of Agricultural Chemistry and Bromatology
               <br />
               Faculty of Sciences
@@ -56,13 +67,13 @@ export default function IndexPage() {
               Universidad Autonónoma de Madrid
               <br />
               Lab: C/ Nicolás Cabrera 9, Cantoblanco, 28049 Madrid, Spain
-            </p>
+            </Typography>
           </GridItem>
           <GridItem>
-            <h3>
+            <Typography component="h3">
               Oxidative Stress, Fetal Programming and Cardiometabolic Health
-            </h3>
-            <p>
+            </Typography>
+            <Typography>
               Department of Physiology
               <br />
               Department of of Preventive Medicine, Public Health and
@@ -73,14 +84,14 @@ export default function IndexPage() {
               Universidad Autonónoma de Madrid
               <br />
               Lab: C/ Arzobispo Morcillo 2, 28029 Madrid, Spain
-            </p>
+            </Typography>
           </GridItem>
         </Grid>
       </Container>
       <Container>
-        <h2>
+        <Typography component="h2">
           <Link href="/talks">News</Link>
-        </h2>
+        </Typography>
         <Carousel data={talks} />
       </Container>
     </Layout>

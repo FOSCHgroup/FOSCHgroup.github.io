@@ -15,12 +15,12 @@ import Article from "../components/article/article";
 
 export default function ResearchPage() {
   return (
-    <Layout title="Our Research" banner="/images/headers/research.svg">
+    <Layout title="Our Research">
       <Container>
-        <h2>Research Topics</h2>
+        <Typography component="h2">Research Topics</Typography>
       </Container>
       <Container>
-        <h2>Competitive Projects</h2>
+        <Typography component="h2">Competitive Projects</Typography>
         <List>
           {projects.competitive.map((project, index) => (
             <Project project={project} key={index} />
@@ -28,7 +28,7 @@ export default function ResearchPage() {
         </List>
       </Container>
       <Container>
-        <h2>Industry-Transferency Projects</h2>
+        <Typography component="h2">Industry-Transferency Projects</Typography>
         <List>
           {projects.industry.map((project, index) => (
             <Project project={project} key={index} />
@@ -36,7 +36,7 @@ export default function ResearchPage() {
         </List>
       </Container>
       <Container>
-        <h2>Networking Cooperation Projects</h2>
+        <Typography component="h2">Networking Cooperation Projects</Typography>
         <List>
           {projects.networking.map((project, index) => (
             <Project project={project} key={index} />
@@ -44,7 +44,7 @@ export default function ResearchPage() {
         </List>
       </Container>
       <Container>
-        <h2>Articles</h2>
+        <Typography component="h2">Articles</Typography>
         <Accordion title="Food Technology & Developmental of New Ingredients">
           <List>
             {research.foodTech.map((article, index) => (
@@ -59,7 +59,7 @@ export default function ResearchPage() {
             ))}
           </List>
         </Accordion>
-        <Accordion title="Fetal Progaming of Cardiovascular Disease: Sex differences & Maternal Undernutrition">
+        <Accordion title="Fetal Programming of Cardiovascular Disease: Sex differences & Maternal Undernutrition">
           <List>
             {research.fetalProgaming.map((article, index) => (
               <Article key={index} article={article} />
@@ -96,7 +96,7 @@ export default function ResearchPage() {
         </Accordion>
       </Container>
       <Container>
-        <h2>Books and Chapters</h2>
+        <Typography component="h2">Books and Chapters</Typography>
         <Feed>
           {research.books.map((article, index) => (
             <Card key={index}>

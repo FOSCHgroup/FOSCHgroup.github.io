@@ -21,6 +21,18 @@
   grid-area: content;
 }
 
+.member.medicina {
+  background-image: linear-gradient(
+    45deg,
+    transparent 95%,
+    var(--medicine) 95%
+  );
+}
+
+.member.cial {
+  background-image: linear-gradient(45deg, transparent 95%, var(--cial) 95%);
+}
+
 @media all and (min-width: 640px) {
   .member {
     display: grid;

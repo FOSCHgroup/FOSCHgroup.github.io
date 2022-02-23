@@ -12,11 +12,13 @@ export default function CardHeader({
 }) {
   return (
     <div className={classNames(styles.cardHeader, className)} {...passedProps}>
-      <Typography className={styles.title}>
+      <Typography variant="h4" className={styles.title}>
         {link ? <Link href={link}>{title}</Link> : title}
       </Typography>
       {subtitle && (
-        <Typography className={styles.subtitle}>{subtitle}</Typography>
+        <Typography variant="body2" className={styles.subtitle}>
+          {subtitle}
+        </Typography>
       )}
     </div>
   );

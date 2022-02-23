@@ -9,12 +9,13 @@ import ListItemText from "../ui/list-item-text/list-item-text";
 import ListItemAvatar from "../ui/list-item-avatar/list-item-avatar";
 import Avatar from "../ui/avatar/avatar";
 import Member from "../components/member/member";
+import Typography from "../ui/typography/typography";
 
 export default function TeamPage() {
   return (
     <Layout title="Faculty and Researchers">
       <Container>
-        <h2>Principal Investigators</h2>
+        <Typography component="h2">Principal Investigators</Typography>
         <Grid>
           {team.principal.map((member, index) => (
             <Member key={index} member={member} typeMembers={team.principal} />
@@ -22,7 +23,7 @@ export default function TeamPage() {
         </Grid>
       </Container>
       <Container>
-        <h2>Junior Investigators</h2>
+        <Typography component="h2">Junior Investigators</Typography>
         <Grid>
           {team.junior.map((member, index) => (
             <Member key={index} member={member} typeMembers={team.junior} />
@@ -30,7 +31,7 @@ export default function TeamPage() {
         </Grid>
       </Container>
       <Container>
-        <h2>Postdoctoral Researchers</h2>
+        <Typography component="h2">Postdoctoral Researchers</Typography>
         <Grid>
           {team.postdoctoral.map((member, index) => (
             <Member
@@ -42,7 +43,7 @@ export default function TeamPage() {
         </Grid>
       </Container>
       <Container>
-        <h2>PhD Students</h2>
+        <Typography component="h2">PhD Students</Typography>
         <Grid>
           {team.phd.map((member, index) => (
             <Member key={index} member={member} typeMembers={team.phd} />

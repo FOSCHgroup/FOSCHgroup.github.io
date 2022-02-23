@@ -1,5 +1,6 @@
 import classNames from "classnames";
 import { useState } from "react";
+import Typography from "../typography/typography";
 import styles from "./accordion.module.css";
 
 export default function Accordion({ title, children }) {
@@ -16,9 +17,13 @@ export default function Accordion({ title, children }) {
         styles.accordion
       )}
     >
-      <h3 onClick={handleToggleAccordion} className={styles.title}>
+      <Typography
+        component="h3"
+        onClick={handleToggleAccordion}
+        className={styles.title}
+      >
         {title}
-      </h3>
+      </Typography>
       <div className={styles.details}>{children}</div>
     </div>
   );

@@ -1,5 +1,6 @@
 import classNames from "classnames";
 import Link from "../link/link";
+import Typography from "../typography/typography";
 import styles from "./list-item-text.module.css";
 
 export default function ListItemText({
@@ -15,10 +16,12 @@ export default function ListItemText({
       className={classNames(styles.listItemText, className)}
       {...passedProps}
     >
-      <span className={styles.primary}>
+      <Typography component="span" className={styles.primary}>
         {link ? <Link href={link}>{primary}</Link> : primary}
-      </span>
-      <span className={styles.secondary}>{secondary}</span>
+      </Typography>
+      <Typography component="span" className={styles.secondary}>
+        {secondary}
+      </Typography>
       {children}
     </div>
   );

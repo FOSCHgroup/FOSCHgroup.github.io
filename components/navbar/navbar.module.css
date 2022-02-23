@@ -6,10 +6,12 @@
 
 .logo {
   font-size: 1.25em;
+  font-weight: bold;
+  color: var(--material-green-500);
 }
 
 .logo svg {
-  color: #66bb6a;
+  color: var(--material-green-500);
 }
 
 .nav {
@@ -24,8 +26,8 @@
   color: inherit;
   display: block;
   text-decoration: none;
+  font-family: Roboto;
   font-weight: bold;
-  font-family: sans-serif;
 }
 
 .links a {
@@ -67,7 +69,7 @@
   justify-self: end;
 }
 
-@media screen and (min-width: 960px) {
+@media all and (min-width: 960px) {
   .icon {
     display: none;
   }

@@ -1,6 +1,5 @@
 .title {
-  margin: 0;
-  font-family: sans-serif;
+  font-variant: small-caps;
 }
 
 .banner {
@@ -10,13 +9,12 @@
 }
 
 .header {
-  color: white;
-  background-color: var(--material-deep-purple--800);
+  color: var(--material-gray--900);
   padding: 1em 2em;
 }
 
 .withBanner {
-  background-color: #4527A0;
+  background-color: #4527a0;
   padding-bottom: 2em;
 }
 
@@ -30,10 +28,6 @@
   color: #eee;
   margin-left: 1rem;
   font-variant: small-caps;
-}
-
-.main {
-  background: #e8eaf6;
 }
 
 .footer {
@@ -54,7 +48,9 @@
   width: 2em;
 }
 
-.socialButtons a {
+.socialButtons a,
+.socialButtons a:visited {
+  color: white;
   display: block;
   opacity: 0.5;
   transition: 0.2s opacity ease-in-out;

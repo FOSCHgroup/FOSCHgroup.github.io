@@ -24,27 +24,29 @@ export default function Layout({ children, title, banner }) {
           })}
         >
           {banner && <img src={banner} className={styles.banner} />}
-          <h1 className={styles.title}>{title}</h1>
+          <Typography component="h1" className={styles.title}>
+            {title}
+          </Typography>
         </Container>
         {children}
       </main>
       <footer className={styles.footer}>
         <Container>
-          <h2>Contact us</h2>
+          <Typography component="h2">Contact us</Typography>
           <div style={{ display: "flex" }}>
             <div style={{ flex: "1" }} className={styles.contactInfo}>
               <Typography>
-                For general inquiries, please write to:{" "}
+                For general inquiries, please write:{" "}
                 <Link href="mailto:fosch@uam.es">fosch@uam.es</Link>
               </Typography>
               <Typography>
-                For research/investigation questions, please write to:{" "}
+                For research/investigation questions, please write:{" "}
                 <Link href="mailto:fosch.research@uam.es">
                   fosch.research@uam.es
                 </Link>
               </Typography>
               <Typography>
-                For formation issues or MSc/PhD stay, please write to:{" "}
+                For formation issues or MSc/PhD stay, please write:{" "}
                 <Link href="mailto:fosch.educa@uam.es">fosch.educa@uam.es</Link>
               </Typography>
             </div>
