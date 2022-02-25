@@ -7,7 +7,7 @@
   {
     "name": "Electrocardiography",
     "description": "In animal models under anesthesia, the ECG and intraventricular pressure can also recorded.",
-    "image": ""
+    "image": "/images/techniques/electrocardiography.jpeg"
   },
   {
     "name": "Echocardiography",
@@ -41,18 +41,18 @@
   },
   {
     "name": "Molecular biology: WBs & ELISAs",
-    "description": "",
-    "image": ""
+    "description": "Highly sensitive techniques that allow the detection of specific proteins in biological samples. They report the quantification of these molecules.",
+    "image": "/images/techniques/westerm_elisa.jpg"
   },
   {
     "name": "Genomic",
-    "description": "",
-    "image": ""
+    "description": "Molecular genetic techniques, such as qRT-PCR, that allow to see the up/under-expression of genes in biological samples conditioned to treatments.",
+    "image": "images/techniques/genetics.jpg"
   },
   {
-    "name": "HPLC",
-    "description": "",
-    "image": ""
+    "name": "High Performance Liquid Chromatography (HPLC)",
+    "description": "Liquid chromatography (HPLC) is a technique used to separate the components of a mixture. It consists of a non-polar stationary phase (column) and a mobile phase.",
+    "image": "images/techniques/hplc.png"
   },
   {
     "name": "Food compounds physiology digestion",
