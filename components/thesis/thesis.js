@@ -8,11 +8,10 @@ export default function Thesis({ thesis }) {
   return (
     <Card
       className={styles.thesis}
-      areas={thesis.areas}
       variant={thesis.areas.length === 1 ? thesis.areas[0] : "both"}
     >
       <CardHeader title={thesis.title} link={thesis.link} />
-      <CardContent>
+      <CardContent className={styles.content}>
         <Typography>{thesis.name}</Typography>
         <Typography color="secondary">{thesis.date}</Typography>
       </CardContent>

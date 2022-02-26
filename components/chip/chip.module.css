@@ -23,7 +23,7 @@
 }
 
 .both {
-  background-color: #4caf50;
+  background: linear-gradient(45deg, var(--cial) 50%, var(--medicine) 50%);
   color: white;
 }
 

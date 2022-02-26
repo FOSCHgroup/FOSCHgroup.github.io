@@ -1,7 +1,7 @@
 import classNames from "classnames";
 import styles from "./stack.module.css";
 
-export default function PillBox({ className, ...passedProps }) {
+export default function Stack({ className, ...passedProps }) {
   return (
     <div className={classNames(styles.stack, className)} {...passedProps} />
   );
