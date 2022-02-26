@@ -34,8 +34,8 @@
   font-family: sans-serif;
 }
 
-p.typography + p.typography {
-  margin-top: 0.5em;
+p.typography:not(:last-of-type) {
+  margin-bottom: 1em;
 }
 
 .body2 {
