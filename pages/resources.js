@@ -17,23 +17,20 @@ export default function ResourcesPage() {
         </Typography>
         <Typography>
           <Link href="https://www.uam.es/uam/vida-uam/campus">
-            https://www.uam.es/uam/vida-uam/campus
+            UAM-Campus Info
           </Link>
         </Typography>
         <Typography>
           You can access the Cantoblanco campus by train and get off at the
           "Cantoblanco" station on the C-4 line. Or by bus with lines 714, 827,
-          827A and 828. Lines 711, 712, 713, 713, 716, 717, 721, 722, 724, 725,
-          726, and 876 stop near the campus. If you want to go to the Medicine
+          827A and 828, among others. If you want to go to the Medicine
           campus, you can take bus lines 67, 132, 134 and 135, or Metro, getting
-          off at the "Begoña" stop on Line 10 (dark blue). Interurban lines 155,
-          157, 161, 181, 181, 182, 183, 184, 184, 190, 191, 193, 194, 195, 196,
-          197, 199, 712, 713, 714, 716, 721, 722, 724, 725 and 726 also reach
-          this campus. We leave you more information on the web:
+          off at the "Begoña" stop on Line 10 (dark blue). Others interurban lines can also be taken.
+          We leave you more information on the web:
         </Typography>
         <Typography>
           <Link href="https://www.uam.es/uam/ecocampus/movilidad">
-            https://www.uam.es/uam/ecocampus/movilidad
+            UAM-Mobility info
           </Link>
         </Typography>
         <Typography>
@@ -42,7 +39,7 @@ export default function ResourcesPage() {
         </Typography>
         <Typography>
           <Link href="https://www.cial.uam-csic.es/">
-            https://www.cial.uam-csic.es/
+            CIAL
           </Link>
         </Typography>
       </Container>
@@ -56,7 +53,7 @@ export default function ResourcesPage() {
         </Typography>
         <Typography>
           <Link href="https://www.madrid.es/portales/munimadrid/es/Inicio/Cultura-ocio-y-deporte/?vgnextfmt=default&vgnextchannel=7911f073808fe410VgnVCM2000000c205a0aRCRD&vgnextoid=7911f073808fe410VgnVCM2000000c205a0aRCRD">
-            https://www.madrid.es/portales/munimadrid/es/Inicio/Cultura-ocio-y-deporte/?vgnextfmt=default&vgnextchannel=7911f073808fe410VgnVCM2000000c205a0aRCRD&vgnextoid=7911f073808fe410VgnVCM2000000c205a0aRCRD
+            Madrid cultural events
           </Link>
         </Typography>
         <Typography>
@@ -65,13 +62,13 @@ export default function ResourcesPage() {
           schedules and prices in the following links.
         </Typography>
         <Typography>
-          <Link href="https://www.metromadrid.es/es/viaja-en-metro/plano-de-metro-de-madrid">
-            https://www.metromadrid.es/es/viaja-en-metro/plano-de-metro-de-madrid
+          <Link href="https://www.metromadrid.es/en/travel-in-the-metro/metro-de-madrid-maps">
+            Metro web site
           </Link>
         </Typography>
         <Typography>
           <Link href="https://www.emtmadrid.es/Index.aspx?lang=en-GB">
-            https://www.emtmadrid.es/Index.aspx?lang=en-GB
+            Bus transport lines
           </Link>
         </Typography>
         <Typography>
@@ -82,7 +79,7 @@ export default function ResourcesPage() {
         </Typography>
         <Typography>
           <Link href="https://www.renfe.com/es/es?cid=generica&c=sem&fuente=google&campana=generica&fecha=2022&ubicacion=google&formato=link&elemento_clic=link&s_kwcid=AL!11457!3!354608896043!b!!g!!renfe&gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF77V1D41r0J2MI4XGT2mGxP19vHnIXQ-mWCcRi3NtylYcJRnt3yTYoaAskCEALw_wcB">
-            https://www.renfe.com/es/es?cid=generica&c=sem&fuente=google&campana=generica&fecha=2022&ubicacion=google&formato=link&elemento_clic=link&s_kwcid=AL!11457!3!354608896043!b!!g!!renfe&gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF77V1D41r0J2MI4XGT2mGxP19vHnIXQ-mWCcRi3NtylYcJRnt3yTYoaAskCEALw_wcB
+            RENFE: long distance trains
           </Link>
         </Typography>
       </Container>

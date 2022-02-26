@@ -18,6 +18,16 @@ export default function ResearchPage() {
     <Layout title="Our Research">
       <Container>
         <Typography component="h2">Research Topics</Typography>
+        <p>Oxidative Stress pathways implicated in fetal programming</p>
+        <img src="/images/research_topic/fetal_programming.png"/>
+        <p>Cardiovascular disease and explicatory mechanism</p>
+        <img src="/images/research_topic/cardiovascular_health.png"/>
+        <p>Promoting healthy habits since the begining of life</p>
+        <img src="/images/research_topic/health_promotion.png"/>
+        <p>Search new strategies for new food ingredients</p>
+        <p>Improving health under nutritional approaches</p>
+        <p>Bioactivity of foods on cardiovascular health </p>
+        <img src="/images/research_topic/cocoa_improve.png"/>
       </Container>
       <Container>
         <Typography component="h2">Competitive Projects</Typography>
