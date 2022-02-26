@@ -41,7 +41,11 @@ export default function EducationPage() {
           {techniques.map((technique, index) => (
             <ListItem key={index}>
               <ListItemAvatar>
-                <Avatar src={technique.image} alt={technique.name} />
+                <Avatar
+                  src={technique.image}
+                  alt={technique.name}
+                  variant="square"
+                />
               </ListItemAvatar>
               <ListItemText
                 primary={technique.name}

@@ -5,3 +5,7 @@
   height: 100px;
   aspect-ratio: 1;
 }
+
+.square {
+  border-radius: 0;
+}
