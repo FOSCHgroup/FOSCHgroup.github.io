@@ -10,24 +10,24 @@ import Project from "../components/project/project";
 import Typography from "../ui/typography/typography";
 import Card from "../ui/card/card";
 import CardMedia from "../ui/card-media/card-media";
+import CardHeader from "../ui/card-header/card-header";
 import CardContent from "../ui/card-content/card-content";
 import Article from "../components/article/article";
+import researchTopics from "../public/data/research-topics.json";
 
 export default function ResearchPage() {
   return (
     <Layout title="Our Research">
       <Container>
         <Typography component="h2">Research Topics</Typography>
-        <p>Oxidative Stress pathways implicated in fetal programming</p>
-        <img src="/images/research_topic/fetal_programming.png"/>
-        <p>Cardiovascular disease and explicatory mechanism</p>
-        <img src="/images/research_topic/cardiovascular_health.png"/>
-        <p>Promoting healthy habits since the begining of life</p>
-        <img src="/images/research_topic/health_promotion.png"/>
-        <p>Search new strategies for new food ingredients</p>
-        <p>Improving health under nutritional approaches</p>
-        <p>Bioactivity of foods on cardiovascular health </p>
-        <img src="/images/research_topic/cocoa_improve.png"/>
+        <Feed>
+          {researchTopics.map((researchTopic, index) => (
+            <Card key={index}>
+              <CardHeader title={researchTopic.title} />
+              <CardMedia image={researchTopic.image} />
+            </Card>
+          ))}
+        </Feed>
       </Container>
       <Container>
         <Typography component="h2">Competitive Projects</Typography>
