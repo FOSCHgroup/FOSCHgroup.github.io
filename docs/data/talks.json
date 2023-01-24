@@ -14,21 +14,21 @@
     "section": "news"
   },
   {
-    "image": "/images/talks/coffee_1.jpg",
+    "image": "/images/talks/coffee.jpg",
     "title": "New beneficial properties discovered in coffee husks",
     "link": "https://www.alimente.elconfidencial.com/bienestar/2020-11-28/propiedades-antiinflamatorias-cascara-cafe_2282159/",
     "date": "November, 2020",
     "section": "news"
   },
   {
-    "image": "/images/talks/stress_1.jpg",
+    "image": "/images/talks/stress.jpg",
     "title": "Anti-stress pregnancies: Benefits for mother and baby during pregnancy",
     "link": "https://www.ecusa.es/embarazos-antiestres-beneficios-para-la-madre-y-el-bebe-durante-la-gestacion/",
     "date": "January, 2020",
     "section": "news"
   },
   {
-    "image": "/images/talks/diet_postpartum_1.jpg",
+    "image": "/images/talks/diet-postpartum.jpg",
     "title": "Postpartum diet... What do I eat now?",
     "link": "https://www.ecusa.es/dieta-postparto/",
     "date": "October, 2020",
@@ -70,12 +70,30 @@
     "title": "Science for Kids",
     "details": "Dr. Ramiro teaches us how to make edible slimes. The result of this video is a class on how to make troll and fairy slimes.",
     "section": "contribution",
-    "date": "Junuary, 2022"
+    "date": "January, 2022"
   },
   {
     "video": "https://www.youtube.com/embed/hkdPk4pAo40",
     "title": "Biomarkers of oxidative stress for diagnostics",
     "section": "contribution",
     "date": "June, 2020"
+  },
+  {
+    "video": "https://www.youtube.com/embed/OlSTN_hNPyE",
+    "title": "Meet our researchers in cardiovascular health and oxidative stress",
+    "section": "contribution",
+    "date": "February, 2022"
+  },
+  {
+    "image": "/images/talks/santiago_charla_UAH.jpeg",
+    "title": "Healthy diet and lifestyle: tips for medical students",
+    "section": "contribution",
+    "date": "February, 2022"
+  },
+  {
+    "video": "https://www.youtube.com/embed/Ly7LLDsuusU",
+    "title": "Healthy pills to improve the lifestyle during pregnnacy and breastfeeding",
+    "section": "contribution",
+    "date": "February, 2022"
   }
 ]

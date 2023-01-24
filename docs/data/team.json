@@ -12,7 +12,7 @@
       "image": "/images/profiles/maria.jpg",
       "name": "Dra. María Ángeles Martín Cabrejas",
       "link": "https://www.uam.es/Ciencias/Martin_Cabrejas_Maris-Angeles/1446767769606.htm?language=es&pid=1446765791606&n%20Cabrejas,%20Mar?a%20?ngeles",
-      "position": "Head of area: Food Technology and New Ingredient Development.",
+      "position": "Head of area: Food Technology and New Ingredient Development",
       "bio": "PhD in Chemical Sciences. Her research studies the revalorization of agri-food by-products as strategy to obtain new ingredients. She has experience in the characterization of plant-derived products and their conversion into food ingredients. She is Full Professor receiving the Plan for Research and Technological Innovation award (Spain).",
       "area": "cial"
     }
@@ -29,16 +29,6 @@
       "area": "medicina"
     },
     {
-      "id": "yolanda",
-      "image": "/images/profiles/yolanda.jpg",
-      "alt": "Una foto de Yolanda Aguilera",
-      "name": "Dra. Yolanda Aguilera Gutiérrez",
-      "link": "https://www.uam.es/Ciencias/Yolanda-Aguilera-Guti%C3%A9rrez/1446766152599.htm?language=es&pid=1446765791606&rrez,%20Yolanda",
-      "position": "New Ingredient Development unit.",
-      "bio": "PhD in Food Science and Technology. Her research focuses on insects for human consumption and the effect on health by antioxidant compounds. She is an Associate Professor in the Agricultural Chemistry Unit of the Universidad Autonoma de Madrid.",
-      "area": "cial"
-    },
-    {
       "id": "David",
       "image": "/images/profiles/david.jpg",
       "alt": "Una foto de David Ramiro",
@@ -47,6 +37,16 @@
       "position": "Pregnancy and Lactation unit.",
       "bio": "PhD in Pharmacology and Physiology. He is focuse on perinatal stage and psycho-biological aspect of health. He is an Assistant Professor of Physiology in the Universidad Autonoma de Madrid.",
       "area": "medicina"
+    },
+    {
+      "id": "yolanda",
+      "image": "/images/profiles/yolanda.jpg",
+      "alt": "Una foto de Yolanda Aguilera",
+      "name": "Dra. Yolanda Aguilera Gutiérrez",
+      "link": "https://www.uam.es/Ciencias/Yolanda-Aguilera-Guti%C3%A9rrez/1446766152599.htm?language=es&pid=1446765791606&rrez,%20Yolanda",
+      "position": "New Ingredient Development unit.",
+      "bio": "PhD in Food Science and Technology. Her research focuses on insects for human consumption and the effect on health by antioxidant compounds. She is an Associate Professor in the Agricultural Chemistry Unit of the Universidad Autonoma de Madrid.",
+      "area": "cial"
     },
     {
       "id": "Vanesa",
@@ -126,6 +126,64 @@
       "link": "https://www.linkedin.com/in/cheyennebma/",
       "bio": "Food thecnologist specializing in biactive compounds. Focused on the study of cardiovascular improvements through functional foods.",
       "area": "cial"
+    }
+  ],
+  "emeritus": [
+    {
+      "id": "rosario",
+      "image": "/images/profiles/charo.jpeg",
+      "alt": "Una foto de M. Rosario López",
+      "name": "Dra. María Rosario López Giménez"
+    },
+    {
+      "id": "angel",
+      "image": "/images/profiles/angel_luis.jpeg",
+      "alt": "Una foto de Ángel L. López de Pablo",
+      "name": "Dr. Ángel L. López de Pablo León"
+    },
+    {
+      "id": "carmen",
+      "image": "/images/profiles/mari_carmen.jpg",
+      "alt": "Una foto de Maria dek Carmen González",
+      "name": "Dra. María del Carmen González"
+    }
+  ],
+  "advisory": [
+    {
+      "name": "Dra. Begoña Quintana Villamandos",
+      "position": "Cardiac surgery unit of Anesthesiology and Resuscitation Service; Hospital General Universitario Gregorio Marañón (Madrid, Spain)"
+    },
+    {
+      "name": "Dra. Maria de la Calle Fernández-Miranda",
+      "position": "High-risk unit of OBS/GYN Service; Hospital Universitario La Paz (Madrid, Spain)"
+    },
+    {
+      "name": "Dr. Miguel Sáen de Pipaón Marcos",
+      "position": "Neonatal Intensive Care unit of Neonatology Service; Hospital Universitario La Paz (Madrid, Spain)"
+    },
+    {
+      "name": "Dr. Jose María González Granado",
+      "position": "Group Lead of LamImSys Lab; Instituto de Investigaciones Sanitarias Hospital 12 de Octubre (imas12, Madrid, Spain)"
+    },
+    {
+      "name": "Dra. Gloria Hernández Carrillo",
+      "position": "Neonatology Service; Hospital Clínico San Carlos (Madrid, Spain)"
+    },
+    {
+      "name": "Dra. Eva Garrosa Hernández",
+      "position": "Department of bio-psychology and health psychology of Faculty of Psychology; Universidad Autónoma de Madrid (Spain)"
+    },
+    {
+      "name": "Dra. María de la Fé Rodriguez Muñoz",
+      "position": "Department of Personality, Treatment and Assesment of Faculty of Psychology; Universidad Nacional de Educación a Distancia (Spain)"
+    },
+    {
+      "name": "Dra. Marta Gil Ortega",
+      "position": "Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
+    },
+    {
+      "name": "Dra. Beatriz Somoza Hernandez",
+      "position": "Department of Pharmaceutical Sciences and Health; Universidad CEU-San Pablo (Madrid, Spain)"
     }
   ]
 }
