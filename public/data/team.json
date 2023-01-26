@@ -5,7 +5,7 @@
       "link": "https://www.uam.es/Medicina/ArribasRodriguezSilvia/1242677452339.htm?pid=1242677452589&%20Silvia",
       "image": "/images/profiles/silvia.png",
       "position": "Head of area: Oxidavive Stress, Fetal Programming and Cardiometabolic Health",
-      "bio": "PhD in Biomolecular Sciences. Her research was focused on the fetal programming of the cardiovascular disease. She has extensive expertis in the oxidative stress pathways and their implication to physio-pathology balance. She was head of Physiology Department where is Professor of human physiology.",
+      "bio": "PhD in Biomolecular Sciences. Her research was focused on the fetal programming of the cardiovascular disease. She has extensive expertis in the oxidative stress pathways and their implication to physio-pathology balance. She was head of Physiology Department where is Full Professor of human physiology.",
       "area": "medicina"
     },
     {
@@ -45,7 +45,7 @@
       "name": "Dra. Yolanda Aguilera Gutiérrez",
       "link": "https://www.uam.es/Ciencias/Yolanda-Aguilera-Guti%C3%A9rrez/1446766152599.htm?language=es&pid=1446765791606&rrez,%20Yolanda",
       "position": "New Ingredient Development unit.",
-      "bio": "PhD in Food Science and Technology. Her research focuses on insects for human consumption and the effect on health by antioxidant compounds. She is an Associate Professor in the Agricultural Chemistry Unit of the Universidad Autonoma de Madrid.",
+      "bio": "PhD in Food Science and Technology. Her research focuses on insects for human consumption and the effect on health by antioxidant compounds. She is a Professor in the Agricultural Chemistry Unit of the Universidad Autonoma de Madrid.",
       "area": "cial"
     },
     {
@@ -80,15 +80,6 @@
     }
   ],
   "postdoctoral": [
-    {
-      "id": "andrea",
-      "image": "/images/profiles/andrea.jpg",
-      "alt": "Una foto de Andrea Gila",
-      "name": "Dra. Andrea Gila Díaz",
-      "link": "https://www.researchgate.net/profile/Andrea-Gila-Diaz",
-      "bio": "Nurse and PhD in Pharmacology and Physiology. Specialist in nutrition maternal health and promote the breastfeeding.",
-      "area": "medicina"
-    },
     {
       "id": "miguel",
       "image": "/images/profiles/miguel.png",
@@ -155,11 +146,19 @@
     },
     {
       "name": "Dra. Maria de la Calle Fernández-Miranda",
-      "position": "High-risk unit of OBS/GYN Service; Hospital Universitario La Paz (Madrid, Spain)"
+      "position": "High-risk unit of OBS Service; Hospital Universitario La Paz (Madrid, Spain)"
     },
     {
       "name": "Dr. Miguel Sáen de Pipaón Marcos",
       "position": "Neonatal Intensive Care unit of Neonatology Service; Hospital Universitario La Paz (Madrid, Spain)"
+    },
+    {
+      "name": "Dra. Alicia Hernández",
+      "position": "Endometriosis unit of GYN Service; Hospital Universitario La Paz (Madrid, Spain)"
+    },
+    {
+      "name": "Dra. Emmanuela Espagnolo",
+      "position": "Endometriosis unit of GYN Service; Hospital Universitario La Paz (Madrid, Spain)"
     },
     {
       "name": "Dr. Jose María González Granado",

@@ -113,27 +113,6 @@
       "abstract": "In twin gestations, maternal antioxidants and melatonin could be biomarkers to be included in algorithms to predict fetal growth restriction and preterm labor.",
       "link": "https://www.mdpi.com/2076-3921/9/4/269",
       "image": "/images/research/antioxidants_cover.png"
-    },
-    {
-      "title": "Early Association Factors for Depression Symptoms in Pregnancy: A Comparison between Spanish Women Spontaneously Gestation and with Assisted Reproduction Techniques",
-      "abstract": "Women undergoing ART need interventions to reduce anxiety and stressful life events, and to improve resilience, self-esteem, and emotional partner support to prevent depressive symptomatology during early pregnancy.",
-      "link": "https://www.mdpi.com/2077-0383/10/23/5672",
-      "image": "/images/research/ART_twiter.jpeg"
-    },
-    {
-      "title": "Obstetric Outcomes in the Surviving Fetus after Intrauterine Fetal Death in Bichorionic Twin Gestations",
-      "abstract": "Single intrauterine fetal death in twin gestations is a rare complication that should be monitored and attended by a clinical multidisciplinary team.",
-      "link": "https://www.mdpi.com/2227-9067/8/10/927"
-    },
-    {
-      "title": "Women Aged over 40 with Twin Pregnancies Have a Higher Risk of Adverse Obstetrical Outcomes",
-      "abstract": "Over 40 years old are an independent risk factor for complications in twin pregnancies.",
-      "link": "https://www.mdpi.com/1660-4601/18/24/13117"
-    },
-    {
-      "title": "Younger Age in Adolescent Pregnancies Is Associated with Higher Risk of Adverse Outcomes",
-      "abstract": "Young adolescents are at risk of complications during pregnancy and labor.",
-      "link": "https://www.mdpi.com/1660-4601/18/16/8514"
     }
   ],
   "fetalProgaming": [
@@ -150,6 +129,11 @@
       "image": "/images/research/cytokines_1.png"
     },
     {
+      "title": "Slower Growth during Lactation Rescues Early Cardiovascular and Adipose Tissue Hypertrophy Induced by Fetal Undernutrition in Rats",
+      "abstract": "Low birth weight (LBW) and accelerated growth during lactation are associated with cardiometabolic disease development. LBW offspring from rats exposed to undernutrition during gestation develops hypertension. We tested if slower postnatal growth improves early cardiometabolic alterations.",
+      "link": "https://www.mdpi.com/2227-9059/10/10/2504"
+    },
+    {
       "title": "Fetal undernutrition is associated with perinatal sex-dependent alterations in oxidative status",
       "abstract": "Adult males with maternal undernutrition (MUN) during gestation were hypertensive and exhibited the higher carbonyl levels compared to Controls. Adult MUN females were normotensive and did not exhibit differences in any of the biomarkers.",
       "link": "https://www.sciencedirect.com/science/article/abs/pii/S0955286315001989?via%3Dihub"
@@ -158,6 +142,11 @@
       "title": "Long term effects of fetal undernutrition on rat heart. Role of hypertension and oxidative stress",
       "abstract": "During perinatal life, females exposed to fetal undernutrition are protected from cardiac alterations, but in ageing they exhibit ventricular hypertrophy and functional loss. The severity of cardiac damage might be greater in males due to hypertension.",
       "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0171544"
+    },
+    {
+      "title": "Influence of Neonatal Sex on Breast Milk Protein and Antioxidant Content in Spanish Women in the First Month of Lactation",
+      "abstract": "This study was designed to evaluate the influence of sex on BM composition during the first month of lactation, focused on macronutrients and antioxidants.",
+      "link": "https://www.mdpi.com/2076-3921/11/8/1472"
     },
     {
       "title": "Sex Differences in Placental Protein Expression and Efficiency in a Rat Model of Fetal Programming Induced by Maternal Undernutrition",
@@ -205,43 +194,28 @@
       "abstract": "In the 3rd month of breastfeeding, women with mixed breastfeeding exhibited higher stress and depression compared to those with exclusively breastfeeding. Evaluation of maternal psychological concerns and providing support to lactating mothers may help improving breastfeeding adherence.",
       "link": "https://www.mdpi.com/1660-4601/17/19/7153",
       "image": "/images/research/IJERPH_1.png"
-    }
-  ],
-  "neonatalNutrition": [
-    {
-      "title": "Maltodextrin-induced intestinal injury in a neonatal mouse model",
-      "abstract": "This model allows for further interrogation of the effects of nutrients on pathogenic factors leading to intestinal injury in preterm infants.",
-      "link": "https://journals.biologists.com/dmm/article/13/8/dmm044776/225253/Maltodextrin-induced-intestinal-injury-in-a"
-    },
-    {
-      "title": "Acetaminophen and Xenobiotic Metabolites in Human Milk and the Development of Bronchopulmonary Dysplasia and Retinopathy of Prematurity in a Cohort of Extremely Preterm Infants",
-      "abstract": "In Press.",
-      "link": "https://www.jpeds.com/article/S0022-3476(22)00056-7/fulltext"
-    },
-    {
-      "title": "Parenteral Fish-Oil Containing Lipid Emulsions Limit Initial Lipopolysaccharide-Induced Host Immune Responses in Preterm Pigs",
-      "abstract": "Host priming with soybean oil in the early postnatal period preserves a higher ARA:DHA ratio and the ability to acutely respond to an external stimulus. In contrast, fish-oil containing lipid emulsions increase DHA, exacerbate a deficit in ARA, and limit the initial LPS-induced inflammatory responses in preterm pigs.",
-      "link": "https://www.mdpi.com/2072-6643/13/1/205",
-      "image": "/images/research/nutrients_2.png"
     },
     {
       "title": "Plasma Oxidative Status in Preterm Infants Receiving LCPUFA Supplementation: A Pilot Study",
       "abstract": "ARA:DHA supplementation in preterm neonates resulted in an improvement in antioxidant to oxidant balance and a decrease in early fatty acid precursors of the n-6 relative to the n-3 pathway. These effects may reduce oxidative stress and inflammation.",
       "link": "https://www.mdpi.com/2072-6643/12/1/122"
+    },
+    {
+      "title": "Association between Adherence to the Healthy Food Pyramid and Breast Milk Fatty Acids in the First Month of Lactation",
+      "abstract": "Diet had a larger influence than the maternal body’s composition on BM fatty acids during the first month of lactation, demonstrating a better adherence to the HFP and positively impacting on the omega-3 content in BM, a fact that is modulated by one’s maternal age.",
+      "link": "https://www.mdpi.com/2072-6643/14/24/5280"
+    },
+    {
+      "title": "Women during Lactation Reduce Their Physical Activity and Sleep Duration Compared to Pregnancy",
+      "abstract": "During lactation, the poorer sleep and physical activity, together with a lower social support of the woman, may lead to deficient mental health adjustment.",
+      "link": "https://www.mdpi.com/1660-4601/19/18/11199",
+      "image": "/images/research/lactation_worse_sleep.jpeg"
     }
   ],
+  "neonatalNutrition": [
+ 
+  ],
   "cardiovascularHealth": [
-    {
-      "title": "Beneficial Effect of Bariatric Surgery on Abnormal MMP-9 and AMPK Activities: Potential Markers of Obesity-Related CV Risk",
-      "abstract": "Bariatric surgery has a beneficial effect on abnormal MMP-9, LDH and AMPK activities that might be associated with the development of arterial stiffness in obese patients. They could constitute biomarkers of cardiovascular risk in morbid obesity.",
-      "link": "https://www.frontiersin.org/articles/10.3389/fphys.2019.00553/full"
-    },
-    {
-      "title": "Finerenone Attenuates Endothelial Dysfunction and Albuminuria in a Chronic Kidney Disease Model by a Reduction in Oxidative Stress",
-      "abstract": "Finerenone improves endothelial dysfunction through an enhancement in NO bioavailability and a decrease in superoxide anion levels due to an upregulation in SOD activity. This is associated with an increase in renal SOD activity and a reduction of albuminuria.",
-      "link": "https://www.frontiersin.org/articles/10.3389/fphar.2018.01131/full",
-      "image": "/images/research/finerenona.jpeg"
-    },
     {
       "title": "Vasoactive Properties of a Cocoa Shell Extract: Mechanism of Action and Effect on Endothelial Dysfunction in Aged Rats",
       "abstract": "Cocoa Shell Extract has vasodilatory properties associated with increased nitric oxide bioavailability, related to its antioxidant phytochemicals. Cocoa Shell Extract is a potential food ingredient for diseases related to endothelial dysfunction.",
@@ -262,16 +236,87 @@
       "image": "/images/research/review_nutrients1.webp"
     },
     {
-      "title": "Breast Milk Lipids and Fatty Acids in Regulating Neonatal Intestinal Development and Protecting against Intestinal Injury",
-      "abstract": "In this review, we focus on lipids and fatty acids present in breast milk and their impact on neonatal gut development and the risk of disease.",
-      "link": "https://www.mdpi.com/2072-6643/12/2/534",
-      "image": "/images/research/review_nutrients2.webp"
-    },
-    {
       "title": "Specialized Pro-Resolving Lipid Mediators in Neonatal Cardiovascular Physiology and Diseases",
       "abstract": "In this review, we discuss LCPUFAs metabolism, SPMs, and their effect on cardiovascular health and diseases primarily focusing in neonates.",
       "link": "https://www.mdpi.com/2076-3921/10/6/933",
       "image": "/images/research/review_antioxidants1.webp"
+    }
+  ],
+  "Collaborations": [
+    {
+      "title": "Early Association Factors for Depression Symptoms in Pregnancy: A Comparison between Spanish Women Spontaneously Gestation and with Assisted Reproduction Techniques",
+      "abstract": "J. Clin. Med. 2021, 10(23), 5672",
+      "link": "https://www.mdpi.com/2077-0383/10/23/5672"
+    },
+    {
+      "title": "Obstetric Outcomes in the Surviving Fetus after Intrauterine Fetal Death in Bichorionic Twin Gestations",
+      "abstract": "Children 2021, 8(10), 927",
+      "link": "https://www.mdpi.com/2227-9067/8/10/927"
+    },
+    {
+      "title": "Women Aged over 40 with Twin Pregnancies Have a Higher Risk of Adverse Obstetrical Outcomes",
+      "abstract": "Int. J. Environ. Res. Public Health 2021, 18(24), 13117",
+      "link": "https://www.mdpi.com/1660-4601/18/24/13117"
+    },
+    {
+      "title": "Younger Age in Adolescent Pregnancies Is Associated with Higher Risk of Adverse Outcomes",
+      "abstract": "Int. J. Environ. Res. Public Health 2021, 18(16), 8514",
+      "link": "https://www.mdpi.com/1660-4601/18/16/8514"
+    },
+    {
+      "title": "Maltodextrin-induced intestinal injury in a neonatal mouse model",
+      "abstract": "Dis Model Mech. 2020, 13(8), dmm044776",
+      "link": "https://journals.biologists.com/dmm/article/13/8/dmm044776/225253/Maltodextrin-induced-intestinal-injury-in-a"
+    },
+    {
+      "title": "Acetaminophen and Xenobiotic Metabolites in Human Milk and the Development of Bronchopulmonary Dysplasia and Retinopathy of Prematurity in a Cohort of Extremely Preterm Infants",
+      "abstract": "J Pediatr. 2022, 244, 224-229.e3",
+      "link": "https://www.jpeds.com/article/S0022-3476(22)00056-7/fulltext"
+    },
+    {
+      "title": "Parenteral Fish-Oil Containing Lipid Emulsions Limit Initial Lipopolysaccharide-Induced Host Immune Responses in Preterm Pigs",
+      "abstract": "Nutrients 2021, 13(1), 205",
+      "link": "https://www.mdpi.com/2072-6643/13/1/205"
+    },
+    {
+      "title": "Beneficial Effect of Bariatric Surgery on Abnormal MMP-9 and AMPK Activities: Potential Markers of Obesity-Related CV Risk",
+      "abstract": "Front. Physiol. 2019, 10:553",
+      "link": "https://www.frontiersin.org/articles/10.3389/fphys.2019.00553/full"
+    },
+    {
+      "title": "Finerenone Attenuates Endothelial Dysfunction and Albuminuria in a Chronic Kidney Disease Model by a Reduction in Oxidative Stress",
+      "abstract": "Front. Pharmacol. 2018, 9:1131",
+      "link": "https://www.frontiersin.org/articles/10.3389/fphar.2018.01131/full"
+    },
+    {
+      "title": "Breast Milk Lipids and Fatty Acids in Regulating Neonatal Intestinal Development and Protecting against Intestinal Injury",
+      "abstract": "Nutrients 2020, 12(2), 534",
+      "link": "https://www.mdpi.com/2072-6643/12/2/534"
+    },
+    {
+      "title": "Quality of Life in Women after Deep Endometriosis Surgery: Comparison with Spanish Standardized Values",
+      "abstract": "J. Clin. Med. 2022, 11(20), 6192",
+      "link": "https://www.mdpi.com/2077-0383/11/20/6192"
+    },
+    {
+      "title": "Deep Learning to Measure the Intensity of Indocyanine Green in Endometriosis Surgeries with Intestinal Resection",
+      "abstract": "J. Pers. Med. 2022, 12(6), 982",
+      "link": "https://www.mdpi.com/2075-4426/12/6/982"
+    },
+    {
+      "title": "Maternal Obesity in Twin Pregnancy: The Role of Nutrition to Reduce Maternal and Fetal Complications",
+      "abstract": "Nutrients 2022, 14(7), 1326",
+      "link": "https://www.mdpi.com/2072-6643/14/7/1326"
+    },
+    {
+      "title": "Evaluation of Women’s Age and Ultrasonographic Features to Choose Surgical Treatment for Endometriosis Associated with Ovarian Cancer",
+      "abstract": "J. Clin. Med. 2022, 11(9), 2414",
+      "link": "https://www.mdpi.com/2077-0383/11/9/2414"
+    },
+    {
+      "title": "Randomized controlled trial of early arachidonic acid and docosahexaenoic acid enteral supplementation in very preterm infants",
+      "abstract": "Front. Pediatr. 2022, 10:947221",
+      "link": "https://www.frontiersin.org/articles/10.3389/fped.2022.947221/full"
     }
   ],
   "books": [

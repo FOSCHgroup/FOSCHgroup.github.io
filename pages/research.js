@@ -104,6 +104,13 @@ export default function ResearchPage() {
             ))}
           </List>
         </Accordion>
+        <Accordion title="Collaborations">
+          <List>
+            {research.Collaborations.map((article, index) => (
+              <Article key={index} article={article} />
+            ))}
+          </List>
+        </Accordion>
       </Container>
       <Container>
         <Typography component="h2">Books and Chapters</Typography>
