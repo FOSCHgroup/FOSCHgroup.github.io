@@ -12,7 +12,7 @@ export default function IndexPage() {
     <Layout title="FOSCH Research Group">
       <Container>
         <Typography component="h2">
-          Foods, Oxidative Stress & Cardiovascular Health
+          Food, Oxidative Stress & Cardiovascular Health
         </Typography>
         <Typography>
           Welcome to the official website of the multidisciplinary research
