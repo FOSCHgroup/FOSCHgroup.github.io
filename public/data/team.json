@@ -117,6 +117,24 @@
       "link": "https://www.linkedin.com/in/cheyennebma/",
       "bio": "Biochemistry specializing in biactive compounds. Focused on the study of cardiovascular improvements through functional foods.",
       "area": "cial"
+    },
+    {
+      "id": "María-Martín",
+      "image": "/images/profiles/maria_martin.jpg",
+      "alt": "Una foto de María Martín",
+      "name": "María Martín Trueba",
+      "link": "https://www.researchgate.net/profile/Maria-Trueba-3",
+      "bio": "Chemist specializing in novel foods ingredients. Focused on the revaluation of coffee by-products to study of cardiovascular improvements through functional foods.",
+      "area": "cial"
+    },
+    {
+      "id": "Shuai",
+      "image": "/images/profiles/shuai.jpg",
+      "alt": "Una foto de Shuai",
+      "name": "Shuai",
+      "link": "",
+      "bio": "Chemist specializing in coffee by-products ingredients. Focused on the extraction with supercritical fluids to study of the bioactivity of foods.",
+      "area": "cial"
     }
   ],
   "emeritus": [
