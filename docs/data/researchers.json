@@ -25,13 +25,18 @@
     "bio": "Currently: Dermatologist in IMSS Hospital General de Monterrey (Mexico)"
   },
   {
-    "name": "Anuson Poasakate",
+    "name": "Dr. Anuson Poasakate",
     "position": "6 months in PhD program",
-    "bio": "Currently: Researcher Khon Kaen University (Thailand)"
+    "bio": "Currently: Researcher, Khon Kaen University (Thailand)"
   },
   {
     "name": "Dra. Andrea Gila Díaz",
     "position": "4 years in PhD program",
     "bio": "Currently: Junior Medical Advisor (Spain)"
+  },
+  {
+    "name": "Metee Lampanichakul",
+    "position": "6 months in PhD program",
+    "bio": "Currently: PhD candidate, Khon Kaen University (Thailand)"
   }
 ]
