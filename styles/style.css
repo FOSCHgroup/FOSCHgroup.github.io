@@ -23,19 +23,20 @@ main {
 }
 
 html {
-  overscroll-behavior: none;
   display: flex;
+  overscroll-behavior: none;
 }
 
 body {
-  flex: 1;
-  margin: 0;
   background: radial-gradient(
       500px at top right,
       var(--material-green-100) 50%,
       var(--material-gray-50) 50%
     )
     no-repeat;
+  flex: 1;
+  margin: 0;
+  width: 100%;
 }
 
 h2 {
@@ -43,9 +44,9 @@ h2 {
 }
 
 h3 {
-  padding-bottom: 0.25rem;
   font-family: sans-serif;
   font-weight: 400;
+  padding-bottom: 0.25rem;
 }
 
 p {
@@ -77,105 +78,110 @@ iframe {
 
 @font-face {
   font-family: "Lato";
+  font-style: normal;
+  font-weight: 100;
   src: url("/fonts/Lato-Thin.ttf");
-  font-weight: 100;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
   src: url("/fonts/Lato-Light.ttf");
-  font-weight: 300;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
   src: url("/fonts/Lato-Regular.ttf");
-  font-weight: 400;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
   src: url("/fonts/Lato-Bold.ttf");
-  font-weight: 700;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
   src: url("/fonts/roboto/Lato-Black.ttf");
-  font-weight: 900;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
   src: url("/fonts/roboto/Roboto-Thin.ttf");
-  font-weight: 100;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
   src: url("/fonts/roboto/Roboto-Light.ttf");
-  font-weight: 300;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
   src: url("/fonts/roboto/Roboto-Regular.ttf");
-  font-weight: 400;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
   src: url("/fonts/roboto/Roboto-Bold.ttf");
-  font-weight: 700;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
   src: url("/fonts/roboto/Roboto-Black.ttf");
-  font-weight: 900;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "RobotoSerif";
-  src: url("/fonts/roboto-serif/RobotoSerif-Thin.ttf");
+  font-style: normal;
   font-weight: 100;
-  font-style: normal;
+  src: url("/fonts/roboto-serif/RobotoSerif-Thin.ttf");
 }
 
 @font-face {
   font-family: "RobotoSerif";
-  src: url("/fonts/roboto-serif/RobotoSerif-Light.ttf");
+  font-style: normal;
   font-weight: 300;
-  font-style: normal;
+  src: url("/fonts/roboto-serif/RobotoSerif-Light.ttf");
 }
 
 @font-face {
   font-family: "RobotoSerif";
-  src: url("/fonts/roboto-serif/RobotoSerif-Regular.ttf");
+  font-style: normal;
   font-weight: 400;
-  font-style: normal;
+  src: url("/fonts/roboto-serif/RobotoSerif-Regular.ttf");
 }
 
 @font-face {
   font-family: "RobotoSerif";
-  src: url("/fonts/roboto-serif/RobotoSerif-Bold.ttf");
+  font-style: normal;
   font-weight: 700;
-  font-style: normal;
+  src: url("/fonts/roboto-serif/RobotoSerif-Bold.ttf");
 }
 
 @font-face {
   font-family: "RobotoSerif";
-  src: url("/fonts/roboto-serif/RobotoSerif-Black.ttf");
-  font-weight: 900;
   font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/roboto-serif/RobotoSerif-Black.ttf");
+}
+
+.slick-next::before,
+.slick-prev::before {
+  color: var(--material-green-500) !important;
 }

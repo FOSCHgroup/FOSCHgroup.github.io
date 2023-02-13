@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import "../styles/style.css";
 import IconButton from "../components/icon-button/icon-button";
 import ChevronUpIcon from "../components/icons/chevron-up";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function MyApp({ Component, pageProps }) {
   const [toggleButton, setToggleButton] = useState(false);
