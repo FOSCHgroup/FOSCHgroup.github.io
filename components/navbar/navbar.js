@@ -16,10 +16,8 @@ export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
-        <Link passHref href="/">
-          <a>
-            <ActivityIcon /> FOSCH Group
-          </a>
+        <Link href="/">
+          <ActivityIcon /> FOSCH Group
         </Link>
       </div>
       <div className={styles.icon} onClick={handleToggleMenu}>

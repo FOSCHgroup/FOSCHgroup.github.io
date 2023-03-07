@@ -3,14 +3,14 @@
 }
 
 .banner {
+  margin-right: 1em;
   max-width: 150px;
   width: 100%;
-  margin-right: 1em;
 }
 
 .header {
   color: var(--material-gray--900);
-  padding: 1em 2em;
+  padding: 1em;
 }
 
 .withBanner {
@@ -24,10 +24,10 @@
 }
 
 .withBanner .title {
-  font-size: 3em;
   color: #eee;
-  margin-left: 1rem;
+  font-size: 3em;
   font-variant: small-caps;
+  margin-left: 1rem;
 }
 
 .footer {
