@@ -3,8 +3,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export -o docs/ && touch docs/.nojekyll",
-    "start": "next start",
+    "build": "next build && touch docs/.nojekyll",
+    "start": "npx serve@latest docs",
     "lint": "next lint"
   },
   "dependencies": {

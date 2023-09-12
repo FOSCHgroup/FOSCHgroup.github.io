@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Container from "../../ui/container/container";
 import Navbar from "../navbar/navbar";
 import styles from "./layout.module.css";
@@ -11,9 +10,6 @@ import Link from "../../ui/link/link";
 export default function Layout({ children, title, banner }) {
   return (
     <>
-      <Head>
-        <title>{title}</title>
-      </Head>
       <header className={styles.header}>
         <Navbar />
       </header>

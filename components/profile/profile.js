@@ -6,23 +6,31 @@ import CardContent from "../../ui/card-content/card-content";
 import Typography from "../../ui/typography/typography";
 import classNames from "classnames";
 
-export default function Profile({
-  user: { name, image, link, bio, area, position },
-}) {
+export default function Profile({ user }) {
+  const { name, image, link, bio, area, position, biography, title } = user;
+
   return (
-    <Card className={classNames(styles.member, styles[area])}>
+    <Card className={classNames(styles.member, styles[area.toLowerCase()])}>
       <CardHeader
-        title={name}
+        title={title ? `${title} ${name}` : name}
         subtitle={position}
         link={link}
         className={styles.memberHeader}
       />
       {image && (
-        <CardMedia image={image} alt={name} className={styles.memberMedia} />
+        <CardMedia
+          image={
+            image.data
+              ? `http://localhost:1337${image.data.attributes.url}`
+              : image
+          }
+          alt={name}
+          className={styles.memberMedia}
+        />
       )}
-      {bio && (
+      {(bio || biography) && (
         <CardContent className={styles.memberContent}>
-          <Typography>{bio}</Typography>
+          <Typography>{bio || biography}</Typography>
         </CardContent>
       )}
     </Card>

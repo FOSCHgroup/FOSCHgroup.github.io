@@ -7,12 +7,12 @@ export default function Member({ member, typeMembers }) {
   const getGridRowStart = (members, member) =>
     members
       .filter(({ area }) => area === member.area)
-      .findIndex(({ name }) => name === member.name) + 1;
+      .findIndex(({ name }) => name.includes(member.name)) + 1;
 
   return (
     <GridItem
       className={classNames(
-        styles[member.area],
+        styles[member.area.toLowerCase()],
         styles[getGridRowStart(typeMembers, member)]
       )}
     >
