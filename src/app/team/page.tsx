@@ -1,3 +1,5 @@
+import Member, { Member as IMember } from "@/components/member/member";
+
 import Accordion from "@/ui/accordion/accordion";
 import Avatar from "@/ui/avatar/avatar";
 import Container from "@/ui/container/container";
@@ -7,29 +9,28 @@ import List from "@/ui/list/list";
 import ListItem from "@/ui/list-item/list-item";
 import ListItemAvatar from "@/ui/list-item-avatar/list-item-avatar";
 import ListItemText from "@/ui/list-item-text/list-item-text";
-import Member from "@/components/member/member";
 import Typography from "@/ui/typography/typography";
+import { fetchData } from "@/utils/data-fetching";
 
 async function getData() {
-  const res = await fetch("http://127.0.0.1:1337/api/members?populate=*", {
-    headers: {
-      Authorization: `bearer ${process.env.STRAPI_API_KEY}`
-    }
-  });
+  // const res = await fetch("http://127.0.0.1:1337/api/members?populate=*", {
+  //   headers: {
+  //     Authorization: `bearer ${process.env.STRAPI_API_KEY}`
+  //   }
+  // });
 
-  if (!res.ok) {
-    throw new Error("Could not fetch data");
-  }
+  // if (!res.ok) {
+  //   throw new Error("Could not fetch data");
+  // }
 
-  return res.json();
+  // return res.json();
+  return fetchData<IMember>("members", true);
 }
 
 export default async function Page() {
-  const data = await getData();
-  const getMembers = (type) =>
-    data.data
-      .filter((member) => member.attributes.type === type)
-      .map((member) => member.attributes);
+  const members = await getData();
+  const getMembers = (type: string) =>
+    members.filter((member) => member.type === type);
 
   const principalInvestigators = getMembers("Principal Investigator");
   const juniorInvestigators = getMembers("Junior Investigator");
@@ -94,7 +95,7 @@ export default async function Page() {
                 <ListItemAvatar>
                   <Avatar
                     alt={member.name}
-                    src={`http://localhost:1337${member.image.data.attributes.url}`}
+                    src={`http://localhost:1337${member.image.data.attributes.name}`}
                   />
                 </ListItemAvatar>
                 <ListItemText
