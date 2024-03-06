@@ -17,6 +17,7 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "@types/node": "^18.19.22",
     "@types/react": "^18.2.63",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "eslint": "^8.48.0",
