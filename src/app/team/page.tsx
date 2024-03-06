@@ -95,7 +95,7 @@ export default async function Page() {
                 <ListItemAvatar>
                   <Avatar
                     alt={member.name}
-                    src={`http://localhost:1337${member.image.data.attributes.name}`}
+                    src={`/images/members/${member.image.data.attributes.name}`}
                   />
                 </ListItemAvatar>
                 <ListItemText

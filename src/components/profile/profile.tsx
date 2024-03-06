@@ -19,11 +19,7 @@ export default function Profile({ user }) {
       />
       {image && (
         <CardMedia
-          image={
-            image.data
-              ? `http://localhost:1337${image.data.attributes.url}`
-              : image
-          }
+          image={`/images/members/${image.data.attributes.name}`}
           alt={name}
           className={styles.memberMedia}
         />
