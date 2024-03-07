@@ -1,47 +1,8 @@
-.nav .logo a,
-.nav .logo svg {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.logo {
-  font-size: 1.25em;
-  font-weight: bold;
-  color: var(--material-green-500);
-}
-
-.logo svg {
-  color: var(--material-green-500);
-}
-
 .nav {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  justify-content: space-between;
   align-items: center;
   flex-direction: row;
-}
-
-.nav a {
-  color: inherit;
-  display: block;
-  text-decoration: none;
-  font-family: Roboto;
-  font-weight: bold;
-}
-
-.links a {
-  letter-spacing: 0.5px;
-  padding: 1em;
-}
-
-.links a + a {
-  border-top: 1px solid lightgray;
-}
-
-.links a:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.3em;
+  grid-template-columns: auto 1fr;
+  justify-content: space-between;
 }
 
 .icon {
@@ -61,10 +22,6 @@
   position: relative;
 }
 
-.links {
-  grid-column: span 2;
-}
-
 .icon {
   justify-self: end;
 }
@@ -76,12 +33,8 @@
 
   .links {
     display: flex;
-    justify-self: end;
     grid-column: initial;
-  }
-
-  .links a {
-    padding: 0;
+    justify-self: end;
   }
 
   .links a + a {

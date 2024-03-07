@@ -19,7 +19,7 @@ export default function Chip({
     <div
       className={classNames(
         styles.chip,
-        styles[area],
+        area && styles[area],
         basic && styles.basic,
         className
       )}

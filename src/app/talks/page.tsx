@@ -1,62 +1,67 @@
-import Card from "@/ui/card/card";
-import CardContent from "@/ui/card-content/card-content";
 import CardMedia from "@/ui/card-media/card-media";
 import Container from "@/ui/container/container";
 import Feed from "@/components/feed/feed";
-import Layout from "@/components/layout/layout";
+import Hero from "@/components/hero/hero";
 import Link from "@/ui/link/link";
-import Typography from "@/ui/typography/typography";
 import talks from "@/data/talks.json";
 
 export default function TalksPage() {
   return (
-    <Layout title="News & Talks">
+    <>
+      <Hero title="News & Talks" />
       <Container>
-        <Typography component="h2">News in Social Media</Typography>
+        <h2 className="title is-3">News in Social Media</h2>
         <Feed>
           {talks
             .filter(({ section }) => section === "news")
             .map((talk, index) => (
-              <Card key={index}>
-                <CardMedia image={talk.image || talk.video} alt={talk.title} />
-                <CardContent>
-                  <Typography component="div" variant="h4">
-                    <Link href={talk.link}>{talk.title}</Link>
-                  </Typography>
-                  <Typography component="div">{talk.date}</Typography>
-                </CardContent>
-              </Card>
+              <div className="card" key={index}>
+                <div className="card-image">
+                  <CardMedia
+                    image={talk.image || talk.video}
+                    alt={talk.title}
+                  />
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <p className="title is-6">
+                      <Link href={talk.link}>{talk.title}</Link>
+                    </p>
+                    {talk.date && <p>{talk.date}</p>}
+                  </div>
+                </div>
+              </div>
             ))}
         </Feed>
       </Container>
       <Container>
-        <Typography component="h2">Contribution to Society</Typography>
+        <h2 className="title is-3">Contribution to Society</h2>
         <Feed>
           {talks
             .filter(({ section }) => section === "contribution")
             .map((talk, index) => (
-              <Card key={index}>
+              <div className="card" key={index}>
                 <CardMedia
                   image={talk.image}
                   video={talk.video}
                   alt={talk.title}
                 />
-                <CardContent>
-                  <Typography component="div">
-                    {talk.link ? (
-                      <Link href={talk.link}>{talk.title}</Link>
-                    ) : (
-                      talk.title
-                    )}
-                  </Typography>
-                  <Typography variant="body2" component="div">
-                    {talk.date}
-                  </Typography>
-                </CardContent>
-              </Card>
+                <div className="card-content">
+                  <div className="content">
+                    <p className="title is-6">
+                      {talk.link ? (
+                        <Link href={talk.link}>{talk.title}</Link>
+                      ) : (
+                        talk.title
+                      )}
+                    </p>
+                    <p>{talk.date}</p>
+                  </div>
+                </div>
+              </div>
             ))}
         </Feed>
       </Container>
-    </Layout>
+    </>
   );
 }

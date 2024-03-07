@@ -28,12 +28,6 @@ html {
 }
 
 body {
-  background: radial-gradient(
-      500px at top right,
-      var(--material-green-100) 50%,
-      var(--material-gray-50) 50%
-    )
-    no-repeat;
   flex: 1;
   margin: 0;
   width: 100%;
@@ -47,22 +41,6 @@ h3 {
   font-family: sans-serif;
   font-weight: 400;
   padding-bottom: 0.25rem;
-}
-
-p {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:visited {
-  color: inherit;
 }
 
 iframe {
@@ -183,5 +161,5 @@ iframe {
 
 .slick-next::before,
 .slick-prev::before {
-  color: var(--material-green-500) !important;
+  color: var(--material-blue--500) !important;
 }

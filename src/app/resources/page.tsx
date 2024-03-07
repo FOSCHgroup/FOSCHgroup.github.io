@@ -1,22 +1,20 @@
 import Container from "@/ui/container/container";
-import Layout from "@/components/layout/layout";
+import Hero from "@/components/hero/hero";
 import Link from "@/ui/link/link";
-import Typography from "@/ui/typography/typography";
 
 export default function ResourcesPage() {
   return (
-    <Layout title="Tools & Resources">
+    <>
+      <Hero title="Tools & Resources" />
       <Container>
-        <Typography component="h2">
-          How to Get Around the Research Centers
-        </Typography>
-        <Typography>
+        <h2 className="title is-3">How to Get Around the Research Centers</h2>
+        <p className="block">
           The Universidad Autónoma de Madrid (UAM) is divided into two campuses,
           Cantoblanco and the campus of Medicine. You can consult the plans and
           services offered by this university in the following{" "}
           <Link href="https://www.uam.es/uam/vida-uam/campus">link</Link>.
-        </Typography>
-        <Typography>
+        </p>
+        <p className="block">
           You can access the Cantoblanco campus by train and get off at the
           &ldquo;Cantoblanco&rdquo; station on the C-4 line. Or by bus with
           lines 714, 827, 827A and 828, among others. If you want to go to the
@@ -25,16 +23,16 @@ export default function ResourcesPage() {
           blue). Others interurban lines can also be taken. We leave you more
           information on the{" "}
           <Link href="https://www.uam.es/uam/ecocampus/movilidad">web</Link>.
-        </Typography>
-        <Typography>
+        </p>
+        <p className="block">
           The food research center (CIAL-UAM-CSIC) is located on Cantoblanco.
           You can find more information in the following{" "}
           <Link href="https://www.cial.uam-csic.es/">link</Link>.
-        </Typography>
+        </p>
       </Container>
       <Container>
-        <Typography component="h2">Get to Know Madrid</Typography>
-        <Typography>
+        <h2 className="title is-3">Get to Know Madrid</h2>
+        <p className="block">
           Madrid, as the capital of Spain, is a very cosmopolitan city that
           offers a multitude of cultural resources and activities. In the
           following{" "}
@@ -42,8 +40,8 @@ export default function ResourcesPage() {
             link
           </Link>{" "}
           you can find a wide variety of cultural offers and places to visit.
-        </Typography>
-        <Typography>
+        </p>
+        <p className="block">
           Also, its communication and transportation is enviable, having an
           extensive network of metro and buses 24/7. You can visit the maps,
           schedules and prices on the{" "}
@@ -55,8 +53,8 @@ export default function ResourcesPage() {
             bus transport lines
           </Link>
           .
-        </Typography>
-        <Typography>
+        </p>
+        <p className="block">
           Madrid is a city located in the center of the Spain and makes it
           perfect to move from North to South and East to West getting to know
           new cities and Spanish cultures. In the following{" "}
@@ -65,29 +63,29 @@ export default function ResourcesPage() {
           </Link>{" "}
           you can access atobuses or train network that allow you to know other
           places.
-        </Typography>
+        </p>
       </Container>
       <Container>
-        <Typography component="h2">Contact Us</Typography>
-        <Typography>
+        <h2 className="title is-3">Contact Us</h2>
+        <p className="block">
           If you want to be part of our group, please write us by email below
           and tell us about you and your proposal. It would be a pleasure to
           meet you! In addition, if you would like to make a financial
           contribution to support our research please do not hesitate to contact
           us.
-        </Typography>
+        </p>
       </Container>
       <Container>
-        <Typography component="h2">Short & Long Research Stays</Typography>
-        <Typography>
+        <h2 className="title is-3">Short & Long Research Stays</h2>
+        <p className="block">
           Are you planning to do a research stay? Do you want to learn new
           techniques or establish collaborations? At FOSCH research group you
           can do a short-research stay (1 to 3 months) or a long-research stay
           (more than 3 months) with us. Check the collaboration agreements
           offered by your institution and contact us with your proposal. We are
           waiting for you!
-        </Typography>
+        </p>
       </Container>
-    </Layout>
+    </>
   );
 }

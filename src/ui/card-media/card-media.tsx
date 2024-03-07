@@ -16,12 +16,15 @@ export default function CardMedia({
   ...passedProps
 }: Props) {
   return (
-    <div className={classNames(styles.cardMedia, className)}>
+    <figure className={classNames("image is-4by3", className)}>
       {video ? (
-        <iframe src={video} />
+        <iframe
+          src={video}
+          className={classNames("has-ratio", styles.iframe)}
+        />
       ) : (
         <img src={image} alt={alt} {...passedProps} />
       )}
-    </div>
+    </figure>
   );
 }

@@ -1,34 +1,55 @@
-import Card from "@/ui/card/card";
-import CardContent from "@/ui/card-content/card-content";
-import CardHeader from "@/ui/card-header/card-header";
-import CardMedia from "@/ui/card-media/card-media";
-import Typography from "@/ui/typography/typography";
-import classNames from "classnames";
-import styles from "./profile.module.css";
+import { Image } from "@/types";
 
-export default function Profile({ user }) {
-  const { name, image, link, bio, area, position, biography, title } = user;
+interface User {
+  area: string;
+  biography: string;
+  image?: Image;
+  link: string;
+  name: string;
+  position: string;
+  title: string;
+}
+
+interface Props {
+  user: User;
+}
+
+export default function Profile({ user }: Props) {
+  const { name, image, link, area, position, biography, title } = user;
 
   return (
-    <Card className={classNames(styles.member, styles[area.toLowerCase()])}>
-      <CardHeader
-        title={title ? `${title} ${name}` : name}
-        subtitle={position}
-        link={link}
-        className={styles.memberHeader}
-      />
-      {image && (
-        <CardMedia
-          image={`/images/members/${image.data.attributes.name}`}
-          alt={name}
-          className={styles.memberMedia}
-        />
-      )}
-      {(bio || biography) && (
-        <CardContent className={styles.memberContent}>
-          <Typography>{bio || biography}</Typography>
-        </CardContent>
-      )}
-    </Card>
+    <div className="card">
+      <div className="card-content">
+        {image && (
+          <div className="media is-align-items-center">
+            <div className="media-left">
+              <figure className="image is-128x128">
+                <img
+                  className="is-rounded"
+                  src={`/images/members/${image.data.attributes.name}`}
+                  alt={name}
+                  style={{ aspectRatio: 1, objectFit: "cover" }}
+                />
+              </figure>
+            </div>
+            <div className="media-content">
+              <p className="title is-5">
+                <a href={link} target="_blank" rel="noreferrer">
+                  {title ? `${title} ${name}` : name}
+                </a>
+              </p>
+              {position && <p className="subtitle is-6 mb-2">{position}</p>}
+              <span
+                className="tag has-text-white"
+                style={{ backgroundColor: `var(--${area.toLowerCase()})` }}
+              >
+                {area}
+              </span>
+            </div>
+          </div>
+        )}
+        {biography && <p>{biography}</p>}
+      </div>
+    </div>
   );
 }

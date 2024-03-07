@@ -1,11 +1,15 @@
 "use client";
 
-import Typography from "../typography/typography";
+import { PropsWithChildren, useState } from "react";
+
 import classNames from "classnames";
 import styles from "./accordion.module.css";
-import { useState } from "react";
 
-export default function Accordion({ title, children }) {
+interface Props extends PropsWithChildren {
+  title: string;
+}
+
+export default function Accordion({ title, children }: Props) {
   const [toggleAccordion, setToggleAccordion] = useState(false);
 
   const handleToggleAccordion = () => {
@@ -19,13 +23,12 @@ export default function Accordion({ title, children }) {
         styles.accordion
       )}
     >
-      <Typography
-        component="h3"
+      <h3
+        className={classNames("title is-5", styles.title)}
         onClick={handleToggleAccordion}
-        className={styles.title}
       >
         {title}
-      </Typography>
+      </h3>
       <div className={styles.details}>{children}</div>
     </div>
   );

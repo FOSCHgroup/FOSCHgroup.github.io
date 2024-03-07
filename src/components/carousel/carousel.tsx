@@ -1,14 +1,25 @@
 "use client";
 
-import Card from "@/ui/card/card";
-import CardContent from "@/ui/card-content/card-content";
 import CardMedia from "@/ui/card-media/card-media";
 import Link from "@/ui/link/link";
 import Slider from "react-slick";
-import Typography from "@/ui/typography/typography";
 import styles from "./carousel.module.css";
 
-export default function Carousel({ data }) {
+interface Talk {
+  date?: string;
+  image?: string;
+  link?: string;
+  section: string;
+  title: string;
+  video?: string;
+  details?: string;
+}
+
+interface Props {
+  data: Talk[];
+}
+
+export default function Carousel({ data }: Props) {
   const settings = {
     infinite: false,
     speed: 500,
@@ -30,15 +41,15 @@ export default function Carousel({ data }) {
       {data.map((talk, index) => (
         <div key={index}>
           <div style={{ margin: "0 0.25em" }}>
-            <Card>
+            <div className="card">
               <CardMedia image={talk.image} video={talk.video} />
-              <CardContent>
-                <Typography>
+              <div className="card-content">
+                <p className="title is-6">
                   <Link href={talk.link}>{talk.title}</Link>
-                </Typography>
-                <Typography color="secondary">{talk.date}</Typography>
-              </CardContent>
-            </Card>
+                </p>
+                <p>{talk.date}</p>
+              </div>
+            </div>
           </div>
         </div>
       ))}

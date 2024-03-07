@@ -1,5 +1,4 @@
-.cardMedia img,
-.cardMedia iframe {
-  width: 100%;
-  display: block;
+.iframe {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }

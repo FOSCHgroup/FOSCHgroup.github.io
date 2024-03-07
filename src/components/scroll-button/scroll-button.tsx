@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 
 import ChevronUpIcon from "../icons/chevron-up";
-import IconButton from "../icon-button/icon-button";
 
 export default function ScrollButton() {
   const [toggleButton, setToggleButton] = useState(false);
@@ -25,11 +24,25 @@ export default function ScrollButton() {
     });
   };
 
+  if (!toggleButton) {
+    return null;
+  }
+
   return (
-    <IconButton
-      show={toggleButton}
+    <button
+      className="button is-large is-info is-rounded"
       onClick={handleScrollButtonClick}
-      icon={<ChevronUpIcon />}
-    />
+      style={{
+        position: "fixed",
+        right: "3em",
+        bottom: "3em",
+        width: "64px",
+        height: "64px"
+      }}
+    >
+      <span className="icon is-medium">
+        <ChevronUpIcon />
+      </span>
+    </button>
   );
 }

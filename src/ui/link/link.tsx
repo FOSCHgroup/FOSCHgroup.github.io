@@ -1,10 +1,7 @@
 import { AnchorHTMLAttributes } from "react";
 import Link from "next/link";
-import classNames from "classnames";
-import styles from "./link.module.css";
 
 export default function MyLink({
-  className,
   children,
   href,
   ...passedProps
@@ -14,13 +11,7 @@ export default function MyLink({
   }
 
   return (
-    <Link
-      className={classNames(styles.link, className)}
-      rel="noreferrer"
-      target="_blank"
-      href={href}
-      {...passedProps}
-    >
+    <Link rel="noreferrer" target="_blank" href={href} {...passedProps}>
       {children}
     </Link>
   );

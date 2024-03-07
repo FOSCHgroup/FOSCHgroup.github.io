@@ -1,36 +1,38 @@
 import Accordion from "@/ui/accordion/accordion";
 import Article from "@/components/article/article";
-import Card from "@/ui/card/card";
-import CardContent from "@/ui/card-content/card-content";
-import CardHeader from "@/ui/card-header/card-header";
-import CardMedia from "@/ui/card-media/card-media";
 import Container from "@/ui/container/container";
 import Feed from "@/components/feed/feed";
-import Layout from "@/components/layout/layout";
+import Hero from "@/components/hero/hero";
 import Link from "@/ui/link/link";
 import List from "@/ui/list/list";
-import Project from "@/components/project/project";
-import Typography from "@/ui/typography/typography";
-import projects from "@/data/projects.json";
-import research from "@/data/research.json";
-import researchTopics from "@/data/research-topics.json";
+import Project from "@/app/research/project";
+import projects from "./projects.json";
+import research from "./research.json";
+import researchTopics from "./research-topics.json";
 
 export default function ResearchPage() {
   return (
-    <Layout title="Our Research">
+    <>
+      <Hero title="Our Research" />
       <Container>
-        <Typography component="h2">Research Topics</Typography>
+        <h2 className="title is-3">Research Topics</h2>
         <Feed>
           {researchTopics.map((researchTopic, index) => (
-            <Card key={index}>
-              <CardHeader title={researchTopic.title} />
-              <CardMedia image={researchTopic.image} />
-            </Card>
+            <div className="card" key={index}>
+              <header className="card-header">
+                <p className="card-header-title">{researchTopic.title}</p>
+              </header>
+              <div className="card-image">
+                <figure className="image is-4by3">
+                  <img src={researchTopic.image} alt={researchTopic.title} />
+                </figure>
+              </div>
+            </div>
           ))}
         </Feed>
       </Container>
       <Container>
-        <Typography component="h2">Competitive Projects</Typography>
+        <h2 className="title is-3">Competitive Projects</h2>
         <List>
           {projects.competitive.map((project, index) => (
             <Project project={project} key={index} />
@@ -38,7 +40,7 @@ export default function ResearchPage() {
         </List>
       </Container>
       <Container>
-        <Typography component="h2">Industry-Transferency Projects</Typography>
+        <h2 className="title is-3">Industry-Transferency Projects</h2>
         <List>
           {projects.industry.map((project, index) => (
             <Project project={project} key={index} />
@@ -46,7 +48,7 @@ export default function ResearchPage() {
         </List>
       </Container>
       <Container>
-        <Typography component="h2">Networking Cooperation Projects</Typography>
+        <h2 className="title is-3">Networking Cooperation Projects</h2>
         <List>
           {projects.networking.map((project, index) => (
             <Project project={project} key={index} />
@@ -54,7 +56,7 @@ export default function ResearchPage() {
         </List>
       </Container>
       <Container>
-        <Typography component="h2">Articles</Typography>
+        <h2 className="title is-3">Articles</h2>
         <Accordion title="Food Technology & Developmental of New Ingredients">
           <List>
             {research.foodTech.map((article, index) => (
@@ -113,20 +115,28 @@ export default function ResearchPage() {
         </Accordion>
       </Container>
       <Container>
-        <Typography component="h2">Books and Chapters</Typography>
+        <h2 className="title is-3">Books and Chapters</h2>
         <Feed>
           {research.books.map((article, index) => (
-            <Card key={index}>
-              <CardMedia alt={article.title} image={article.image} />
-              <CardContent>
-                <Typography>
+            <div className="card" key={index}>
+              <div className="card-image">
+                <figure className="figure is-3by5">
+                  <img
+                    alt={article.title}
+                    src={article.image}
+                    style={{ width: "100%" }}
+                  />
+                </figure>
+              </div>
+              <div className="card-content">
+                <div className="content">
                   <Link href={article.link}>{article.title}</Link>
-                </Typography>
-              </CardContent>
-            </Card>
+                </div>
+              </div>
+            </div>
           ))}
         </Feed>
       </Container>
-    </Layout>
+    </>
   );
 }

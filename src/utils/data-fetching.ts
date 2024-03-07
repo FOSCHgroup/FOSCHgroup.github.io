@@ -1,9 +1,14 @@
+import { Image } from "@/types";
 import { Readable } from "stream";
 import { ReadableStream } from "stream/web";
 import { finished } from "stream/promises";
 import fs from "fs";
 
-export const fetchData = async <T>(collection: string, withImages?: boolean): Promise<T[]> => {
+interface Results<T> {
+  data: ({ attributes: T & { image: Image; }; })[];
+}
+
+export const fetchData = async <T>(collection: string, withImages?: boolean): Promise<T[] | void> => {
   let res: Response;
   try {
     res = await fetch(
@@ -14,15 +19,16 @@ export const fetchData = async <T>(collection: string, withImages?: boolean): Pr
         },
       }
     );
-  } catch (err) {
-    throw new Error(err.message);
+  } catch (err: unknown) {
+    console.error(err);
+    return;
   }
 
   if (!res.ok) {
     throw new Error(res.statusText);
   }
 
-  const results = await res.json();
+  const results: Results<T> = await res.json();
 
   if (withImages) {
     for (const member of results.data) {
